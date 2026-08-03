@@ -74,7 +74,7 @@ jobs:
       - name: Commit state
         run: |
           cd ../state
-          git add data
+          git add -f data
           if git diff --cached --quiet; then
             echo "no new jobs this sweep"
           else
