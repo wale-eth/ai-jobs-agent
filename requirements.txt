@@ -1,5 +1,5 @@
 langgraph>=0.2
-langfuse>=3.0
+langfuse>=4,<5
 anthropic>=0.40
 mcp[cli]>=1.0,<2
 pyyaml>=6.0

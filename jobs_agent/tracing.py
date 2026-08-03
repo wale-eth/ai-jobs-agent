@@ -34,9 +34,14 @@ def sweep_trace(name: str, metadata: dict | None = None):
     if client is None:
         yield None
         return
-    with client.start_as_current_span(name=name, metadata=metadata or {}):
+    with client.start_as_current_observation(
+        as_type="span", name=name, metadata=metadata or {}
+    ):
         yield client
-    client.flush()
+    try:
+        client.flush()
+    except Exception:  # noqa: BLE001 - tracing must never break a sweep
+        pass
 
 
 def observe_llm(name: str, model: str, call):
@@ -46,20 +51,24 @@ def observe_llm(name: str, model: str, call):
     if client is None:
         return call()
     with client.start_as_current_observation(
-        as_type="generation", name=name, model=model
+        as_type="generation", name=name
     ) as generation:
         response = call()
-        usage = getattr(response, "usage", None)
-        generation.update(
-            output=str(response.content[0].text)[:1000]
-            if getattr(response, "content", None)
-            else "",
-            usage_details={
-                "input": getattr(usage, "input_tokens", 0),
-                "output": getattr(usage, "output_tokens", 0),
-            }
-            if usage
-            else None,
-            metadata={"latency_s": round(time.perf_counter() - start, 3)},
-        )
+        try:
+            usage = getattr(response, "usage", None)
+            generation.update(
+                model=model,
+                output=str(response.content[0].text)[:1000]
+                if getattr(response, "content", None)
+                else "",
+                usage_details={
+                    "input": getattr(usage, "input_tokens", 0),
+                    "output": getattr(usage, "output_tokens", 0),
+                }
+                if usage
+                else None,
+                metadata={"latency_s": round(time.perf_counter() - start, 3)},
+            )
+        except Exception:  # noqa: BLE001 - tracing must never break a sweep
+            pass
         return response
