@@ -57,3 +57,14 @@
 {"event": "closed", "key": "ashby:openai:ecbb5567-ce0b-4c8b-b1b3-726dc2344f8b", "at": "2026-08-03T20:39:31.871403+00:00"}
 {"event": "closed", "key": "ashby:openai:f049bc77-1231-4866-9376-b62fe760c21b", "at": "2026-08-03T20:39:31.871403+00:00"}
 {"event": "closed", "key": "ashby:openai:f735a48e-c3c2-4387-abf7-7b39452e1ec5", "at": "2026-08-03T20:39:31.871403+00:00"}
+{"event": "closed", "key": "greenhouse:gitlab:8517171002", "at": "2026-08-03T21:44:50.871738+00:00"}
+{"event": "closed", "key": "greenhouse:roblox:8050041", "at": "2026-08-03T21:44:50.871738+00:00"}
+{"event": "closed", "key": "greenhouse:twilio:8039188", "at": "2026-08-03T21:44:50.871738+00:00"}
+{"event": "closed", "key": "greenhouse:twilio:8051059", "at": "2026-08-03T21:44:50.871738+00:00"}
+{"event": "closed", "key": "greenhouse:twilio:8089290", "at": "2026-08-03T21:44:50.871738+00:00"}
+{"event": "closed", "key": "greenhouse:checkr:8060785", "at": "2026-08-03T21:44:50.871738+00:00"}
+{"event": "closed", "key": "ashby:ramp:a3afd259-ba6b-4eb0-a1b6-05d01dddacd8", "at": "2026-08-03T21:44:50.871738+00:00"}
+{"event": "closed", "key": "ashby:openai:3fc46cbc-7e5a-4edc-96dc-ca433e76d181", "at": "2026-08-03T21:44:50.871738+00:00"}
+{"event": "closed", "key": "ashby:openai:97a7eeae-9625-4d00-874f-e50131f98369", "at": "2026-08-03T21:44:50.871738+00:00"}
+{"event": "closed", "key": "ashby:vanta:3912770a-29dc-4817-a3f0-b13f7bb24551", "at": "2026-08-03T21:44:50.871738+00:00"}
+{"event": "reopened", "key": "greenhouse:cloudflare:8054093", "at": "2026-08-03T21:44:50.871738+00:00"}
