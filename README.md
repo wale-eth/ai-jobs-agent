@@ -2,7 +2,7 @@
 
 An autonomous agent that catches job postings at the source, minutes after they go live, and classifies their UK visa sponsorship stance before they ever reach a job board.
 
-Most aggregator sites index postings hours or days after companies publish them. This agent polls the applicant tracking systems directly (Greenhouse, Lever, Ashby public APIs) every 30 minutes, so the headline metric is honest and measured: **median detection latency, computed as `first_seen_at - posted_at` for every posting detected after tracking began.**
+Most aggregator sites index postings hours or days after companies publish them. This agent polls the applicant tracking systems directly (Greenhouse, Lever, Ashby, Workable, and SmartRecruiters public APIs) every 30 minutes, so the headline metric is honest and measured: **median detection latency, computed as `first_seen_at - posted_at` for every posting detected after tracking began.** Jobs that disappear from their board are marked closed on the next sweep, so "open roles" stays true.
 
 v1 is deliberately scoped to detect-classify-log. CV tailoring and notifications come later.
 
@@ -111,9 +111,11 @@ docker run --rm -e ANTHROPIC_API_KEY ai-jobs-agent
 
 Without secrets the agent still detects, rules-classifies, and logs latency.
 
-## The 30-company shortlist
+## The company registry
 
-`jobs_agent/companies.yaml`: 30 boards across Greenhouse (16), Lever (3), and Ashby (11), every slug verified live against its ATS API. Failing boards are skipped and reported per sweep, so pruning is data-driven. Edit the YAML to change coverage; nothing else needs touching.
+`jobs_agent/companies.yaml`: 88 boards across Greenhouse (56), Lever (7), Ashby (21), Workable (2), and SmartRecruiters (2), every slug verified live against its ATS API; 68 are on the Home Office register of licensed Skilled Worker sponsors. Failing boards are skipped and reported per sweep, so pruning is data-driven. Edit the YAML to change coverage; nothing else needs touching.
+
+Two honest data notes: Workable reports publication dates without a time component, so its jobs are excluded from the minutes-level latency metric rather than distorting it; and SmartRecruiters descriptions are fetched only for postings released in the last 21 days (new postings always qualify, so classification quality is unaffected).
 
 ## CI
 

@@ -1,0 +1,38 @@
+{
+  "list": [
+    {
+      "id": "744000141308319",
+      "name": "Senior Project Manager - 12 month FTC",
+      "uuid": "c4fe1d34-c479-40db-8865-010b8d0410d6",
+      "refNumber": "REF6330C",
+      "releasedDate": "2026-08-03T16:23:57.082Z",
+      "location": {
+        "city": "Barnsley",
+        "region": "England",
+        "country": "gb",
+        "remote": false,
+        "hybrid": true,
+        "fullLocation": "Barnsley, England, United Kingdom"
+      }
+    },
+    {
+      "id": "744000999999999",
+      "name": "Data Analyst",
+      "releasedDate": "2026-01-10T09:00:00.000Z",
+      "location": {"city": "Leeds", "country": "gb", "remote": true}
+    }
+  ],
+  "detail": {
+    "744000141308319": {
+      "id": "744000141308319",
+      "postingUrl": "https://jobs.smartrecruiters.com/asos/744000141308319-senior-project-manager",
+      "applyUrl": "https://jobs.smartrecruiters.com/asos/744000141308319-senior-project-manager?apply=true",
+      "jobAd": {
+        "sections": {
+          "jobDescription": {"title": "Job Description", "text": "<p>Lead our fulfilment centre programme.</p>"},
+          "qualifications": {"title": "Qualifications", "text": "<p>Applicants must have the right to work in the UK.</p>"}
+        }
+      }
+    }
+  }
+}

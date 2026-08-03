@@ -16,7 +16,7 @@ from typing import TypedDict
 import yaml
 from langgraph.graph import END, StateGraph
 
-from jobs_agent.ats import ashby, greenhouse, lever
+from jobs_agent.ats import ashby, greenhouse, lever, smartrecruiters, workable
 from jobs_agent.classify import LlmClassifier, classify
 from jobs_agent.models import Job, SweepReport
 from jobs_agent.store import Store, utcnow
@@ -26,6 +26,8 @@ FETCHERS = {
     "greenhouse": greenhouse.fetch,
     "lever": lever.fetch,
     "ashby": ashby.fetch,
+    "workable": workable.fetch,
+    "smartrecruiters": smartrecruiters.fetch,
 }
 
 
@@ -36,6 +38,9 @@ class SweepState(TypedDict, total=False):
     companies: dict
     jobs: list[Job]
     new_keys: list[str]
+    closed_keys: list[str]
+    reopened_keys: list[str]
+    closed_at: str
     backfill: bool
     report: SweepReport
     started_at: str
@@ -45,9 +50,10 @@ def _open_store(state: SweepState) -> Store:
     store = Store(state.get("db_path", "data/jobs.db"))
     jsonl_dir = state.get("jsonl_dir")
     if jsonl_dir and store.is_empty():
-        from jobs_agent.persistence import load_into_store
+        from jobs_agent.persistence import load_closures, load_into_store
 
         load_into_store(store, Path(jsonl_dir) / "jobs.jsonl")
+        load_closures(store, Path(jsonl_dir) / "closures.jsonl")
     return store
 
 
@@ -85,7 +91,43 @@ def store_new(state: SweepState) -> SweepState:
     new_keys = store.upsert_jobs(state["jobs"], backfill=backfill)
     report = state["report"]
     report.jobs_new = len(new_keys)
-    return {"new_keys": new_keys, "backfill": backfill, "report": report}
+
+    # Closure diff: a stored open job that a successfully polled board no
+    # longer lists has been taken down. Failed boards are exempt, and a board
+    # that suddenly reports zero jobs while having many stored is treated as
+    # a glitch, not a mass takedown.
+    failed = {f.split(" ")[0] for f in report.companies_failed}
+    seen_by_board: dict[tuple[str, str], set[str]] = {}
+    for job in state["jobs"]:
+        seen_by_board.setdefault((job.source, job.company), set()).add(job.key)
+
+    closed: list[str] = []
+    reopened: list[str] = []
+    if not backfill:
+        for source, entries in state["companies"].items():
+            for entry in entries or []:
+                slug = entry["slug"]
+                if f"{source}:{slug}" in failed:
+                    continue
+                seen = seen_by_board.get((source, slug), set())
+                stored_open = store.open_keys(source, slug)
+                if not seen and len(stored_open) > 5:
+                    continue  # suspicious empty response; leave untouched
+                closed.extend(sorted(stored_open - seen))
+                reopened.extend(sorted(store.closed_keys(source, slug) & seen))
+
+    closed_at = store.mark_closed(closed) if closed else ""
+    if reopened:
+        store.reopen(reopened)
+    report.jobs_closed = len(closed)
+    return {
+        "new_keys": new_keys,
+        "closed_keys": closed,
+        "reopened_keys": reopened,
+        "closed_at": closed_at,
+        "backfill": backfill,
+        "report": report,
+    }
 
 
 def has_new_jobs(state: SweepState) -> str:
@@ -116,15 +158,27 @@ def finalize(state: SweepState) -> SweepState:
     store.record_sweep(state["report"], state["started_at"])
     jsonl_dir = state.get("jsonl_dir")
     if jsonl_dir:
-        from jobs_agent.persistence import append_jobs, append_sweep
+        from jobs_agent.persistence import (
+            append_closures,
+            append_jobs,
+            append_sweep,
+            export_snapshot,
+        )
 
         append_jobs(
             store, state.get("new_keys", []), Path(jsonl_dir) / "jobs.jsonl"
+        )
+        append_closures(
+            state.get("closed_keys", []),
+            state.get("reopened_keys", []),
+            state.get("closed_at") or state["started_at"],
+            Path(jsonl_dir) / "closures.jsonl",
         )
         append_sweep(
             state["report"], state["started_at"],
             Path(jsonl_dir) / "sweeps.jsonl",
         )
+        export_snapshot(store, Path(jsonl_dir) / "open_jobs.json")
     return {}
 
 

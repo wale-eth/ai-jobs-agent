@@ -137,6 +137,17 @@
       <option value="other">Elsewhere</option>
       <option value="">Everywhere</option>
     </select>
+    <select id="dept">
+      <option value="">All departments</option>
+      <option value="eng">Software Engineering</option>
+      <option value="data">Data / ML / AI</option>
+      <option value="product">Product / Design</option>
+      <option value="sales">Sales / Bus Dev</option>
+      <option value="marketing">Marketing / Comms</option>
+      <option value="ops">Ops / People / Finance / Legal</option>
+      <option value="support">Support / Success</option>
+      <option value="other">Other</option>
+    </select>
     <select id="tier">
       <option value="">All sponsorship tiers</option>
       <option value="sponsors_explicit">✓ Ad offers sponsorship</option>
@@ -167,7 +178,9 @@
 
 <script data-goatcounter="https://firstseen.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 <script>
-const RAW = "https://raw.githubusercontent.com/wale-eth/ai-jobs-agent/data/data/jobs.jsonl";
+const BASE = "https://raw.githubusercontent.com/wale-eth/ai-jobs-agent/data/data/";
+const SNAPSHOT = BASE + "open_jobs.json";  // open roles only, slim
+const RAW = BASE + "jobs.jsonl";           // fallback: full history
 const PAGE = 60;
 let jobs = [], shown = PAGE;
 
@@ -179,6 +192,12 @@ const LICENSED = new Set([
   "isomorphiclabs","stripe","cloudflare","datadog","intercom","anthropic",
   "deepmind","duolingo","vercel","spotify","palantir","moonpig","elevenlabs",
   "synthesia","wayve","linear","ramp","openai","cohere",
+  "adyen","affirm","amplitude","asos","attio","braze","canonical","celonis",
+  "contentful","cursor","experian","figma","fivetran","flexport","form3",
+  "grafanalabs","granola","harvey","highspot","lovable","matillion","mongodb",
+  "newrelic","okta","outreach","ovoenergy","pagerduty","perplexity",
+  "pinterest","reddit","roblox","samsara","scaleai","sierra","starling-bank",
+  "sumup","tide","truelayer","twilio","vanta","waymo","xai","zoox",
 ]);
 
 const tierMeta = {
@@ -186,6 +205,22 @@ const tierMeta = {
   no_sponsorship:    { cls: "nosponsor", icon: "✗", label: "No sponsorship" },
   silent_possible:   { cls: "silent", icon: "?", label: "Ad doesn't say" },
 };
+
+const DEPT_RES = {
+  data: /\bdata\b|machine learning|\bml\b|\bai\b|analytics|scientist|research|deep learning/i,
+  eng: /software|engineer(ing)?\b|developer|sre|devops|infrastructure|platform|backend|frontend|full.?stack|mobile|ios|android|security|\bqa\b|reliability/i,
+  sales: /sales|account (executive|manager)|business development|partnerships|revenue|gtm|go.to.market|solutions? (architect|engineer|consultant)/i,
+  marketing: /marketing|brand|communications|content|seo|growth|social media|\bpr\b|community/i,
+  product: /product manager|product design|designer|ux|\bui\b|product lead|design/i,
+  ops: /operations|people|talent|recruit|\bhr\b|finance|accounting|legal|counsel|compliance|payroll|workplace|admin|office|procurement|risk/i,
+  support: /support|customer success|customer service|customer operations|technical account|onboarding/i,
+};
+function dept(title) {
+  for (const key of ["data","eng","sales","marketing","product","ops","support"]) {
+    if (DEPT_RES[key].test(title)) return key;
+  }
+  return "other";
+}
 
 const UK_RE = /\b(uk|united kingdom|london|edinburgh|manchester|cambridge|oxford|bristol|belfast|glasgow|leeds|birmingham|reading|brighton)\b/i;
 const EU_RE = /\b(dublin|ireland|amsterdam|netherlands|berlin|munich|germany|paris|france|madrid|barcelona|spain|stockholm|sweden|copenhagen|denmark|zurich|geneva|switzerland|lisbon|portugal|warsaw|poland|krak[oó]w|milan|rome|italy|brussels|belgium|vienna|austria|oslo|norway|helsinki|finland|prague|tallinn|vilnius|riga|bucharest|athens|luxembourg|europe|emea)\b/i;
@@ -235,8 +270,8 @@ function tiles() {
   const med = median(lats);
   const sponsors = jobs.filter(j => j.tier === "sponsors_explicit").length;
   document.getElementById("tiles").innerHTML = [
-    ["Jobs tracked", jobs.length.toLocaleString(),
-     "open roles, polled directly from 30 company hiring systems"],
+    ["Open roles", jobs.length.toLocaleString(),
+     "live right now; roles that leave a company's board are removed here too"],
     ["Posted this week", fresh.toLocaleString(),
      "published in the last 7 days, likely not on job boards yet"],
     ["Median detection latency", med == null ? "accruing" : fmtLatency(Math.round(med)),
@@ -253,9 +288,11 @@ function matches(j) {
   const tier = document.getElementById("tier").value;
   const co = document.getElementById("company").value;
   const region = document.getElementById("region").value;
+  const department = document.getElementById("dept").value;
   const licensed = document.getElementById("licensed").checked;
   const newonly = document.getElementById("newonly").checked;
   if (tier && j.tier !== tier) return false;
+  if (department && dept(j.title) !== department) return false;
   if (co && j.company !== co) return false;
   if (licensed && !LICENSED.has(j.company)) return false;
   if (newonly && j.is_backfill) return false;
@@ -315,10 +352,15 @@ function render() {
 
 async function load() {
   try {
-    const res = await fetch(RAW + "?t=" + Date.now());
-    if (!res.ok) throw new Error("HTTP " + res.status);
-    const text = await res.text();
-    jobs = text.split("\n").filter(Boolean).map(l => { try { return JSON.parse(l); } catch { return null; } }).filter(Boolean);
+    let res = await fetch(SNAPSHOT + "?t=" + Date.now());
+    if (res.ok) {
+      jobs = await res.json();
+    } else {
+      res = await fetch(RAW + "?t=" + Date.now());
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      const text = await res.text();
+      jobs = text.split("\n").filter(Boolean).map(l => { try { return JSON.parse(l); } catch { return null; } }).filter(Boolean);
+    }
     jobs.sort((a,b) => (b.posted_at||"").localeCompare(a.posted_at||"") || (b.first_seen_at||"").localeCompare(a.first_seen_at||""));
     const companies = [...new Set(jobs.map(j => j.company))].sort();
     document.getElementById("company").innerHTML =
@@ -330,7 +372,7 @@ async function load() {
   }
 }
 
-for (const id of ["q","tier","company","region","licensed","newonly"]) {
+for (const id of ["q","tier","company","region","dept","licensed","newonly"]) {
   document.getElementById(id).addEventListener("input", () => { shown = PAGE; render(); });
 }
 document.getElementById("more").addEventListener("click", () => { shown += PAGE; render(); });

@@ -32,6 +32,10 @@ class Job:
     location: str = ""
     description: str = ""  # plain text
     posted_at: str | None = None  # ISO 8601 UTC, as reported by the ATS
+    # False when the ATS only reports a date (no time), e.g. Workable.
+    # Such jobs are excluded from the detection-latency metric so day-level
+    # rounding can't distort a minutes-level statistic.
+    posted_at_precise: bool = True
 
     @property
     def key(self) -> str:
@@ -54,6 +58,7 @@ class SweepReport:
     companies_failed: list[str] = field(default_factory=list)
     jobs_seen: int = 0
     jobs_new: int = 0
+    jobs_closed: int = 0
     classified_rules: int = 0
     classified_llm: int = 0
     classified_pending: int = 0

@@ -1,8 +1,9 @@
-# The v1 shortlist: 30 companies with public ATS boards, verified live on
-# 2026-08-03 (every slug returned HTTP 200 from its ATS API). Weighted toward
-# UK-relevant employers with data/ML hiring and sponsorship track records.
-# Failing boards are skipped and reported, not fatal, so pruning stays
-# data-driven.
+# The company registry: 88 employers with public ATS boards, every slug
+# verified live against its ATS API (last full validation 2026-08-03).
+# Weighted toward UK-relevant employers with data/ML hiring and sponsorship
+# track records; 68 are on the Home Office register of licensed Skilled
+# Worker sponsors. Failing boards are skipped and reported per sweep, so
+# pruning stays data-driven. To grow coverage, add entries here.
 
 greenhouse:
   - {slug: monzo, name: Monzo}
@@ -21,11 +22,55 @@ greenhouse:
   - {slug: gitlab, name: GitLab}
   - {slug: duolingo, name: Duolingo}
   - {slug: vercel, name: Vercel}
+  - {slug: figma, name: Figma}
+  - {slug: asana, name: Asana}
+  - {slug: coinbase, name: Coinbase}
+  - {slug: affirm, name: Affirm}
+  - {slug: pinterest, name: Pinterest}
+  - {slug: reddit, name: Reddit}
+  - {slug: dropbox, name: Dropbox}
+  - {slug: roblox, name: Roblox}
+  - {slug: samsara, name: Samsara}
+  - {slug: gusto, name: Gusto}
+  - {slug: instacart, name: Instacart}
+  - {slug: lyft, name: Lyft}
+  - {slug: flexport, name: Flexport}
+  - {slug: airtable, name: Airtable}
+  - {slug: amplitude, name: Amplitude}
+  - {slug: braze, name: Braze}
+  - {slug: twilio, name: Twilio}
+  - {slug: okta, name: Okta}
+  - {slug: mongodb, name: MongoDB}
+  - {slug: elastic, name: Elastic}
+  - {slug: newrelic, name: New Relic}
+  - {slug: pagerduty, name: PagerDuty}
+  - {slug: scaleai, name: Scale AI}
+  - {slug: waymo, name: Waymo}
+  - {slug: canonical, name: Canonical}
+  - {slug: grafanalabs, name: Grafana Labs}
+  - {slug: truelayer, name: TrueLayer}
+  - {slug: form3, name: Form3}
+  - {slug: tide, name: Tide}
+  - {slug: checkr, name: Checkr}
+  - {slug: carta, name: Carta}
+  - {slug: brex, name: Brex}
+  - {slug: fivetran, name: Fivetran}
+  - {slug: sumup, name: SumUp}
+  - {slug: n26, name: N26}
+  - {slug: adyen, name: Adyen}
+  - {slug: celonis, name: Celonis}
+  - {slug: contentful, name: Contentful}
+  - {slug: ovoenergy, name: OVO Energy}
+  - {slug: xai, name: xAI}
 
 lever:
   - {slug: spotify, name: Spotify}
   - {slug: palantir, name: Palantir}
   - {slug: moonpig, name: Moonpig}
+  - {slug: zoox, name: Zoox}
+  - {slug: matillion, name: Matillion}
+  - {slug: outreach, name: Outreach}
+  - {slug: highspot, name: Highspot}
 
 ashby:
   - {slug: elevenlabs, name: ElevenLabs}
@@ -39,3 +84,21 @@ ashby:
   - {slug: cohere, name: Cohere}
   - {slug: supabase, name: Supabase}
   - {slug: posthog, name: PostHog}
+  - {slug: cursor, name: Cursor}
+  - {slug: perplexity, name: Perplexity}
+  - {slug: vanta, name: Vanta}
+  - {slug: modal, name: Modal}
+  - {slug: attio, name: Attio}
+  - {slug: lovable, name: Lovable}
+  - {slug: sierra, name: Sierra}
+  - {slug: harvey, name: Harvey}
+  - {slug: granola, name: Granola}
+  - {slug: replit, name: Replit}
+
+workable:
+  - {slug: huggingface, name: Hugging Face}
+  - {slug: starling-bank, name: Starling Bank}
+
+smartrecruiters:
+  - {slug: asos, name: ASOS}
+  - {slug: experian, name: Experian}

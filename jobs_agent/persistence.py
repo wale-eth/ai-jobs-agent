@@ -76,3 +76,78 @@ def append_sweep(report, started_at: str, sweeps_path: str | Path) -> None:
     record = {"started_at": started_at, **report.__dict__}
     with open(path, "a", encoding="utf-8") as fh:
         fh.write(json.dumps(record, ensure_ascii=False) + "\n")
+
+
+def load_closures(store: Store, closures_path: str | Path) -> int:
+    """Apply the closed/reopened event log to the working DB, in order."""
+    path = Path(closures_path)
+    if not path.exists():
+        return 0
+    applied = 0
+    with open(path, encoding="utf-8") as fh:
+        for line in fh:
+            line = line.strip()
+            if not line:
+                continue
+            event = json.loads(line)
+            if event.get("event") == "reopened":
+                store.reopen([event["key"]])
+            else:
+                store.conn.execute(
+                    "UPDATE jobs SET closed_at = ? WHERE key = ?",
+                    (event["at"], event["key"]),
+                )
+            applied += 1
+    store.conn.commit()
+    return applied
+
+
+def append_closures(
+    closed: list[str],
+    reopened: list[str],
+    at: str,
+    closures_path: str | Path,
+) -> None:
+    if not closed and not reopened:
+        return
+    path = Path(closures_path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with open(path, "a", encoding="utf-8") as fh:
+        for key in closed:
+            fh.write(json.dumps({"event": "closed", "key": key, "at": at}) + "\n")
+        for key in reopened:
+            fh.write(
+                json.dumps({"event": "reopened", "key": key, "at": at}) + "\n"
+            )
+
+
+SNAPSHOT_FIELDS = [
+    "key", "source", "company", "title", "url", "location", "posted_at",
+    "first_seen_at", "is_backfill", "detection_latency_s", "tier",
+    "classify_method", "classify_evidence",
+]
+
+
+def export_snapshot(store: Store, snapshot_path: str | Path) -> int:
+    """Write a minified JSON array of OPEN jobs for the frontend.
+
+    Much smaller than the full history: closed jobs are dropped, evidence and
+    excerpts are trimmed, and the JSON is unindented. The full record stays in
+    jobs.jsonl; this file exists so every page view doesn't download history.
+    """
+    rows = store.conn.execute(
+        "SELECT * FROM jobs WHERE closed_at IS NULL ORDER BY posted_at DESC"
+    ).fetchall()
+    out = []
+    for row in rows:
+        record = {f: row[f] for f in SNAPSHOT_FIELDS}
+        record["classify_evidence"] = (record["classify_evidence"] or "")[:300]
+        record["description_excerpt"] = (row["description"] or "")[:300]
+        out.append(record)
+    path = Path(snapshot_path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(
+        json.dumps(out, ensure_ascii=False, separators=(",", ":")),
+        encoding="utf-8",
+    )
+    return len(out)

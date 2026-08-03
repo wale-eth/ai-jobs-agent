@@ -38,7 +38,8 @@ CREATE TABLE IF NOT EXISTS jobs (
     classify_method TEXT,
     classify_evidence TEXT,
     classify_model TEXT,
-    classified_at TEXT
+    classified_at TEXT,
+    closed_at TEXT
 );
 CREATE TABLE IF NOT EXISTS sweeps (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -78,7 +79,7 @@ class Store:
             if exists:
                 continue
             latency = None
-            if job.posted_at and not backfill:
+            if job.posted_at and not backfill and job.posted_at_precise:
                 posted = datetime.fromisoformat(job.posted_at)
                 latency = int(
                     (datetime.fromisoformat(now) - posted).total_seconds()
@@ -108,6 +109,40 @@ class Store:
                 result.tier.value, result.method, result.evidence[:2000],
                 result.model, utcnow(), key,
             ),
+        )
+        self.conn.commit()
+
+    def open_keys(self, source: str, company: str) -> set[str]:
+        rows = self.conn.execute(
+            "SELECT key FROM jobs WHERE source = ? AND company = ? "
+            "AND closed_at IS NULL",
+            (source, company),
+        ).fetchall()
+        return {r["key"] for r in rows}
+
+    def closed_keys(self, source: str, company: str) -> set[str]:
+        rows = self.conn.execute(
+            "SELECT key FROM jobs WHERE source = ? AND company = ? "
+            "AND closed_at IS NOT NULL",
+            (source, company),
+        ).fetchall()
+        return {r["key"] for r in rows}
+
+    def mark_closed(self, keys: list[str]) -> str:
+        """Mark jobs as closed (no longer on their board). Returns timestamp."""
+        now = utcnow()
+        self.conn.executemany(
+            "UPDATE jobs SET closed_at = ? WHERE key = ? AND closed_at IS NULL",
+            [(now, k) for k in keys],
+        )
+        self.conn.commit()
+        return now
+
+    def reopen(self, keys: list[str]) -> None:
+        """Clear closed_at for jobs that reappeared on their board."""
+        self.conn.executemany(
+            "UPDATE jobs SET closed_at = NULL WHERE key = ?",
+            [(k,) for k in keys],
         )
         self.conn.commit()
 
@@ -150,14 +185,17 @@ class Store:
         tier: str | None = None,
         company: str | None = None,
         new_only: bool = False,
+        include_closed: bool = False,
         limit: int = 50,
     ) -> list[dict]:
         sql = (
             "SELECT key, source, company, title, url, location, posted_at, "
-            "first_seen_at, detection_latency_s, tier, classify_method "
-            "FROM jobs WHERE 1=1"
+            "first_seen_at, detection_latency_s, tier, classify_method, "
+            "closed_at FROM jobs WHERE 1=1"
         )
         params: list = []
+        if not include_closed:
+            sql += " AND closed_at IS NULL"
         if query:
             sql += " AND (title LIKE ? OR description LIKE ?)"
             params += [f"%{query}%", f"%{query}%"]
@@ -177,13 +215,15 @@ class Store:
         totals = dict(
             self.conn.execute(
                 "SELECT COUNT(*) AS total, "
-                "SUM(is_backfill) AS backfill FROM jobs"
+                "SUM(is_backfill) AS backfill, "
+                "SUM(closed_at IS NOT NULL) AS closed FROM jobs"
             ).fetchone()
         )
         tiers = {
             r["tier"] or "unclassified": r["n"]
             for r in self.conn.execute(
-                "SELECT tier, COUNT(*) AS n FROM jobs GROUP BY tier"
+                "SELECT tier, COUNT(*) AS n FROM jobs "
+                "WHERE closed_at IS NULL GROUP BY tier"
             ).fetchall()
         }
         latencies = [
@@ -198,6 +238,8 @@ class Store:
         ).fetchone()["n"]
         return {
             "jobs_total": totals["total"],
+            "jobs_open": (totals["total"] or 0) - (totals["closed"] or 0),
+            "jobs_closed": totals["closed"] or 0,
             "jobs_backfill": totals["backfill"] or 0,
             "jobs_tracked_live": (totals["total"] or 0)
             - (totals["backfill"] or 0),
