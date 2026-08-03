@@ -39,7 +39,7 @@ jobs:
       - name: Build image
         run: docker build -t ai-jobs-agent:ci .
 
-      - name: Smoke test: live 2-company sweep in container
+      - name: "Smoke test: live 2-company sweep in container"
         # Real integration test: polls two live ATS boards, stores and
         # classifies (rules-only: no API key in CI), prints the report.
         run: |
