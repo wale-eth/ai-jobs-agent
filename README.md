@@ -9,6 +9,8 @@ v1 is deliberately scoped to detect-classify-log. CV tailoring and notifications
 ![CI](https://github.com/wale-eth/ai-jobs-agent/actions/workflows/ci.yml/badge.svg)
 ![Poll sweep](https://github.com/wale-eth/ai-jobs-agent/actions/workflows/poll.yml/badge.svg)
 
+**Browse the live data: [FirstSeen](https://wale-eth.github.io/ai-jobs-agent/)**, a free explorer over everything the agent finds, with sponsorship tiers, a licensed-UK-sponsor badge (matched against the Home Office register), and region filters. Served from `docs/` on this repo via GitHub Pages.
+
 ## Architecture
 
 ```mermaid

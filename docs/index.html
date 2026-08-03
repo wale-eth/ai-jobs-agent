@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FirstSeen · fresh jobs, straight from the source</title>
+<meta name="description" content="Job postings the minute they exist, polled directly from company hiring systems, with UK visa sponsorship intelligence on every listing.">
+<style>
+  .viz-root {
+    color-scheme: light;
+    --surface-1: #fcfcfb;
+    --page: #f9f9f7;
+    --text-primary: #0b0b0b;
+    --text-secondary: #52514e;
+    --muted: #898781;
+    --grid: #e1e0d9;
+    --border: rgba(11,11,11,0.10);
+    --good: #0ca30c;
+    --good-text: #006300;
+    --critical: #d03b3b;
+    --accent: #2a78d6;
+    --accent-soft: #cde2fb;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) .viz-root {
+      color-scheme: dark;
+      --surface-1: #1a1a19;
+      --page: #0d0d0d;
+      --text-primary: #ffffff;
+      --text-secondary: #c3c2b7;
+      --muted: #898781;
+      --grid: #2c2c2a;
+      --border: rgba(255,255,255,0.10);
+      --good: #0ca30c;
+      --good-text: #0ca30c;
+      --critical: #d03b3b;
+      --accent: #3987e5;
+      --accent-soft: #104281;
+    }
+  }
+  * { box-sizing: border-box; }
+  body.viz-root {
+    margin: 0; background: var(--page); color: var(--text-primary);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 14px; line-height: 1.45;
+  }
+  .wrap { max-width: 1060px; margin: 0 auto; padding: 28px 20px 40px; }
+  header.hero { margin-bottom: 20px; }
+  .brand { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+  .brand h1 { font-size: 28px; margin: 0; letter-spacing: -0.5px; }
+  .brand h1 .dot { color: var(--accent); }
+  .tagline { color: var(--text-secondary); font-size: 15px; }
+  .sub { color: var(--muted); margin: 8px 0 0; font-size: 12.5px; }
+  .sub a { color: var(--accent); text-decoration: none; }
+
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; margin: 18px 0; }
+  .tile {
+    background: var(--surface-1); border: 1px solid var(--border);
+    border-radius: 10px; padding: 12px 14px;
+  }
+  .tile .label { color: var(--text-secondary); font-size: 12px; font-weight: 600; }
+  .tile .value { font-size: 26px; font-weight: 650; margin-top: 2px; }
+  .tile .hint { color: var(--muted); font-size: 11.5px; margin-top: 3px; line-height: 1.35; }
+
+  .filters {
+    display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+    background: var(--surface-1); border: 1px solid var(--border);
+    border-radius: 10px; padding: 10px 12px; margin-bottom: 6px;
+    position: sticky; top: 8px; z-index: 5;
+  }
+  .filters input[type="search"], .filters select {
+    background: var(--page); color: var(--text-primary);
+    border: 1px solid var(--grid); border-radius: 7px;
+    padding: 7px 10px; font: inherit;
+  }
+  .filters input[type="search"] { flex: 1 1 200px; min-width: 160px; }
+  .filters label.toggle { display: inline-flex; gap: 6px; align-items: center; color: var(--text-secondary); cursor: pointer; white-space: nowrap; font-size: 13px; }
+  .count { color: var(--muted); font-size: 12px; margin: 8px 0 10px 2px; }
+
+  .job {
+    background: var(--surface-1); border: 1px solid var(--border);
+    border-radius: 10px; padding: 12px 14px; margin-bottom: 8px;
+  }
+  .job .row1 { display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+  .job a.title { color: var(--text-primary); font-weight: 600; text-decoration: none; font-size: 15px; }
+  .job a.title:hover { color: var(--accent); }
+  .meta { color: var(--text-secondary); font-size: 12.5px; margin-top: 4px; display: flex; flex-wrap: wrap; gap: 4px 14px; align-items: baseline; }
+  .meta .co { font-weight: 600; }
+  .meta .fresh { color: var(--good-text); font-weight: 600; }
+  .chip {
+    display: inline-flex; align-items: center; gap: 5px;
+    font-size: 11.5px; font-weight: 600; border-radius: 999px;
+    padding: 2px 9px; border: 1px solid var(--border); white-space: nowrap;
+  }
+  .chip.sponsors { color: var(--good-text); border-color: var(--good); }
+  .chip.nosponsor { color: var(--critical); border-color: var(--critical); }
+  .chip.silent { color: var(--text-secondary); }
+  .chip.src { color: var(--muted); font-weight: 500; }
+  .chip.licence { color: var(--accent); border-color: var(--accent); cursor: help; }
+  .chip.caught { color: var(--accent); cursor: help; }
+  .evidence { color: var(--muted); font-size: 12px; margin-top: 6px; font-style: italic; overflow-wrap: anywhere; }
+  .more { display: block; margin: 16px auto; padding: 9px 22px; font: inherit; font-weight: 600;
+    background: var(--surface-1); color: var(--text-primary);
+    border: 1px solid var(--grid); border-radius: 8px; cursor: pointer; }
+  .state { text-align: center; color: var(--text-secondary); padding: 40px 0; }
+
+  footer.about {
+    margin-top: 34px; padding-top: 18px; border-top: 1px solid var(--grid);
+    color: var(--text-secondary); font-size: 13px;
+  }
+  footer.about h2 { font-size: 15px; color: var(--text-primary); margin: 0 0 8px; }
+  footer.about p { margin: 0 0 10px; max-width: 74ch; }
+  footer.about a { color: var(--accent); text-decoration: none; }
+  .credit { margin-top: 14px; color: var(--muted); font-size: 12px; }
+</style>
+</head>
+<body class="viz-root">
+<div class="wrap">
+  <header class="hero">
+    <div class="brand">
+      <h1>FirstSeen<span class="dot">.</span></h1>
+      <span class="tagline">Fresh jobs, straight from the source, with UK sponsorship intel.</span>
+    </div>
+    <p class="sub">Live view of <a href="https://github.com/wale-eth/ai-jobs-agent" target="_blank" rel="noopener">wale-eth/ai-jobs-agent</a>'s data branch. Refreshes on every page load; the agent sweeps every 30 minutes.</p>
+  </header>
+
+  <div class="tiles" id="tiles"></div>
+
+  <div class="filters">
+    <input type="search" id="q" placeholder="Search title, company, location…">
+    <select id="region" title="Derived from each listing's location text">
+      <option value="uk-remote">UK + Remote</option>
+      <option value="uk">UK only</option>
+      <option value="remote">Remote only</option>
+      <option value="europe">Europe</option>
+      <option value="us">United States</option>
+      <option value="other">Elsewhere</option>
+      <option value="">Everywhere</option>
+    </select>
+    <select id="tier">
+      <option value="">All sponsorship tiers</option>
+      <option value="sponsors_explicit">✓ Ad offers sponsorship</option>
+      <option value="silent_possible">? Ad doesn't say</option>
+      <option value="no_sponsorship">✗ Ad rules it out</option>
+    </select>
+    <select id="company"><option value="">All companies</option></select>
+    <label class="toggle" title="Only companies on the UK Home Office register of licensed Skilled Worker sponsors">
+      <input type="checkbox" id="licensed"> Licensed UK sponsor
+    </label>
+    <label class="toggle" title="Only jobs the tracker caught after it launched, where the exact detection time is known">
+      <input type="checkbox" id="newonly"> Caught in real time
+    </label>
+  </div>
+
+  <p class="count" id="count"></p>
+  <div id="list"><div class="state">Loading live data from GitHub…</div></div>
+  <button class="more" id="more" hidden>Show more</button>
+
+  <footer class="about">
+    <h2>How this works</h2>
+    <p><strong>Straight from the source.</strong> Job boards like LinkedIn copy their listings from company hiring systems (Greenhouse, Lever, Ashby), usually hours or days later. FirstSeen polls those hiring systems directly every 30 minutes, so every link here goes to the original posting, the same page that processes applications.</p>
+    <p><strong>Sponsorship, two ways.</strong> Each ad's text is classified into three tiers: it explicitly offers visa sponsorship, it explicitly rules sponsorship out, or it doesn't say (which is common and often still worth applying to). Separately, the <span class="chip licence" style="font-size:11px">✓ licensed sponsor</span> badge means the company itself is on the UK Home Office register of licensed Skilled Worker sponsors, so it <em>can</em> sponsor even when an ad is silent. Register checked 3 Aug 2026.</p>
+    <p><strong>Detection latency</strong> is the time between a company publishing a job and this tracker spotting it. With sweeps every 30 minutes the typical catch happens within about 15 minutes of posting, which is the head start this site exists to give you.</p>
+    <p class="credit">Built by <a href="https://github.com/wale-eth" target="_blank" rel="noopener">Adewale Tokosi</a> · open source at <a href="https://github.com/wale-eth/ai-jobs-agent" target="_blank" rel="noopener">wale-eth/ai-jobs-agent</a> · data is public and free to use</p>
+  </footer>
+</div>
+
+<script data-goatcounter="https://firstseen.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<script>
+const RAW = "https://raw.githubusercontent.com/wale-eth/ai-jobs-agent/data/data/jobs.jsonl";
+const PAGE = 60;
+let jobs = [], shown = PAGE;
+
+// Companies on the UK Home Office register of licensed Skilled Worker
+// sponsors, matched against the official register CSV of 2026-08-03.
+// deepmind qualifies via its employing entity, Google (UK) Limited.
+const LICENSED = new Set([
+  "monzo","gocardless","trustpilot","skyscanner","databricks","graphcore",
+  "isomorphiclabs","stripe","cloudflare","datadog","intercom","anthropic",
+  "deepmind","duolingo","vercel","spotify","palantir","moonpig","elevenlabs",
+  "synthesia","wayve","linear","ramp","openai","cohere",
+]);
+
+const tierMeta = {
+  sponsors_explicit: { cls: "sponsors", icon: "✓", label: "Offers sponsorship" },
+  no_sponsorship:    { cls: "nosponsor", icon: "✗", label: "No sponsorship" },
+  silent_possible:   { cls: "silent", icon: "?", label: "Ad doesn't say" },
+};
+
+const UK_RE = /\b(uk|united kingdom|london|edinburgh|manchester|cambridge|oxford|bristol|belfast|glasgow|leeds|birmingham|reading|brighton)\b/i;
+const EU_RE = /\b(dublin|ireland|amsterdam|netherlands|berlin|munich|germany|paris|france|madrid|barcelona|spain|stockholm|sweden|copenhagen|denmark|zurich|geneva|switzerland|lisbon|portugal|warsaw|poland|krak[oó]w|milan|rome|italy|brussels|belgium|vienna|austria|oslo|norway|helsinki|finland|prague|tallinn|vilnius|riga|bucharest|athens|luxembourg|europe|emea)\b/i;
+const US_RE = /\b(usa?|u\.s\.|united states|new york|nyc|san francisco|bay area|mountain view|palo alto|seattle|austin|boston|chicago|denver|los angeles|san diego|miami|washington|atlanta|portland|philadelphia|dallas|houston|phoenix|salt lake|nashville|minneapolis|detroit|raleigh|charlotte|america)\b/i;
+const REMOTE_RE = /\b(remote|anywhere|distributed|work from home|wfh)\b/i;
+
+function geo(j) {
+  const loc = (j.location || "") + " " + (j.title || "");
+  return {
+    uk: UK_RE.test(loc),
+    eu: EU_RE.test(loc),
+    us: US_RE.test(loc),
+    remote: REMOTE_RE.test(loc),
+  };
+}
+
+function esc(s) {
+  return String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+}
+function fmtAgo(iso) {
+  if (!iso) return null;
+  const s = (Date.now() - new Date(iso).getTime()) / 1000;
+  if (s < 0) return "just now";
+  if (s < 3600) return Math.max(1, Math.round(s/60)) + " min ago";
+  if (s < 86400) return Math.round(s/3600) + " h ago";
+  if (s < 2592000) return Math.round(s/86400) + " d ago";
+  return Math.round(s/2592000) + " mo ago";
+}
+function fmtLatency(sec) {
+  if (sec == null) return null;
+  if (sec < 90) return sec + " s";
+  if (sec < 5400) return Math.round(sec/60) + " min";
+  if (sec < 172800) return (sec/3600).toFixed(1) + " h";
+  return Math.round(sec/86400) + " d";
+}
+function median(arr) {
+  if (!arr.length) return null;
+  const a = [...arr].sort((x,y) => x-y), m = a.length >> 1;
+  return a.length % 2 ? a[m] : (a[m-1] + a[m]) / 2;
+}
+
+function tiles() {
+  const week = Date.now() - 7 * 86400e3;
+  const fresh = jobs.filter(j => j.posted_at && new Date(j.posted_at).getTime() > week).length;
+  const live = jobs.filter(j => !j.is_backfill);
+  const lats = live.map(j => j.detection_latency_s).filter(v => v != null);
+  const med = median(lats);
+  const sponsors = jobs.filter(j => j.tier === "sponsors_explicit").length;
+  document.getElementById("tiles").innerHTML = [
+    ["Jobs tracked", jobs.length.toLocaleString(),
+     "open roles, polled directly from 30 company hiring systems"],
+    ["Posted this week", fresh.toLocaleString(),
+     "published in the last 7 days, likely not on job boards yet"],
+    ["Median detection latency", med == null ? "accruing" : fmtLatency(Math.round(med)),
+     med == null
+       ? "time from a company posting a job to FirstSeen spotting it; first real-time catches coming soon"
+       : "time from a company posting a job to FirstSeen spotting it (n=" + lats.length + ")"],
+    ["✓ Offers sponsorship", sponsors.toLocaleString(),
+     Math.round(100*sponsors/Math.max(1,jobs.length)) + "% of tracked jobs say so explicitly in the ad"],
+  ].map(([l,v,h]) => `<div class="tile"><div class="label">${l}</div><div class="value">${v}</div><div class="hint">${h}</div></div>`).join("");
+}
+
+function matches(j) {
+  const q = document.getElementById("q").value.trim().toLowerCase();
+  const tier = document.getElementById("tier").value;
+  const co = document.getElementById("company").value;
+  const region = document.getElementById("region").value;
+  const licensed = document.getElementById("licensed").checked;
+  const newonly = document.getElementById("newonly").checked;
+  if (tier && j.tier !== tier) return false;
+  if (co && j.company !== co) return false;
+  if (licensed && !LICENSED.has(j.company)) return false;
+  if (newonly && j.is_backfill) return false;
+  if (region) {
+    const g = geo(j);
+    const ok = {
+      "uk-remote": g.uk || g.remote,
+      "uk": g.uk,
+      "remote": g.remote,
+      "europe": g.eu,
+      "us": g.us,
+      "other": !g.uk && !g.eu && !g.us && !g.remote,
+    }[region];
+    if (!ok) return false;
+  }
+  if (q) {
+    const hay = (j.title + " " + j.company + " " + (j.location||"") + " " + (j.description_excerpt||"")).toLowerCase();
+    if (!q.split(/\s+/).every(w => hay.includes(w))) return false;
+  }
+  return true;
+}
+
+function trackClick(company) {
+  if (window.goatcounter && window.goatcounter.count) {
+    window.goatcounter.count({ path: "apply-click-" + company, title: "Apply click", event: true });
+  }
+}
+
+function render() {
+  const filtered = jobs.filter(matches);
+  const slice = filtered.slice(0, shown);
+  document.getElementById("count").textContent =
+    filtered.length.toLocaleString() + " job" + (filtered.length === 1 ? "" : "s") +
+    (filtered.length !== jobs.length ? " (of " + jobs.length.toLocaleString() + " tracked)" : "");
+  document.getElementById("list").innerHTML = slice.map(j => {
+    const t = tierMeta[j.tier] || tierMeta.silent_possible;
+    const lat = !j.is_backfill ? fmtLatency(j.detection_latency_s) : null;
+    const posted = fmtAgo(j.posted_at);
+    return `<div class="job">
+      <div class="row1">
+        <a class="title" href="${esc(j.url)}" target="_blank" rel="noopener" onclick="trackClick('${esc(j.company)}')">${esc(j.title)}</a>
+        <span class="chip ${t.cls}">${t.icon} ${t.label}</span>
+        ${LICENSED.has(j.company) ? `<span class="chip licence" title="This company is on the UK Home Office register of licensed Skilled Worker sponsors (checked 3 Aug 2026), so it can sponsor visas even if this ad doesn't mention it">✓ licensed sponsor</span>` : ""}
+        ${lat ? `<span class="chip caught" title="FirstSeen spotted this posting ${lat} after the company published it">caught in ${lat}</span>` : ""}
+      </div>
+      <div class="meta">
+        <span class="co">${esc(j.company)}</span>
+        <span class="chip src" title="The hiring system this was polled from; job boards syndicate from here later">${esc(j.source)}</span>
+        ${j.location ? `<span>${esc(j.location)}</span>` : ""}
+        ${posted ? `<span class="${j.posted_at && (Date.now() - new Date(j.posted_at) < 86400e3) ? "fresh" : ""}">posted ${posted}</span>` : ""}
+      </div>
+      ${j.classify_evidence ? `<div class="evidence" title="The sentence the classifier based its verdict on">“${esc(j.classify_evidence)}”</div>` : ""}
+    </div>`;
+  }).join("") || `<div class="state">No jobs match these filters. Try widening the region or clearing the search.</div>`;
+  document.getElementById("more").hidden = filtered.length <= shown;
+}
+
+async function load() {
+  try {
+    const res = await fetch(RAW + "?t=" + Date.now());
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    const text = await res.text();
+    jobs = text.split("\n").filter(Boolean).map(l => { try { return JSON.parse(l); } catch { return null; } }).filter(Boolean);
+    jobs.sort((a,b) => (b.posted_at||"").localeCompare(a.posted_at||"") || (b.first_seen_at||"").localeCompare(a.first_seen_at||""));
+    const companies = [...new Set(jobs.map(j => j.company))].sort();
+    document.getElementById("company").innerHTML =
+      '<option value="">All companies</option>' + companies.map(c => `<option>${esc(c)}</option>`).join("");
+    tiles(); render();
+  } catch (err) {
+    document.getElementById("list").innerHTML =
+      `<div class="state">Couldn't load live data (${esc(err.message)}).<br>Check the <a href="https://github.com/wale-eth/ai-jobs-agent/tree/data/data" target="_blank" rel="noopener">data branch</a> or try again shortly.</div>`;
+  }
+}
+
+for (const id of ["q","tier","company","region","licensed","newonly"]) {
+  document.getElementById(id).addEventListener("input", () => { shown = PAGE; render(); });
+}
+document.getElementById("more").addEventListener("click", () => { shown += PAGE; render(); });
+load();
+</script>
+</body>
+</html>
