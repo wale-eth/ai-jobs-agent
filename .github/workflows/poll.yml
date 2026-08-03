@@ -45,11 +45,13 @@ jobs:
           LANGFUSE_PUBLIC_KEY: ${{ secrets.LANGFUSE_PUBLIC_KEY }}
           LANGFUSE_SECRET_KEY: ${{ secrets.LANGFUSE_SECRET_KEY }}
           LANGFUSE_HOST: https://cloud.langfuse.com
+        shell: bash
         run: |
-          python -m jobs_agent.cli sweep \
-            --db /tmp/jobs.db --jsonl-dir ../state/data | tee report.json
+          python -m jobs_agent.cli --db /tmp/jobs.db sweep \
+            --jsonl-dir ../state/data | tee report.json
 
       - name: Publish metrics to run summary
+        shell: bash
         run: |
           python -m jobs_agent.cli --db /tmp/jobs.db stats | tee stats.json
           python - <<'EOF' >> "$GITHUB_STEP_SUMMARY"
