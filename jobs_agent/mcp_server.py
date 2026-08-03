@@ -12,7 +12,10 @@ from __future__ import annotations
 
 import os
 
-from mcp.server.fastmcp import FastMCP
+try:
+    from mcp.server.fastmcp import FastMCP
+except ImportError:  # pragma: no cover - mcp>=2 moved FastMCP
+    from fastmcp import FastMCP
 
 from jobs_agent.store import Store
 
