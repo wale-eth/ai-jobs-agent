@@ -87,8 +87,26 @@ def fetch(state: SweepState) -> SweepState:
 
 def store_new(state: SweepState) -> SweepState:
     store = _open_store(state)
-    backfill = store.is_empty()  # first ever sweep is baseline, not "new"
-    new_keys = store.upsert_jobs(state["jobs"], backfill=backfill)
+    backfill = store.is_empty()  # first ever sweep: no closures to compute
+
+    # Backfill is per-board, not global: the first time a board appears in
+    # the registry, its existing postings are baseline (no latency), while
+    # boards already tracked contribute genuinely-new detections. Otherwise
+    # adding a company would flood the latency metric with stale postings.
+    known_boards = {
+        (r["source"], r["company"])
+        for r in store.conn.execute(
+            "SELECT DISTINCT source, company FROM jobs"
+        ).fetchall()
+    }
+    live_jobs = [
+        j for j in state["jobs"] if (j.source, j.company) in known_boards
+    ]
+    baseline_jobs = [
+        j for j in state["jobs"] if (j.source, j.company) not in known_boards
+    ]
+    new_keys = store.upsert_jobs(live_jobs, backfill=False)
+    new_keys += store.upsert_jobs(baseline_jobs, backfill=True)
     report = state["report"]
     report.jobs_new = len(new_keys)
 
