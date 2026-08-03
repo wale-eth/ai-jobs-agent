@@ -1,0 +1,72 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  lint-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements-dev.txt
+
+      - name: Lint (ruff)
+        run: ruff check jobs_agent tests
+
+      - name: Tests (pytest, offline fixtures)
+        run: pytest
+
+  docker-build:
+    needs: lint-test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build image
+        run: docker build -t ai-jobs-agent:ci .
+
+      - name: Smoke test: live 2-company sweep in container
+        # Real integration test: polls two live ATS boards, stores and
+        # classifies (rules-only: no API key in CI), prints the report.
+        run: |
+          docker run --rm \
+            -v "$PWD/tests/fixtures/smoke_companies.yaml:/app/smoke.yaml:ro" \
+            ai-jobs-agent:ci \
+            python -m jobs_agent.cli sweep --companies /app/smoke.yaml \
+            | tee report.json
+          python -c "
+          import json
+          r = json.load(open('report.json'))
+          assert r['companies_polled'] == 2, r
+          assert r['jobs_seen'] > 0, r
+          assert not r['companies_failed'], r
+          print('smoke ok:', r['jobs_seen'], 'jobs seen')"
+
+      - name: Log in to GHCR
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Push image
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          IMAGE=ghcr.io/${{ github.repository }}:latest
+          docker tag ai-jobs-agent:ci "$IMAGE"
+          docker push "$IMAGE"

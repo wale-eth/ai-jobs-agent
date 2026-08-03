@@ -1,0 +1,25 @@
+{
+  "jobs": [
+    {
+      "id": 7774936,
+      "internal_job_id": 3404282,
+      "title": "Data Engineering Manager",
+      "updated_at": "2026-07-09T09:08:46-04:00",
+      "first_published": "2026-04-02T08:19:03-04:00",
+      "absolute_url": "https://www.skyscanner.net/jobs/job/7774936",
+      "location": {"name": "London or Edinburgh"},
+      "content": "&lt;p&gt;&lt;strong&gt;About the role&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;We are looking for a Data Engineering Manager to lead our platform squads.&lt;/p&gt;\n&lt;p&gt;Where the role meets the relevant criteria, we are able to consider Skilled Worker visa sponsorship in line with Home Office requirements.&lt;/p&gt;"
+    },
+    {
+      "id": 7946257,
+      "internal_job_id": 3451269,
+      "title": "Creator Manager, AMER",
+      "updated_at": "2026-07-17T11:33:06-04:00",
+      "first_published": "2026-05-26T10:50:58-04:00",
+      "absolute_url": "https://www.skyscanner.net/jobs/job/7946257",
+      "location": {"name": "Miami"},
+      "content": "&lt;p&gt;Applicants must have the right to work in the US. Unfortunately, sponsorship is not available for this position.&lt;/p&gt;"
+    }
+  ],
+  "meta": {"total": 2}
+}

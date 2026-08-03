@@ -1,0 +1,5 @@
+# Tiny company set for CI integration smoke tests against the live APIs.
+greenhouse:
+  - {slug: skyscanner, name: Skyscanner}
+ashby:
+  - {slug: posthog, name: PostHog}

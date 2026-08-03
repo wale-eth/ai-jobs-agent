@@ -1,0 +1,25 @@
+{
+  "jobs": [
+    {
+      "id": "d0a2f8b1-1c2d-4e5f-8a9b-0c1d2e3f4a5b",
+      "title": "Product Engineer",
+      "location": "London",
+      "isListed": true,
+      "publishedAt": "2026-07-28T09:15:00.000Z",
+      "jobUrl": "https://jobs.ashbyhq.com/posthog/d0a2f8b1-1c2d-4e5f-8a9b-0c1d2e3f4a5b",
+      "applyUrl": "https://jobs.ashbyhq.com/posthog/d0a2f8b1-1c2d-4e5f-8a9b-0c1d2e3f4a5b/application",
+      "employmentType": "FullTime",
+      "descriptionPlain": "Ship product analytics features end to end. We are happy to sponsor a Skilled Worker visa for exceptional candidates.",
+      "descriptionHtml": "<p>Ship product analytics features end to end. We are happy to sponsor a Skilled Worker visa for exceptional candidates.</p>"
+    },
+    {
+      "id": "unlisted-0000",
+      "title": "Hidden internal role",
+      "location": "Remote",
+      "isListed": false,
+      "publishedAt": "2026-07-28T09:15:00.000Z",
+      "jobUrl": "https://jobs.ashbyhq.com/posthog/unlisted-0000",
+      "descriptionHtml": "<p>Should be skipped.</p>"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "947cbd4a-2183-47d2-a266-824f12f298ac",
+    "text": "Analytics Engineering Lead",
+    "createdAt": 1780411235285,
+    "hostedUrl": "https://jobs.lever.co/moonpig/947cbd4a-2183-47d2-a266-824f12f298ac",
+    "categories": {"location": "London", "team": "Data", "commitment": "Full-time"},
+    "descriptionPlain": "We are Moonpig. We are looking for an Analytics Engineering Lead to own our dbt estate and mentor a growing team.",
+    "description": "<div>We are Moonpig. We are looking for an Analytics Engineering Lead to own our dbt estate and mentor a growing team.</div>",
+    "lists": [
+      {
+        "text": "What you'll do",
+        "content": "<li>Own the semantic layer</li><li>Partner with ML engineers on feature pipelines</li>"
+      }
+    ]
+  },
+  {
+    "id": "11111111-2222-3333-4444-555555555555",
+    "text": "Senior Machine Learning Engineer",
+    "createdAt": 1780411235285,
+    "hostedUrl": "https://jobs.lever.co/moonpig/11111111-2222-3333-4444-555555555555",
+    "categories": {"location": "London", "team": "ML"},
+    "descriptionPlain": "Build recommendation systems at scale.",
+    "description": "<div>Build recommendation systems at scale.</div>",
+    "lists": []
+  }
+]

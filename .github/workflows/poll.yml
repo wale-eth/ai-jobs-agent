@@ -1,0 +1,81 @@
+name: Poll sweep
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"  # every 30 minutes; this cadence IS the product
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: poll-sweep
+  cancel-in-progress: false
+
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Check out state branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git ls-remote --exit-code origin data; then
+            git worktree add -b data ../state origin/data
+          else
+            git worktree add -b data ../state
+          fi
+          mkdir -p ../state/data
+
+      - name: Run sweep
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          LANGFUSE_PUBLIC_KEY: ${{ secrets.LANGFUSE_PUBLIC_KEY }}
+          LANGFUSE_SECRET_KEY: ${{ secrets.LANGFUSE_SECRET_KEY }}
+          LANGFUSE_HOST: https://cloud.langfuse.com
+        run: |
+          python -m jobs_agent.cli sweep \
+            --db /tmp/jobs.db --jsonl-dir ../state/data | tee report.json
+
+      - name: Publish metrics to run summary
+        run: |
+          python -m jobs_agent.cli --db /tmp/jobs.db stats | tee stats.json
+          python - <<'EOF' >> "$GITHUB_STEP_SUMMARY"
+          import json
+          stats = json.load(open("stats.json"))
+          report = json.load(open("report.json"))
+          med = stats["median_detection_latency_s"]
+          med_str = f"{med/60:.1f} min" if med is not None else "n/a"
+          print("## Sweep result")
+          print(f"- companies polled: {report['companies_polled']} "
+                f"(failed: {len(report['companies_failed'])})")
+          print(f"- jobs seen: {report['jobs_seen']}, new: {report['jobs_new']}")
+          print(f"- classified: rules {report['classified_rules']}, "
+                f"llm {report['classified_llm']}, "
+                f"pending {report['classified_pending']}")
+          print(f"- **median detection latency: {med_str}** "
+                f"(n={stats['latency_sample_size']})")
+          EOF
+
+      - name: Commit state
+        run: |
+          cd ../state
+          git add data
+          if git diff --cached --quiet; then
+            echo "no new jobs this sweep"
+          else
+            git commit -m "sweep: $(date -u +%FT%TZ)"
+            git push origin data
+          fi

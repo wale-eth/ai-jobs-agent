@@ -1,0 +1,41 @@
+# The v1 shortlist: 30 companies with public ATS boards, verified live on
+# 2026-08-03 (every slug returned HTTP 200 from its ATS API). Weighted toward
+# UK-relevant employers with data/ML hiring and sponsorship track records.
+# Failing boards are skipped and reported, not fatal, so pruning stays
+# data-driven.
+
+greenhouse:
+  - {slug: monzo, name: Monzo}
+  - {slug: gocardless, name: GoCardless}
+  - {slug: trustpilot, name: Trustpilot}
+  - {slug: skyscanner, name: Skyscanner}
+  - {slug: databricks, name: Databricks}
+  - {slug: graphcore, name: Graphcore}
+  - {slug: isomorphiclabs, name: Isomorphic Labs}
+  - {slug: stripe, name: Stripe}
+  - {slug: cloudflare, name: Cloudflare}
+  - {slug: datadog, name: Datadog}
+  - {slug: intercom, name: Intercom}
+  - {slug: anthropic, name: Anthropic}
+  - {slug: deepmind, name: Google DeepMind}
+  - {slug: gitlab, name: GitLab}
+  - {slug: duolingo, name: Duolingo}
+  - {slug: vercel, name: Vercel}
+
+lever:
+  - {slug: spotify, name: Spotify}
+  - {slug: palantir, name: Palantir}
+  - {slug: moonpig, name: Moonpig}
+
+ashby:
+  - {slug: elevenlabs, name: ElevenLabs}
+  - {slug: synthesia, name: Synthesia}
+  - {slug: wayve, name: Wayve}
+  - {slug: monumental, name: Monumental}
+  - {slug: linear, name: Linear}
+  - {slug: notion, name: Notion}
+  - {slug: ramp, name: Ramp}
+  - {slug: openai, name: OpenAI}
+  - {slug: cohere, name: Cohere}
+  - {slug: supabase, name: Supabase}
+  - {slug: posthog, name: PostHog}
