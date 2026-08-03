@@ -1,2 +1,3 @@
 {"started_at": "2026-08-03T15:17:13.047353+00:00", "companies_polled": 30, "companies_failed": [], "jobs_seen": 5390, "jobs_new": 5390, "classified_rules": 4898, "classified_llm": 492, "classified_pending": 0}
 {"started_at": "2026-08-03T16:56:24.046514+00:00", "companies_polled": 30, "companies_failed": [], "jobs_seen": 5396, "jobs_new": 23, "classified_rules": 20, "classified_llm": 3, "classified_pending": 0}
+{"started_at": "2026-08-03T18:52:24.682241+00:00", "companies_polled": 30, "companies_failed": [], "jobs_seen": 5382, "jobs_new": 10, "classified_rules": 8, "classified_llm": 2, "classified_pending": 0}
