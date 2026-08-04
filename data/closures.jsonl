@@ -89,3 +89,16 @@
 {"event": "closed", "key": "ashby:openai:09ef6461-e3c1-4008-8ad5-e6d675645a6c", "at": "2026-08-03T23:03:00.319877+00:00"}
 {"event": "closed", "key": "smartrecruiters:experian:744000131537852", "at": "2026-08-03T23:03:00.319877+00:00"}
 {"event": "closed", "key": "smartrecruiters:experian:744000138338389", "at": "2026-08-03T23:03:00.319877+00:00"}
+{"event": "closed", "key": "greenhouse:databricks:8368209002", "at": "2026-08-04T00:18:38.113323+00:00"}
+{"event": "closed", "key": "greenhouse:figma:5998147004", "at": "2026-08-04T00:18:38.113323+00:00"}
+{"event": "closed", "key": "greenhouse:samsara:7651562", "at": "2026-08-04T00:18:38.113323+00:00"}
+{"event": "closed", "key": "greenhouse:samsara:7651569", "at": "2026-08-04T00:18:38.113323+00:00"}
+{"event": "closed", "key": "greenhouse:samsara:7651574", "at": "2026-08-04T00:18:38.113323+00:00"}
+{"event": "closed", "key": "greenhouse:samsara:7651583", "at": "2026-08-04T00:18:38.113323+00:00"}
+{"event": "closed", "key": "greenhouse:samsara:7651589", "at": "2026-08-04T00:18:38.113323+00:00"}
+{"event": "closed", "key": "greenhouse:samsara:7651593", "at": "2026-08-04T00:18:38.113323+00:00"}
+{"event": "closed", "key": "greenhouse:waymo:7703664", "at": "2026-08-04T00:18:38.113323+00:00"}
+{"event": "closed", "key": "greenhouse:grafanalabs:5725454004", "at": "2026-08-04T00:18:38.113323+00:00"}
+{"event": "closed", "key": "greenhouse:checkr:8027509", "at": "2026-08-04T00:18:38.113323+00:00"}
+{"event": "closed", "key": "ashby:harvey:0c3ccbfd-25d1-4f66-be9c-e3c680fbe2fc", "at": "2026-08-04T00:18:38.113323+00:00"}
+{"event": "closed", "key": "ashby:harvey:2bd5b22c-d873-45da-a6d3-89944edb701c", "at": "2026-08-04T00:18:38.113323+00:00"}
