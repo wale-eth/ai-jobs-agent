@@ -7,3 +7,4 @@
 {"started_at": "2026-08-03T22:59:47.593507+00:00", "companies_polled": 88, "companies_failed": [], "jobs_seen": 14021, "jobs_new": 15, "jobs_closed": 21, "classified_rules": 11, "classified_llm": 4, "classified_pending": 0}
 {"started_at": "2026-08-04T00:15:32.425785+00:00", "companies_polled": 88, "companies_failed": [], "jobs_seen": 14020, "jobs_new": 12, "jobs_closed": 13, "classified_rules": 10, "classified_llm": 2, "classified_pending": 0}
 {"started_at": "2026-08-04T03:48:42.195861+00:00", "companies_polled": 88, "companies_failed": [], "jobs_seen": 14025, "jobs_new": 16, "jobs_closed": 11, "classified_rules": 15, "classified_llm": 1, "classified_pending": 0}
+{"started_at": "2026-08-04T06:27:24.524473+00:00", "companies_polled": 88, "companies_failed": [], "jobs_seen": 14028, "jobs_new": 9, "jobs_closed": 7, "classified_rules": 8, "classified_llm": 1, "classified_pending": 0}
