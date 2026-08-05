@@ -393,3 +393,9 @@
 {"event": "closed", "key": "ashby:harvey:192ebbd2-7608-4131-9f9a-022d5cb28ce3", "at": "2026-08-04T23:06:45.416902+00:00"}
 {"event": "closed", "key": "smartrecruiters:experian:744000135093299", "at": "2026-08-04T23:06:45.416902+00:00"}
 {"event": "reopened", "key": "greenhouse:twilio:8026203", "at": "2026-08-04T23:06:45.416902+00:00"}
+{"event": "closed", "key": "greenhouse:lyft:8603624002", "at": "2026-08-05T00:58:02.269730+00:00"}
+{"event": "closed", "key": "greenhouse:waymo:7917617", "at": "2026-08-05T00:58:02.269730+00:00"}
+{"event": "closed", "key": "greenhouse:grafanalabs:6112250004", "at": "2026-08-05T00:58:02.269730+00:00"}
+{"event": "closed", "key": "ashby:sierra:53a8fd83-3e58-41a4-b014-2da447db820b", "at": "2026-08-05T00:58:02.269730+00:00"}
+{"event": "closed", "key": "smartrecruiters:experian:744000125871409", "at": "2026-08-05T00:58:02.269730+00:00"}
+{"event": "reopened", "key": "greenhouse:waymo:7469425", "at": "2026-08-05T00:58:02.269730+00:00"}
