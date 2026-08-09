@@ -1,0 +1,33 @@
+{
+  "list": [
+    {
+      "title": "Senior Data Scientist, Fraud Models",
+      "externalPath": "/job/London/Senior-Data-Scientist--Fraud-Models_JR-2026-04512",
+      "locationsText": "London",
+      "postedOn": "Posted 2 Days Ago",
+      "bulletFields": ["JR-2026-04512"]
+    },
+    {
+      "title": "Machine Learning Engineer",
+      "externalPath": "/job/Edinburgh/Machine-Learning-Engineer_JR-2026-03998",
+      "locationsText": "2 Locations",
+      "postedOn": "Posted 30+ Days Ago",
+      "bulletFields": ["JR-2026-03998"]
+    }
+  ],
+  "detail": {
+    "JR-2026-04512": {
+      "jobPostingInfo": {
+        "id": "JR-2026-04512",
+        "title": "Senior Data Scientist, Fraud Models",
+        "jobDescription": "<p>Build fraud detection models.</p><p>We are able to offer visa sponsorship for this role.</p>",
+        "location": "London",
+        "additionalLocations": ["Edinburgh"],
+        "externalUrl": "https://examplebank.wd3.myworkdayjobs.com/en-US/ExampleCareers/job/London/Senior-Data-Scientist--Fraud-Models_JR-2026-04512",
+        "postedOn": "Posted 2 Days Ago",
+        "timeType": "Full time"
+      }
+    }
+  }
+}
+
