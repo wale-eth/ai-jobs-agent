@@ -49,7 +49,9 @@ def test_workday_parse_backfill_without_detail():
 
 def test_posted_at_edge_cases():
     assert workday._posted_at("Posted Today", now=NOW) == "2026-08-09T00:00:00+00:00"
-    assert workday._posted_at("Posted Yesterday", now=NOW) == "2026-08-08T00:00:00+00:00"
+    assert workday._posted_at(
+        "Posted Yesterday", now=NOW
+    ) == "2026-08-08T00:00:00+00:00"
     assert workday._posted_at("gibberish", now=NOW) is None
     assert workday._posted_at(None, now=NOW) is None
 
@@ -61,4 +63,3 @@ def test_fetch_requires_site():
         assert "site" in str(exc)
     else:  # pragma: no cover
         raise AssertionError("fetch without site must raise ValueError")
-
