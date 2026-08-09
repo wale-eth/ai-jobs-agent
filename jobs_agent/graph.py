@@ -16,7 +16,7 @@ from typing import TypedDict
 import yaml
 from langgraph.graph import END, StateGraph
 
-from jobs_agent.ats import ashby, greenhouse, lever, smartrecruiters, workable
+from jobs_agent.ats import ashby, greenhouse, lever, smartrecruiters, workable, workday
 from jobs_agent.classify import LlmClassifier, classify
 from jobs_agent.models import Job, SweepReport
 from jobs_agent.store import Store, utcnow
@@ -28,6 +28,7 @@ FETCHERS = {
     "ashby": ashby.fetch,
     "workable": workable.fetch,
     "smartrecruiters": smartrecruiters.fetch,
+    "workday": workday.fetch,
 }
 
 
@@ -76,8 +77,10 @@ def fetch(state: SweepState) -> SweepState:
         for entry in entries or []:
             slug = entry["slug"]
             report.companies_polled += 1
+            extras = {k: v for k, v in entry.items()
+                      if k not in ("slug", "name")}
             try:
-                fetched = fetcher(slug)
+                fetched = fetcher(slug, **extras) if extras else fetcher(slug)
                 jobs.extend(fetched)
             except Exception as exc:  # noqa: BLE001 - resilient by design
                 report.companies_failed.append(f"{source}:{slug} ({exc})")
