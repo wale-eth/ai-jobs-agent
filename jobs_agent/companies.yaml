@@ -102,3 +102,23 @@ workable:
 smartrecruiters:
   - {slug: asos, name: ASOS}
   - {slug: experian, name: Experian}
+
+# Workday tenants: verified live 2026-08-09 via each tenant's CXS jobs
+# endpoint, and all 13 confirmed on the Home Office sponsor register
+# (2026-08-07 edition). slug doubles as the tenant name in the CXS URL;
+# host and site are required extras (see jobs_agent/ats/workday.py and
+# tools/discover_workday.py).
+workday:
+  - {slug: barclays, name: Barclays, host: wd3, site: External_Career_Site_Barclays}
+  - {slug: lbg, name: Lloyds Banking Group, host: wd3, site: LBG_Careers}
+  - {slug: aviva, name: Aviva, host: wd1, site: External}
+  - {slug: astrazeneca, name: AstraZeneca, host: wd3, site: Careers}
+  - {slug: gsk, name: GSK, host: wd5, site: GSKCareers}
+  - {slug: gsknch, name: Haleon, host: wd3, site: GSKCareers}
+  - {slug: unilever, name: Unilever, host: wd3, site: Unilever_Experienced_Professionals}
+  - {slug: diageo, name: Diageo, host: wd3, site: Diageo_Careers}
+  - {slug: shell, name: Shell, host: wd3, site: ShellCareers}
+  - {slug: rollsroyce, name: Rolls-Royce, host: wd3, site: professional}
+  - {slug: relx, name: RELX, host: wd3, site: relx}
+  - {slug: santander, name: Santander, host: wd3, site: SantanderCareers}
+  - {slug: pwc, name: PwC, host: wd3, site: Global_Experienced_Careers}
