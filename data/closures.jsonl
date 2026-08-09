@@ -1249,3 +1249,7 @@
 {"event": "closed", "key": "greenhouse:cloudflare:7456389", "at": "2026-08-09T16:00:30.416811+00:00"}
 {"event": "closed", "key": "greenhouse:xai:5136156007", "at": "2026-08-09T16:00:30.416811+00:00"}
 {"event": "closed", "key": "smartrecruiters:experian:744000138583121", "at": "2026-08-09T16:00:30.416811+00:00"}
+{"event": "closed", "key": "greenhouse:asana:8029515", "at": "2026-08-09T16:43:51.028425+00:00"}
+{"event": "closed", "key": "greenhouse:asana:8067827", "at": "2026-08-09T16:43:51.028425+00:00"}
+{"event": "closed", "key": "smartrecruiters:experian:744000141835199", "at": "2026-08-09T16:43:51.028425+00:00"}
+{"event": "closed", "key": "smartrecruiters:experian:744000141835989", "at": "2026-08-09T16:43:51.028425+00:00"}
