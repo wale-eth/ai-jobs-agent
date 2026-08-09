@@ -52,7 +52,9 @@ PAGE_SIZE = 20            # Workday's hard maximum for the jobs endpoint
 MAX_POSTINGS = 1000       # safety cap per tenant per sweep
 RECENT_DAYS = 21
 
-_POSTED_ON = re.compile(r"posted\s+(?:(today)|(yesterday)|(\d+)\+?\s+days?\s+ago)", re.I)
+_POSTED_ON = re.compile(
+    r"posted\s+(?:(today)|(yesterday)|(\d+)\+?\s+days?\s+ago)", re.I
+)
 
 
 def post_json(url: str, body: dict, timeout: int = 30) -> dict:
@@ -177,4 +179,3 @@ def fetch(company_slug: str, host: str = "wd3", site: str | None = None) -> list
             except Exception:  # noqa: BLE001 - detail is best-effort
                 pass
     return parse(items, tenant, host, site, details)
-
