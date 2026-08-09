@@ -1,0 +1,21 @@
+# Candidate Workday tenants: UK employers likely to hold a Skilled Worker
+# sponsor licence and hire data science / ML / AI roles.
+# Format: tenant_slug, Display Name
+# Verified 2026-08-09 via live CXS probes: see companies.yaml workday block.
+# Rejected (no Workday tenant found): hsbc, natwestgroup, standardchartered,
+# landg, schroders, reckitt, bp, nationalgrid, vodafone, bt, sky, pearson,
+# sage, tesco, sainsburys, ocadogroup, kpmgukcareers, nationwide, virginmedia
+barclays, Barclays
+lbg, Lloyds Banking Group
+aviva, Aviva
+astrazeneca, AstraZeneca
+gsk, GSK
+gsknch, Haleon
+unilever, Unilever
+diageo, Diageo
+shell, Shell
+rollsroyce, Rolls-Royce
+relx, RELX
+santander, Santander
+pwc, PwC
+
