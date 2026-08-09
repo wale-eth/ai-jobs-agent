@@ -1257,3 +1257,7 @@
 {"event": "closed", "key": "greenhouse:pinterest:7648637", "at": "2026-08-09T18:42:45.986830+00:00"}
 {"event": "closed", "key": "greenhouse:elastic:7957677", "at": "2026-08-09T19:35:02.129610+00:00"}
 {"event": "closed", "key": "ashby:openai:d8d2365b-b33b-4ace-a21a-4bb62a43cb69", "at": "2026-08-09T20:33:44.493911+00:00"}
+{"event": "closed", "key": "greenhouse:anthropic:5220143008", "at": "2026-08-09T23:12:30.341262+00:00"}
+{"event": "closed", "key": "greenhouse:affirm:7782353003", "at": "2026-08-09T23:12:30.341262+00:00"}
+{"event": "closed", "key": "greenhouse:affirm:7782355003", "at": "2026-08-09T23:12:30.341262+00:00"}
+{"event": "closed", "key": "greenhouse:sumup:8142115002", "at": "2026-08-09T23:12:30.341262+00:00"}
