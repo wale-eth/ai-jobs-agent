@@ -1246,3 +1246,6 @@
 {"event": "closed", "key": "ashby:openai:f705c8d4-aa17-469f-80bf-23923a167ed2", "at": "2026-08-09T02:02:08.569201+00:00"}
 {"event": "closed", "key": "greenhouse:roblox:7957849", "at": "2026-08-09T07:35:19.331968+00:00"}
 {"event": "closed", "key": "greenhouse:n26:7992597", "at": "2026-08-09T07:35:19.331968+00:00"}
+{"event": "closed", "key": "greenhouse:cloudflare:7456389", "at": "2026-08-09T16:00:30.416811+00:00"}
+{"event": "closed", "key": "greenhouse:xai:5136156007", "at": "2026-08-09T16:00:30.416811+00:00"}
+{"event": "closed", "key": "smartrecruiters:experian:744000138583121", "at": "2026-08-09T16:00:30.416811+00:00"}
