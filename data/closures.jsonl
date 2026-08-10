@@ -1289,3 +1289,14 @@
 {"event": "closed", "key": "ashby:sierra:881a233e-f80f-4a45-a40a-b9a0d6d4aa32", "at": "2026-08-10T00:51:50.598031+00:00"}
 {"event": "closed", "key": "workday:barclays:JR-0000083957", "at": "2026-08-10T00:51:50.598031+00:00"}
 {"event": "closed", "key": "workday:unilever:R-81898", "at": "2026-08-10T00:51:50.598031+00:00"}
+{"event": "closed", "key": "greenhouse:databricks:8603711002", "at": "2026-08-10T02:56:13.051532+00:00"}
+{"event": "closed", "key": "greenhouse:roblox:8047815", "at": "2026-08-10T02:56:13.051532+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000119056", "at": "2026-08-10T02:56:13.051532+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-253982", "at": "2026-08-10T02:56:13.051532+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-253995", "at": "2026-08-10T02:56:13.051532+00:00"}
+{"event": "closed", "key": "workday:gsk:446110", "at": "2026-08-10T02:56:13.051532+00:00"}
+{"event": "closed", "key": "workday:gsknch:546971", "at": "2026-08-10T02:56:13.051532+00:00"}
+{"event": "closed", "key": "workday:unilever:R-1183811", "at": "2026-08-10T02:56:13.051532+00:00"}
+{"event": "closed", "key": "workday:unilever:R-1183812", "at": "2026-08-10T02:56:13.051532+00:00"}
+{"event": "closed", "key": "workday:shell:R206908", "at": "2026-08-10T02:56:13.051532+00:00"}
+{"event": "reopened", "key": "workday:barclays:JR-0000083957", "at": "2026-08-10T02:56:13.051532+00:00"}
