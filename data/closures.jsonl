@@ -1282,3 +1282,10 @@
 {"event": "closed", "key": "workday:lbg:161509", "at": "2026-08-10T00:09:03.523462+00:00"}
 {"event": "closed", "key": "workday:astrazeneca:R-257189", "at": "2026-08-10T00:09:03.523462+00:00"}
 {"event": "closed", "key": "workday:rollsroyce:JR6157246", "at": "2026-08-10T00:09:03.523462+00:00"}
+{"event": "closed", "key": "greenhouse:databricks:8428880002", "at": "2026-08-10T00:51:50.598031+00:00"}
+{"event": "closed", "key": "greenhouse:databricks:8437449002", "at": "2026-08-10T00:51:50.598031+00:00"}
+{"event": "closed", "key": "greenhouse:databricks:8607647002", "at": "2026-08-10T00:51:50.598031+00:00"}
+{"event": "closed", "key": "greenhouse:databricks:8637783002", "at": "2026-08-10T00:51:50.598031+00:00"}
+{"event": "closed", "key": "ashby:sierra:881a233e-f80f-4a45-a40a-b9a0d6d4aa32", "at": "2026-08-10T00:51:50.598031+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000083957", "at": "2026-08-10T00:51:50.598031+00:00"}
+{"event": "closed", "key": "workday:unilever:R-81898", "at": "2026-08-10T00:51:50.598031+00:00"}
