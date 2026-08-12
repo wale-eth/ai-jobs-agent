@@ -103,3 +103,4 @@
 {"started_at": "2026-08-11T21:45:33.483476+00:00", "companies_polled": 101, "companies_failed": [], "jobs_seen": 17508, "jobs_new": 26, "jobs_closed": 39, "classified_rules": 23, "classified_llm": 3, "classified_pending": 0}
 {"started_at": "2026-08-11T22:40:49.301743+00:00", "companies_polled": 101, "companies_failed": [], "jobs_seen": 17513, "jobs_new": 17, "jobs_closed": 25, "classified_rules": 16, "classified_llm": 1, "classified_pending": 0}
 {"started_at": "2026-08-11T23:39:27.777101+00:00", "companies_polled": 101, "companies_failed": ["workday:barclays (HTTP Error 503: Service Unavailable)"], "jobs_seen": 16521, "jobs_new": 25, "jobs_closed": 21, "classified_rules": 23, "classified_llm": 2, "classified_pending": 0}
+{"started_at": "2026-08-12T01:53:20.291141+00:00", "companies_polled": 101, "companies_failed": [], "jobs_seen": 17530, "jobs_new": 32, "jobs_closed": 38, "classified_rules": 26, "classified_llm": 6, "classified_pending": 0}
