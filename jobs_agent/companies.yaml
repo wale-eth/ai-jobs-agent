@@ -1,9 +1,17 @@
-# The company registry: 88 employers with public ATS boards, every slug
-# verified live against its ATS API (last full validation 2026-08-03).
+# The company registry. Every slug verified live against its ATS API.
 # Weighted toward UK-relevant employers with data/ML hiring and sponsorship
-# track records; 68 are on the Home Office register of licensed Skilled
-# Worker sponsors. Failing boards are skipped and reported per sweep, so
-# pruning stays data-driven. To grow coverage, add entries here.
+# track records. Failing boards are skipped and reported per sweep, so pruning
+# stays data-driven. To grow coverage, add entries here.
+#
+# 2026-08-12: +69 employers (101 -> 170). Two sources, both verified live and
+# confirmed to belong to the named company before being added:
+#   * direct ATS discovery across Greenhouse/Lever/Ashby
+#   * companies found on Welcome to the Jungle, then resolved to their OWN ATS
+#     so the roles arrive first-hand rather than via an aggregator
+# A 200 from an ATS is NOT proof of ownership: the guess "london" for London
+# Stock Exchange returned a live board belonging to Aime Leon Dore, and "blue"
+# for Blue Light Card an unrelated one. Both were rejected. Verify the board's
+# declared company name before adding a slug.
 
 greenhouse:
   - {slug: monzo, name: Monzo}
@@ -62,6 +70,35 @@ greenhouse:
   - {slug: contentful, name: Contentful}
   - {slug: ovoenergy, name: OVO Energy}
   - {slug: xai, name: xAI}
+  # --- added 2026-08-12: +28 ---
+  - {slug: anaplan, name: Anaplan}
+  - {slug: autotrader, name: Auto Trader}
+  - {slug: b2c2, name: B2C2}
+  - {slug: capitalontap, name: Capital on Tap}
+  - {slug: complyadvantage, name: ComplyAdvantage}
+  - {slug: dunnhumby, name: dunnhumby}
+  - {slug: engineersgate, name: Engineers Gate}
+  - {slug: epicgames, name: Epic Games}
+  - {slug: fireblocks, name: Fireblocks}
+  - {slug: flatironhealth, name: Flatiron Health}
+  - {slug: flohealth, name: Flo Health}
+  - {slug: flowtraders, name: Flow Traders}
+  - {slug: forter, name: Forter}
+  - {slug: imc, name: IMC Trading}
+  - {slug: janestreet, name: Jane Street}
+  - {slug: mangroup, name: Man Group}
+  - {slug: mindfoundry, name: Mind Foundry}
+  - {slug: ocadogroup, name: Ocado Group}
+  - {slug: planetlabs, name: Planet}
+  - {slug: point72, name: Point72}
+  - {slug: polyai, name: PolyAI}
+  - {slug: ripple, name: Ripple}
+  - {slug: roku, name: Roku}
+  - {slug: satalia, name: Satalia}
+  - {slug: smartsheet, name: Smartsheet}
+  - {slug: speechmatics, name: Speechmatics}
+  - {slug: theeconomistgroup, name: The Economist Group}
+  - {slug: toogoodtogo, name: Too Good To Go}
 
 lever:
   - {slug: spotify, name: Spotify}
@@ -71,6 +108,9 @@ lever:
   - {slug: matillion, name: Matillion}
   - {slug: outreach, name: Outreach}
   - {slug: highspot, name: Highspot}
+  # --- added 2026-08-12: +2 ---
+  - {slug: sonarsource, name: SonarSource}
+  - {slug: zopa, name: Zopa}
 
 ashby:
   - {slug: elevenlabs, name: ElevenLabs}
@@ -94,14 +134,56 @@ ashby:
   - {slug: harvey, name: Harvey}
   - {slug: granola, name: Granola}
   - {slug: replit, name: Replit}
+  # --- added 2026-08-12: +30 ---
+  - {slug: "9fin", name: 9fin}
+  - {slug: abound, name: Abound}
+  - {slug: accurx, name: Accurx}
+  - {slug: aveni, name: Aveni}
+  - {slug: beamery, name: Beamery}
+  - {slug: deepgram, name: Deepgram}
+  - {slug: deepl, name: DeepL}
+  - {slug: duffel, name: Duffel}
+  - {slug: faculty, name: Faculty}
+  - {slug: flagstone, name: Flagstone}
+  - {slug: fundingcircle, name: Funding Circle}
+  - {slug: humanoid, name: Humanoid}
+  - {slug: improbable, name: Improbable}
+  - {slug: langchain, name: LangChain}
+  - {slug: lendable, name: Lendable}
+  - {slug: marshmallow, name: Marshmallow}
+  - {slug: multiverse, name: Multiverse}
+  - {slug: paddle, name: Paddle}
+  - {slug: poolside, name: Poolside}
+  - {slug: primer, name: Primer}
+  - {slug: quantexa, name: Quantexa}
+  - {slug: reedsy, name: Reedsy}
+  - {slug: seccl, name: Seccl}
+  - {slug: sona, name: Sona}
+  - {slug: stackone, name: StackOne}
+  - {slug: tractable, name: Tractable}
+  - {slug: trainline, name: Trainline}
+  - {slug: writer, name: Writer}
+  - {slug: zego, name: Zego}
+  - {slug: zilch, name: Zilch}
 
 workable:
   - {slug: huggingface, name: Hugging Face}
   - {slug: starling-bank, name: Starling Bank}
+  # --- added 2026-08-12: +6 ---
+  - {slug: arondite, name: Arondite}
+  - {slug: charlotte-tilbury, name: Charlotte Tilbury}
+  - {slug: fuseenergy, name: Fuse Energy}
+  - {slug: loopme, name: LoopMe}
+  - {slug: our-future-health, name: Our Future Health}
+  - {slug: tetrascience, name: TetraScience}
 
 smartrecruiters:
   - {slug: asos, name: ASOS}
   - {slug: experian, name: Experian}
+  # --- added 2026-08-12: +3 ---
+  - {slug: cint, name: Cint}
+  - {slug: rewardgateway, name: Reward Gateway}
+  - {slug: wise, name: Wise}
 
 # Workday tenants: verified live 2026-08-09 via each tenant's CXS jobs
 # endpoint, and all 13 confirmed on the Home Office sponsor register
