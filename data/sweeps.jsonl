@@ -132,3 +132,4 @@
 {"started_at": "2026-08-13T14:37:09.637794+00:00", "companies_polled": 170, "companies_failed": ["workday:astrazeneca (HTTP Error 502: Bad Gateway)"], "jobs_seen": 20597, "jobs_new": 85, "jobs_closed": 98, "classified_rules": 71, "classified_llm": 14, "classified_pending": 0}
 {"started_at": "2026-08-13T15:58:51.559727+00:00", "companies_polled": 170, "companies_failed": [], "jobs_seen": 21583, "jobs_new": 96, "jobs_closed": 118, "classified_rules": 79, "classified_llm": 17, "classified_pending": 0}
 {"started_at": "2026-08-13T17:04:41.992701+00:00", "companies_polled": 170, "companies_failed": [], "jobs_seen": 21599, "jobs_new": 56, "jobs_closed": 52, "classified_rules": 51, "classified_llm": 5, "classified_pending": 0}
+{"started_at": "2026-08-13T18:26:50.188017+00:00", "companies_polled": 170, "companies_failed": [], "jobs_seen": 21611, "jobs_new": 82, "jobs_closed": 106, "classified_rules": 73, "classified_llm": 9, "classified_pending": 0}
