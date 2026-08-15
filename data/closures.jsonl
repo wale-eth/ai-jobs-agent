@@ -7431,3 +7431,4 @@
 {"event": "reopened", "key": "workday:astrazeneca:R-254212", "at": "2026-08-14T23:54:24.214753+00:00"}
 {"event": "reopened", "key": "workday:astrazeneca:R-254222", "at": "2026-08-14T23:54:24.214753+00:00"}
 {"event": "reopened", "key": "workday:santander:Req1596915", "at": "2026-08-14T23:54:24.214753+00:00"}
+{"event": "closed", "key": "greenhouse:adyen:7952024", "at": "2026-08-15T00:30:16.699376+00:00"}
