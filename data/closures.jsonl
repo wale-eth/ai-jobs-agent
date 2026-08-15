@@ -7470,3 +7470,5 @@
 {"event": "reopened", "key": "greenhouse:databricks:7439442002", "at": "2026-08-15T06:36:37.118389+00:00"}
 {"event": "closed", "key": "workday:astrazeneca:R-257738", "at": "2026-08-15T08:31:58.143100+00:00"}
 {"event": "reopened", "key": "workday:astrazeneca:R-253982", "at": "2026-08-15T08:31:58.143100+00:00"}
+{"event": "closed", "key": "workday:pwc:752115WD", "at": "2026-08-15T09:48:59.330478+00:00"}
+{"event": "reopened", "key": "workday:pwc:749357WD", "at": "2026-08-15T09:48:59.330478+00:00"}
