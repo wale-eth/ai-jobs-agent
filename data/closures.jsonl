@@ -7462,3 +7462,6 @@
 {"event": "reopened", "key": "workday:astrazeneca:R-254164", "at": "2026-08-15T05:02:07.628093+00:00"}
 {"event": "reopened", "key": "workday:astrazeneca:R-254167", "at": "2026-08-15T05:02:07.628093+00:00"}
 {"event": "reopened", "key": "workday:astrazeneca:R-254169", "at": "2026-08-15T05:02:07.628093+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000090923", "at": "2026-08-15T05:35:46.656292+00:00"}
+{"event": "closed", "key": "workday:rollsroyce:JR6158552", "at": "2026-08-15T05:35:46.656292+00:00"}
+{"event": "reopened", "key": "workday:barclays:JR-0000101827", "at": "2026-08-15T05:35:46.656292+00:00"}
