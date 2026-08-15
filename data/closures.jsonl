@@ -7435,3 +7435,7 @@
 {"event": "closed", "key": "greenhouse:gitlab:8616847002", "at": "2026-08-15T01:54:12.710136+00:00"}
 {"event": "closed", "key": "greenhouse:gitlab:8617252002", "at": "2026-08-15T01:54:12.710136+00:00"}
 {"event": "reopened", "key": "greenhouse:databricks:8638635002", "at": "2026-08-15T01:54:12.710136+00:00"}
+{"event": "closed", "key": "workday:santander:Req1434948", "at": "2026-08-15T03:17:43.454528+00:00"}
+{"event": "closed", "key": "workday:santander:Req1561400", "at": "2026-08-15T03:17:43.454528+00:00"}
+{"event": "reopened", "key": "workday:santander:Req1582521", "at": "2026-08-15T03:17:43.454528+00:00"}
+{"event": "reopened", "key": "workday:santander:Req1586256", "at": "2026-08-15T03:17:43.454528+00:00"}
