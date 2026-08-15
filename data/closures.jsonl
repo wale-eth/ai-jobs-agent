@@ -7577,3 +7577,13 @@
 {"event": "reopened", "key": "workday:astrazeneca:R-253956", "at": "2026-08-15T22:54:23.757444+00:00"}
 {"event": "reopened", "key": "workday:astrazeneca:R-253966", "at": "2026-08-15T22:54:23.757444+00:00"}
 {"event": "reopened", "key": "workday:astrazeneca:R-253975", "at": "2026-08-15T22:54:23.757444+00:00"}
+{"event": "closed", "key": "greenhouse:n26:8043854", "at": "2026-08-15T23:27:59.178169+00:00"}
+{"event": "closed", "key": "greenhouse:n26:8050888", "at": "2026-08-15T23:27:59.178169+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-252536", "at": "2026-08-15T23:27:59.178169+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-256056", "at": "2026-08-15T23:27:59.178169+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-256798", "at": "2026-08-15T23:27:59.178169+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-257498", "at": "2026-08-15T23:27:59.178169+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-253882", "at": "2026-08-15T23:27:59.178169+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-253883", "at": "2026-08-15T23:27:59.178169+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-253887", "at": "2026-08-15T23:27:59.178169+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-253888", "at": "2026-08-15T23:27:59.178169+00:00"}
