@@ -7479,3 +7479,7 @@
 {"event": "closed", "key": "workday:pwc:752115WD", "at": "2026-08-15T13:19:00.522465+00:00"}
 {"event": "reopened", "key": "workday:pwc:749357WD", "at": "2026-08-15T13:19:00.522465+00:00"}
 {"event": "closed", "key": "greenhouse:databricks:8565280002", "at": "2026-08-15T16:40:27.625744+00:00"}
+{"event": "closed", "key": "workday:gsknch:543626", "at": "2026-08-15T17:16:51.653334+00:00"}
+{"event": "reopened", "key": "greenhouse:samsara:8074109", "at": "2026-08-15T17:16:51.653334+00:00"}
+{"event": "reopened", "key": "greenhouse:samsara:8074111", "at": "2026-08-15T17:16:51.653334+00:00"}
+{"event": "reopened", "key": "workday:gsknch:545109", "at": "2026-08-15T17:16:51.653334+00:00"}
