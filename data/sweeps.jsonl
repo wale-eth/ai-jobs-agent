@@ -176,3 +176,4 @@
 {"started_at": "2026-08-15T11:38:40.541110+00:00", "companies_polled": 170, "companies_failed": [], "jobs_seen": 21652, "jobs_new": 0, "jobs_closed": 1, "classified_rules": 0, "classified_llm": 0, "classified_pending": 0}
 {"started_at": "2026-08-15T12:11:21.622773+00:00", "companies_polled": 170, "companies_failed": [], "jobs_seen": 21652, "jobs_new": 1, "jobs_closed": 1, "classified_rules": 1, "classified_llm": 0, "classified_pending": 0}
 {"started_at": "2026-08-15T12:44:48.580089+00:00", "companies_polled": 170, "companies_failed": ["greenhouse:roblox (The read operation timed out)"], "jobs_seen": 21421, "jobs_new": 0, "jobs_closed": 2, "classified_rules": 0, "classified_llm": 0, "classified_pending": 0}
+{"started_at": "2026-08-15T13:29:45.822434+00:00", "companies_polled": 170, "companies_failed": [], "jobs_seen": 21652, "jobs_new": 1, "jobs_closed": 0, "classified_rules": 1, "classified_llm": 0, "classified_pending": 0}
