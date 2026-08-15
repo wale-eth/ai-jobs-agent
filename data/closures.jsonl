@@ -7472,3 +7472,5 @@
 {"event": "reopened", "key": "workday:astrazeneca:R-253982", "at": "2026-08-15T08:31:58.143100+00:00"}
 {"event": "closed", "key": "workday:pwc:752115WD", "at": "2026-08-15T09:48:59.330478+00:00"}
 {"event": "reopened", "key": "workday:pwc:749357WD", "at": "2026-08-15T09:48:59.330478+00:00"}
+{"event": "closed", "key": "workday:pwc:749357WD", "at": "2026-08-15T12:10:46.433660+00:00"}
+{"event": "reopened", "key": "workday:pwc:752115WD", "at": "2026-08-15T12:10:46.433660+00:00"}
