@@ -7475,3 +7475,6 @@
 {"event": "closed", "key": "workday:pwc:749357WD", "at": "2026-08-15T12:10:46.433660+00:00"}
 {"event": "reopened", "key": "workday:pwc:752115WD", "at": "2026-08-15T12:10:46.433660+00:00"}
 {"event": "closed", "key": "workday:unilever:R-1185773", "at": "2026-08-15T12:44:06.990044+00:00"}
+{"event": "closed", "key": "greenhouse:anthropic:5208218008", "at": "2026-08-15T13:19:00.522465+00:00"}
+{"event": "closed", "key": "workday:pwc:752115WD", "at": "2026-08-15T13:19:00.522465+00:00"}
+{"event": "reopened", "key": "workday:pwc:749357WD", "at": "2026-08-15T13:19:00.522465+00:00"}
