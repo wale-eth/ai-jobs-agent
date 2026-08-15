@@ -7565,3 +7565,7 @@
 {"event": "reopened", "key": "greenhouse:samsara:8073247", "at": "2026-08-15T19:52:22.619400+00:00"}
 {"event": "reopened", "key": "workday:pwc:749368WD", "at": "2026-08-15T19:52:22.619400+00:00"}
 {"event": "closed", "key": "workday:gsk:446255", "at": "2026-08-15T20:26:05.370355+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-257325", "at": "2026-08-15T21:44:01.198687+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-257394", "at": "2026-08-15T21:44:01.198687+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-253967", "at": "2026-08-15T21:44:01.198687+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-253974", "at": "2026-08-15T21:44:01.198687+00:00"}
