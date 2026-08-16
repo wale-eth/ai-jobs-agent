@@ -7642,3 +7642,8 @@
 {"event": "closed", "key": "greenhouse:celonis:7775886003", "at": "2026-08-16T14:55:22.569383+00:00"}
 {"event": "closed", "key": "greenhouse:celonis:7775887003", "at": "2026-08-16T14:55:22.569383+00:00"}
 {"event": "closed", "key": "greenhouse:celonis:7779591003", "at": "2026-08-16T14:55:22.569383+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000127700", "at": "2026-08-16T15:35:26.442253+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-254582", "at": "2026-08-16T15:35:26.442253+00:00"}
+{"event": "closed", "key": "workday:pwc:749310WD", "at": "2026-08-16T15:35:26.442253+00:00"}
+{"event": "reopened", "key": "workday:barclays:JR-0000070470", "at": "2026-08-16T15:35:26.442253+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-253872", "at": "2026-08-16T15:35:26.442253+00:00"}
