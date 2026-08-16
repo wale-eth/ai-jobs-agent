@@ -7587,3 +7587,15 @@
 {"event": "reopened", "key": "workday:astrazeneca:R-253883", "at": "2026-08-15T23:27:59.178169+00:00"}
 {"event": "reopened", "key": "workday:astrazeneca:R-253887", "at": "2026-08-15T23:27:59.178169+00:00"}
 {"event": "reopened", "key": "workday:astrazeneca:R-253888", "at": "2026-08-15T23:27:59.178169+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000101710", "at": "2026-08-16T00:11:41.608857+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000103928", "at": "2026-08-16T00:11:41.608857+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000104629", "at": "2026-08-16T00:11:41.608857+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000115677", "at": "2026-08-16T00:11:41.608857+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000116982", "at": "2026-08-16T00:11:41.608857+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000123409", "at": "2026-08-16T00:11:41.608857+00:00"}
+{"event": "reopened", "key": "workday:barclays:JR-0000083257", "at": "2026-08-16T00:11:41.608857+00:00"}
+{"event": "reopened", "key": "workday:barclays:JR-0000086308", "at": "2026-08-16T00:11:41.608857+00:00"}
+{"event": "reopened", "key": "workday:barclays:JR-0000089030", "at": "2026-08-16T00:11:41.608857+00:00"}
+{"event": "reopened", "key": "workday:barclays:JR-0000098681", "at": "2026-08-16T00:11:41.608857+00:00"}
+{"event": "reopened", "key": "workday:barclays:JR-0000106022", "at": "2026-08-16T00:11:41.608857+00:00"}
+{"event": "reopened", "key": "workday:barclays:JR-0000110359", "at": "2026-08-16T00:11:41.608857+00:00"}
