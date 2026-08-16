@@ -7599,3 +7599,7 @@
 {"event": "reopened", "key": "workday:barclays:JR-0000098681", "at": "2026-08-16T00:11:41.608857+00:00"}
 {"event": "reopened", "key": "workday:barclays:JR-0000106022", "at": "2026-08-16T00:11:41.608857+00:00"}
 {"event": "reopened", "key": "workday:barclays:JR-0000110359", "at": "2026-08-16T00:11:41.608857+00:00"}
+{"event": "closed", "key": "workday:unilever:R-1184975", "at": "2026-08-16T03:28:42.094423+00:00"}
+{"event": "closed", "key": "workday:diageo:JR1127782", "at": "2026-08-16T03:28:42.094423+00:00"}
+{"event": "reopened", "key": "workday:unilever:R-1185773", "at": "2026-08-16T03:28:42.094423+00:00"}
+{"event": "reopened", "key": "workday:diageo:JR1126572", "at": "2026-08-16T03:28:42.094423+00:00"}
