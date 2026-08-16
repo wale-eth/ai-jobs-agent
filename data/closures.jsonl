@@ -7620,3 +7620,11 @@
 {"event": "closed", "key": "workday:astrazeneca:R-257287", "at": "2026-08-16T06:37:11.499452+00:00"}
 {"event": "reopened", "key": "workday:astrazeneca:R-253871", "at": "2026-08-16T06:37:11.499452+00:00"}
 {"event": "closed", "key": "workday:astrazeneca:R-253871", "at": "2026-08-16T08:06:44.915204+00:00"}
+{"event": "closed", "key": "greenhouse:forter:8547143002", "at": "2026-08-16T08:51:36.062790+00:00"}
+{"event": "closed", "key": "greenhouse:forter:8622108002", "at": "2026-08-16T08:51:36.062790+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000070470", "at": "2026-08-16T08:51:36.062790+00:00"}
+{"event": "closed", "key": "workday:lbg:160596", "at": "2026-08-16T08:51:36.062790+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-253872", "at": "2026-08-16T08:51:36.062790+00:00"}
+{"event": "closed", "key": "workday:santander:Req1586256", "at": "2026-08-16T08:51:36.062790+00:00"}
+{"event": "reopened", "key": "workday:barclays:JR-0000119542", "at": "2026-08-16T08:51:36.062790+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-240439", "at": "2026-08-16T08:51:36.062790+00:00"}
