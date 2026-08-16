@@ -7706,3 +7706,7 @@
 {"event": "reopened", "key": "greenhouse:coinbase:8096720", "at": "2026-08-16T21:10:01.678003+00:00"}
 {"event": "closed", "key": "smartrecruiters:asos:744000143282309", "at": "2026-08-16T21:45:02.781477+00:00"}
 {"event": "closed", "key": "workday:barclays:JR-0000092873", "at": "2026-08-16T21:45:02.781477+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000069529", "at": "2026-08-16T22:20:08.591161+00:00"}
+{"event": "closed", "key": "workday:pwc:740086WD", "at": "2026-08-16T22:20:08.591161+00:00"}
+{"event": "closed", "key": "workday:pwc:752446WD", "at": "2026-08-16T22:20:08.591161+00:00"}
+{"event": "reopened", "key": "workday:pwc:749920WD", "at": "2026-08-16T22:20:08.591161+00:00"}
