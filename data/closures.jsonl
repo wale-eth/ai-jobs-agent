@@ -7603,3 +7603,13 @@
 {"event": "closed", "key": "workday:diageo:JR1127782", "at": "2026-08-16T03:28:42.094423+00:00"}
 {"event": "reopened", "key": "workday:unilever:R-1185773", "at": "2026-08-16T03:28:42.094423+00:00"}
 {"event": "reopened", "key": "workday:diageo:JR1126572", "at": "2026-08-16T03:28:42.094423+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-252348", "at": "2026-08-16T04:29:36.748389+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-254831", "at": "2026-08-16T04:29:36.748389+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-255286", "at": "2026-08-16T04:29:36.748389+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-255288", "at": "2026-08-16T04:29:36.748389+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-257415", "at": "2026-08-16T04:29:36.748389+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-251239", "at": "2026-08-16T04:29:36.748389+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-253872", "at": "2026-08-16T04:29:36.748389+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-253874", "at": "2026-08-16T04:29:36.748389+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-253877", "at": "2026-08-16T04:29:36.748389+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-253880", "at": "2026-08-16T04:29:36.748389+00:00"}
