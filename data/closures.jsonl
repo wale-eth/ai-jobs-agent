@@ -7661,3 +7661,6 @@
 {"event": "closed", "key": "workday:pwc:749368WD", "at": "2026-08-16T17:24:56.046915+00:00"}
 {"event": "reopened", "key": "workday:pwc:751045WD", "at": "2026-08-16T17:24:56.046915+00:00"}
 {"event": "closed", "key": "greenhouse:duolingo:8532790002", "at": "2026-08-16T18:01:44.820679+00:00"}
+{"event": "closed", "key": "greenhouse:pinterest:8066850", "at": "2026-08-16T18:45:01.657405+00:00"}
+{"event": "closed", "key": "greenhouse:waymo:8101187", "at": "2026-08-16T18:45:01.657405+00:00"}
+{"event": "closed", "key": "greenhouse:autotrader:4944594101", "at": "2026-08-16T18:45:01.657405+00:00"}
