@@ -7636,3 +7636,5 @@
 {"event": "reopened", "key": "workday:barclays:JR-0000086308", "at": "2026-08-16T10:52:34.851899+00:00"}
 {"event": "closed", "key": "workday:barclays:JR-0000121337", "at": "2026-08-16T12:05:08.963519+00:00"}
 {"event": "reopened", "key": "workday:barclays:JR-0000101710", "at": "2026-08-16T12:05:08.963519+00:00"}
+{"event": "closed", "key": "greenhouse:gitlab:8615332002", "at": "2026-08-16T14:13:34.445683+00:00"}
+{"event": "closed", "key": "workday:gsk:444303", "at": "2026-08-16T14:13:34.445683+00:00"}
