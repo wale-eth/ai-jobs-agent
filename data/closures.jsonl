@@ -7695,3 +7695,5 @@
 {"event": "reopened", "key": "workday:astrazeneca:R-253868", "at": "2026-08-16T19:19:26.087591+00:00"}
 {"event": "reopened", "key": "workday:gsknch:545158", "at": "2026-08-16T19:19:26.087591+00:00"}
 {"event": "reopened", "key": "workday:unilever:R-1186800", "at": "2026-08-16T19:19:26.087591+00:00"}
+{"event": "closed", "key": "greenhouse:graphcore:8621543002", "at": "2026-08-16T20:02:06.456357+00:00"}
+{"event": "closed", "key": "greenhouse:scaleai:4709123005", "at": "2026-08-16T20:02:06.456357+00:00"}
