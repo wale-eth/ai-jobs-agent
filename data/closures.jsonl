@@ -7697,3 +7697,7 @@
 {"event": "reopened", "key": "workday:unilever:R-1186800", "at": "2026-08-16T19:19:26.087591+00:00"}
 {"event": "closed", "key": "greenhouse:graphcore:8621543002", "at": "2026-08-16T20:02:06.456357+00:00"}
 {"event": "closed", "key": "greenhouse:scaleai:4709123005", "at": "2026-08-16T20:02:06.456357+00:00"}
+{"event": "closed", "key": "greenhouse:waymo:7584885", "at": "2026-08-16T20:35:54.288166+00:00"}
+{"event": "closed", "key": "workday:gsk:441559", "at": "2026-08-16T20:35:54.288166+00:00"}
+{"event": "reopened", "key": "greenhouse:waymo:8101187", "at": "2026-08-16T20:35:54.288166+00:00"}
+{"event": "reopened", "key": "workday:gsk:444303", "at": "2026-08-16T20:35:54.288166+00:00"}
