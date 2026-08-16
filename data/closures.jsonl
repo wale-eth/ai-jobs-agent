@@ -7648,3 +7648,12 @@
 {"event": "reopened", "key": "workday:barclays:JR-0000070470", "at": "2026-08-16T15:35:26.442253+00:00"}
 {"event": "reopened", "key": "workday:astrazeneca:R-253872", "at": "2026-08-16T15:35:26.442253+00:00"}
 {"event": "closed", "key": "greenhouse:cloudflare:8077075", "at": "2026-08-16T16:15:14.305430+00:00"}
+{"event": "closed", "key": "greenhouse:elastic:8121106", "at": "2026-08-16T16:49:34.223179+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000070470", "at": "2026-08-16T16:49:34.223179+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000086308", "at": "2026-08-16T16:49:34.223179+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000098681", "at": "2026-08-16T16:49:34.223179+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000106022", "at": "2026-08-16T16:49:34.223179+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-253967", "at": "2026-08-16T16:49:34.223179+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-256501", "at": "2026-08-16T16:49:34.223179+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-253870", "at": "2026-08-16T16:49:34.223179+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-253871", "at": "2026-08-16T16:49:34.223179+00:00"}
