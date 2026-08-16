@@ -7701,3 +7701,6 @@
 {"event": "closed", "key": "workday:gsk:441559", "at": "2026-08-16T20:35:54.288166+00:00"}
 {"event": "reopened", "key": "greenhouse:waymo:8101187", "at": "2026-08-16T20:35:54.288166+00:00"}
 {"event": "reopened", "key": "workday:gsk:444303", "at": "2026-08-16T20:35:54.288166+00:00"}
+{"event": "closed", "key": "workday:relx:R116081", "at": "2026-08-16T21:10:01.678003+00:00"}
+{"event": "reopened", "key": "greenhouse:coinbase:8056065", "at": "2026-08-16T21:10:01.678003+00:00"}
+{"event": "reopened", "key": "greenhouse:coinbase:8096720", "at": "2026-08-16T21:10:01.678003+00:00"}
