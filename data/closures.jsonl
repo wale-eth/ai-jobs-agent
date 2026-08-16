@@ -7638,3 +7638,7 @@
 {"event": "reopened", "key": "workday:barclays:JR-0000101710", "at": "2026-08-16T12:05:08.963519+00:00"}
 {"event": "closed", "key": "greenhouse:gitlab:8615332002", "at": "2026-08-16T14:13:34.445683+00:00"}
 {"event": "closed", "key": "workday:gsk:444303", "at": "2026-08-16T14:13:34.445683+00:00"}
+{"event": "closed", "key": "greenhouse:celonis:7773309003", "at": "2026-08-16T14:55:22.569383+00:00"}
+{"event": "closed", "key": "greenhouse:celonis:7775886003", "at": "2026-08-16T14:55:22.569383+00:00"}
+{"event": "closed", "key": "greenhouse:celonis:7775887003", "at": "2026-08-16T14:55:22.569383+00:00"}
+{"event": "closed", "key": "greenhouse:celonis:7779591003", "at": "2026-08-16T14:55:22.569383+00:00"}
