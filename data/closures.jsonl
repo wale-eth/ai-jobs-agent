@@ -7613,3 +7613,5 @@
 {"event": "reopened", "key": "workday:astrazeneca:R-253874", "at": "2026-08-16T04:29:36.748389+00:00"}
 {"event": "reopened", "key": "workday:astrazeneca:R-253877", "at": "2026-08-16T04:29:36.748389+00:00"}
 {"event": "reopened", "key": "workday:astrazeneca:R-253880", "at": "2026-08-16T04:29:36.748389+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000116203", "at": "2026-08-16T05:09:05.202966+00:00"}
+{"event": "reopened", "key": "workday:barclays:JR-0000070470", "at": "2026-08-16T05:09:05.202966+00:00"}
