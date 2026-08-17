@@ -248,3 +248,4 @@
 {"started_at": "2026-08-17T17:22:33.376939+00:00", "companies_polled": 170, "companies_failed": [], "jobs_seen": 21617, "jobs_new": 28, "jobs_closed": 26, "classified_rules": 24, "classified_llm": 4, "classified_pending": 0}
 {"started_at": "2026-08-17T17:57:53.416583+00:00", "companies_polled": 170, "companies_failed": ["ashby:sona (HTTP Error 502: Bad Gateway)"], "jobs_seen": 21611, "jobs_new": 29, "jobs_closed": 51, "classified_rules": 27, "classified_llm": 2, "classified_pending": 0}
 {"started_at": "2026-08-17T18:46:13.662405+00:00", "companies_polled": 170, "companies_failed": [], "jobs_seen": 21611, "jobs_new": 27, "jobs_closed": 56, "classified_rules": 24, "classified_llm": 3, "classified_pending": 0}
+{"started_at": "2026-08-17T19:27:45.361818+00:00", "companies_polled": 170, "companies_failed": [], "jobs_seen": 21633, "jobs_new": 47, "jobs_closed": 29, "classified_rules": 41, "classified_llm": 6, "classified_pending": 0}
