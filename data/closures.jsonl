@@ -7786,3 +7786,10 @@
 {"event": "reopened", "key": "workday:barclays:JR-0000103118", "at": "2026-08-16T23:51:21.621270+00:00"}
 {"event": "reopened", "key": "workday:barclays:JR-0000105518", "at": "2026-08-16T23:51:21.621270+00:00"}
 {"event": "reopened", "key": "workday:astrazeneca:R-253638", "at": "2026-08-16T23:51:21.621270+00:00"}
+{"event": "closed", "key": "greenhouse:pinterest:8102742", "at": "2026-08-17T00:23:57.257548+00:00"}
+{"event": "closed", "key": "greenhouse:roblox:7816527", "at": "2026-08-17T00:23:57.257548+00:00"}
+{"event": "closed", "key": "greenhouse:roblox:7848812", "at": "2026-08-17T00:23:57.257548+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-246058", "at": "2026-08-17T00:23:57.257548+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-249332", "at": "2026-08-17T00:23:57.257548+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-245413", "at": "2026-08-17T00:23:57.257548+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-248382", "at": "2026-08-17T00:23:57.257548+00:00"}
