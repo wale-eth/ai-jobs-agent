@@ -10581,3 +10581,15 @@
 {"event": "reopened", "key": "workday:barclays:JR-0000102149", "at": "2026-08-18T23:37:09.255491+00:00"}
 {"event": "reopened", "key": "workday:barclays:JR-0000102152", "at": "2026-08-18T23:37:09.255491+00:00"}
 {"event": "reopened", "key": "workday:barclays:JR-0000105518", "at": "2026-08-18T23:37:09.255491+00:00"}
+{"event": "closed", "key": "greenhouse:pinterest:8081335", "at": "2026-08-19T00:17:33.900199+00:00"}
+{"event": "closed", "key": "greenhouse:roblox:7708489", "at": "2026-08-19T00:17:33.900199+00:00"}
+{"event": "closed", "key": "greenhouse:epicgames:6001637004", "at": "2026-08-19T00:17:33.900199+00:00"}
+{"event": "closed", "key": "greenhouse:epicgames:6006495004", "at": "2026-08-19T00:17:33.900199+00:00"}
+{"event": "closed", "key": "greenhouse:epicgames:6006497004", "at": "2026-08-19T00:17:33.900199+00:00"}
+{"event": "closed", "key": "smartrecruiters:wise:744000144155778", "at": "2026-08-19T00:17:33.900199+00:00"}
+{"event": "closed", "key": "workday:unilever:R-1187193", "at": "2026-08-19T00:17:33.900199+00:00"}
+{"event": "closed", "key": "workday:unilever:R-1187194", "at": "2026-08-19T00:17:33.900199+00:00"}
+{"event": "closed", "key": "workday:diageo:JR1128037", "at": "2026-08-19T00:17:33.900199+00:00"}
+{"event": "closed", "key": "workday:relx:R117117", "at": "2026-08-19T00:17:33.900199+00:00"}
+{"event": "closed", "key": "workday:pwc:749550WD", "at": "2026-08-19T00:17:33.900199+00:00"}
+{"event": "reopened", "key": "workday:unilever:R-1186634", "at": "2026-08-19T00:17:33.900199+00:00"}
