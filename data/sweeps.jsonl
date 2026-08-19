@@ -309,3 +309,4 @@
 {"started_at": "2026-08-19T18:28:13.506325+00:00", "companies_polled": 170, "companies_failed": [], "jobs_seen": 21658, "jobs_new": 31, "jobs_closed": 100, "classified_rules": 30, "classified_llm": 1, "classified_pending": 0}
 {"started_at": "2026-08-19T19:14:08.300913+00:00", "companies_polled": 170, "companies_failed": [], "jobs_seen": 21655, "jobs_new": 32, "jobs_closed": 41, "classified_rules": 26, "classified_llm": 6, "classified_pending": 0}
 {"started_at": "2026-08-19T19:54:59.261055+00:00", "companies_polled": 170, "companies_failed": [], "jobs_seen": 21660, "jobs_new": 26, "jobs_closed": 28, "classified_rules": 24, "classified_llm": 2, "classified_pending": 0}
+{"started_at": "2026-08-19T20:40:09.194514+00:00", "companies_polled": 170, "companies_failed": ["greenhouse:airtable (The read operation timed out)"], "jobs_seen": 21645, "jobs_new": 31, "jobs_closed": 43, "classified_rules": 27, "classified_llm": 4, "classified_pending": 0}
