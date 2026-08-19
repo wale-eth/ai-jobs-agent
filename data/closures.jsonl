@@ -10637,3 +10637,16 @@
 {"event": "closed", "key": "workday:relx:R114667", "at": "2026-08-19T03:23:23.225259+00:00"}
 {"event": "reopened", "key": "lever:spotify:cab9bb55-7855-45ab-b62f-b40ac2b2cc77", "at": "2026-08-19T03:23:23.225259+00:00"}
 {"event": "reopened", "key": "workday:unilever:R-1187194", "at": "2026-08-19T03:23:23.225259+00:00"}
+{"event": "closed", "key": "ashby:openai:dfbe3bfa-5d57-44ed-a95e-a07b56663c9d", "at": "2026-08-19T04:25:25.878615+00:00"}
+{"event": "closed", "key": "ashby:sierra:c3bfb681-065e-4dc7-bba8-ba6ff25d8fda", "at": "2026-08-19T04:25:25.878615+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-254910", "at": "2026-08-19T04:25:25.878615+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-254913", "at": "2026-08-19T04:25:25.878615+00:00"}
+{"event": "closed", "key": "workday:gsk:445487", "at": "2026-08-19T04:25:25.878615+00:00"}
+{"event": "closed", "key": "workday:gsk:446227", "at": "2026-08-19T04:25:25.878615+00:00"}
+{"event": "closed", "key": "workday:gsknch:546162", "at": "2026-08-19T04:25:25.878615+00:00"}
+{"event": "closed", "key": "workday:gsknch:547170", "at": "2026-08-19T04:25:25.878615+00:00"}
+{"event": "closed", "key": "workday:unilever:R-1187194", "at": "2026-08-19T04:25:25.878615+00:00"}
+{"event": "closed", "key": "workday:shell:R206983", "at": "2026-08-19T04:25:25.878615+00:00"}
+{"event": "closed", "key": "workday:pwc:682571WD", "at": "2026-08-19T04:25:25.878615+00:00"}
+{"event": "closed", "key": "workday:pwc:724756WD", "at": "2026-08-19T04:25:25.878615+00:00"}
+{"event": "reopened", "key": "greenhouse:xai:5189363007", "at": "2026-08-19T04:25:25.878615+00:00"}
