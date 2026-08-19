@@ -10593,3 +10593,12 @@
 {"event": "closed", "key": "workday:relx:R117117", "at": "2026-08-19T00:17:33.900199+00:00"}
 {"event": "closed", "key": "workday:pwc:749550WD", "at": "2026-08-19T00:17:33.900199+00:00"}
 {"event": "reopened", "key": "workday:unilever:R-1186634", "at": "2026-08-19T00:17:33.900199+00:00"}
+{"event": "closed", "key": "greenhouse:twilio:7987840", "at": "2026-08-19T00:53:28.241686+00:00"}
+{"event": "closed", "key": "greenhouse:twilio:8024918", "at": "2026-08-19T00:53:28.241686+00:00"}
+{"event": "closed", "key": "greenhouse:twilio:8109975", "at": "2026-08-19T00:53:28.241686+00:00"}
+{"event": "closed", "key": "greenhouse:carta:7614416003", "at": "2026-08-19T00:53:28.241686+00:00"}
+{"event": "closed", "key": "workday:santander:Req1582725", "at": "2026-08-19T00:53:28.241686+00:00"}
+{"event": "closed", "key": "workday:santander:Req1599761", "at": "2026-08-19T00:53:28.241686+00:00"}
+{"event": "closed", "key": "workday:pwc:727138WD", "at": "2026-08-19T00:53:28.241686+00:00"}
+{"event": "reopened", "key": "workday:diageo:JR1128037", "at": "2026-08-19T00:53:28.241686+00:00"}
+{"event": "reopened", "key": "workday:pwc:749550WD", "at": "2026-08-19T00:53:28.241686+00:00"}
