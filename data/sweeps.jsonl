@@ -316,3 +316,4 @@
 {"started_at": "2026-08-19T23:51:16.361388+00:00", "companies_polled": 170, "companies_failed": [], "jobs_seen": 21680, "jobs_new": 14, "jobs_closed": 7, "classified_rules": 14, "classified_llm": 0, "classified_pending": 0}
 {"started_at": "2026-08-20T01:11:12.228185+00:00", "companies_polled": 170, "companies_failed": [], "jobs_seen": 21686, "jobs_new": 24, "jobs_closed": 21, "classified_rules": 19, "classified_llm": 5, "classified_pending": 0}
 {"started_at": "2026-08-20T02:37:47.740215+00:00", "companies_polled": 170, "companies_failed": [], "jobs_seen": 21685, "jobs_new": 19, "jobs_closed": 25, "classified_rules": 9, "classified_llm": 10, "classified_pending": 0}
+{"started_at": "2026-08-20T03:46:02.183143+00:00", "companies_polled": 170, "companies_failed": ["workday:gsk (HTTP Error 503: Service Unavailable)"], "jobs_seen": 21643, "jobs_new": 8, "jobs_closed": 13, "classified_rules": 5, "classified_llm": 3, "classified_pending": 0}
