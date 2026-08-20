@@ -11996,3 +11996,13 @@
 {"event": "reopened", "key": "workday:astrazeneca:R-255457", "at": "2026-08-19T23:50:26.541603+00:00"}
 {"event": "reopened", "key": "workday:astrazeneca:R-255460", "at": "2026-08-19T23:50:26.541603+00:00"}
 {"event": "reopened", "key": "workday:santander:Req1601438", "at": "2026-08-19T23:50:26.541603+00:00"}
+{"event": "closed", "key": "greenhouse:waymo:7948185", "at": "2026-08-20T00:27:19.451123+00:00"}
+{"event": "closed", "key": "greenhouse:waymo:8042096", "at": "2026-08-20T00:27:19.451123+00:00"}
+{"event": "closed", "key": "greenhouse:adyen:6670621", "at": "2026-08-20T00:27:19.451123+00:00"}
+{"event": "closed", "key": "ashby:harvey:1b2409ea-58e1-44f9-8183-6b9adb69de96", "at": "2026-08-20T00:27:19.451123+00:00"}
+{"event": "closed", "key": "workday:gsknch:547278", "at": "2026-08-20T00:27:19.451123+00:00"}
+{"event": "closed", "key": "workday:rollsroyce:JR6153707", "at": "2026-08-20T00:27:19.451123+00:00"}
+{"event": "closed", "key": "workday:santander:Req1593016", "at": "2026-08-20T00:27:19.451123+00:00"}
+{"event": "reopened", "key": "ashby:replit:cf236c47-218b-4a31-b0b6-d6ed12a8e077", "at": "2026-08-20T00:27:19.451123+00:00"}
+{"event": "reopened", "key": "workday:gsknch:546372", "at": "2026-08-20T00:27:19.451123+00:00"}
+{"event": "reopened", "key": "workday:rollsroyce:JR6152758", "at": "2026-08-20T00:27:19.451123+00:00"}
