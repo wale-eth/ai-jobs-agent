@@ -13370,3 +13370,15 @@
 {"event": "closed", "key": "workday:santander:Req1589516", "at": "2026-08-21T00:42:06.781077+00:00"}
 {"event": "reopened", "key": "greenhouse:anthropic:5096041008", "at": "2026-08-21T00:42:06.781077+00:00"}
 {"event": "reopened", "key": "workday:santander:Req1600714", "at": "2026-08-21T00:42:06.781077+00:00"}
+{"event": "closed", "key": "greenhouse:stripe:7594208", "at": "2026-08-21T01:54:50.196405+00:00"}
+{"event": "closed", "key": "greenhouse:pinterest:8082169", "at": "2026-08-21T01:54:50.196405+00:00"}
+{"event": "closed", "key": "greenhouse:newrelic:5233998008", "at": "2026-08-21T01:54:50.196405+00:00"}
+{"event": "closed", "key": "greenhouse:adyen:7974667", "at": "2026-08-21T01:54:50.196405+00:00"}
+{"event": "closed", "key": "greenhouse:adyen:8067808", "at": "2026-08-21T01:54:50.196405+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-255778", "at": "2026-08-21T01:54:50.196405+00:00"}
+{"event": "closed", "key": "workday:diageo:JR1127869", "at": "2026-08-21T01:54:50.196405+00:00"}
+{"event": "closed", "key": "workday:pwc:747497WD", "at": "2026-08-21T01:54:50.196405+00:00"}
+{"event": "reopened", "key": "greenhouse:samsara:8076592", "at": "2026-08-21T01:54:50.196405+00:00"}
+{"event": "reopened", "key": "greenhouse:xai:5090171007", "at": "2026-08-21T01:54:50.196405+00:00"}
+{"event": "reopened", "key": "ashby:elevenlabs:b70ef87c-ca51-44e0-8af2-9d874d6634cc", "at": "2026-08-21T01:54:50.196405+00:00"}
+{"event": "reopened", "key": "ashby:harvey:2ab9606f-4d25-4aef-b62f-43103de1d5a4", "at": "2026-08-21T01:54:50.196405+00:00"}
