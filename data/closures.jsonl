@@ -13361,3 +13361,12 @@
 {"event": "reopened", "key": "workday:barclays:JR-0000083315", "at": "2026-08-21T00:08:39.634004+00:00"}
 {"event": "reopened", "key": "workday:astrazeneca:R-255778", "at": "2026-08-21T00:08:39.634004+00:00"}
 {"event": "reopened", "key": "workday:astrazeneca:R-255837", "at": "2026-08-21T00:08:39.634004+00:00"}
+{"event": "closed", "key": "greenhouse:databricks:6966448002", "at": "2026-08-21T00:42:06.781077+00:00"}
+{"event": "closed", "key": "greenhouse:anthropic:5104755008", "at": "2026-08-21T00:42:06.781077+00:00"}
+{"event": "closed", "key": "greenhouse:coinbase:8010600", "at": "2026-08-21T00:42:06.781077+00:00"}
+{"event": "closed", "key": "greenhouse:samsara:8076592", "at": "2026-08-21T00:42:06.781077+00:00"}
+{"event": "closed", "key": "greenhouse:okta:7997345", "at": "2026-08-21T00:42:06.781077+00:00"}
+{"event": "closed", "key": "greenhouse:waymo:7409556", "at": "2026-08-21T00:42:06.781077+00:00"}
+{"event": "closed", "key": "workday:santander:Req1589516", "at": "2026-08-21T00:42:06.781077+00:00"}
+{"event": "reopened", "key": "greenhouse:anthropic:5096041008", "at": "2026-08-21T00:42:06.781077+00:00"}
+{"event": "reopened", "key": "workday:santander:Req1600714", "at": "2026-08-21T00:42:06.781077+00:00"}
