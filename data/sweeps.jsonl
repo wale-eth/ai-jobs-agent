@@ -366,3 +366,4 @@
 {"started_at": "2026-08-21T20:17:17.017016+00:00", "companies_polled": 170, "companies_failed": [], "jobs_seen": 21732, "jobs_new": 14, "jobs_closed": 18, "classified_rules": 11, "classified_llm": 3, "classified_pending": 0}
 {"started_at": "2026-08-21T21:04:02.996343+00:00", "companies_polled": 170, "companies_failed": [], "jobs_seen": 21739, "jobs_new": 35, "jobs_closed": 32, "classified_rules": 30, "classified_llm": 5, "classified_pending": 0}
 {"started_at": "2026-08-21T21:52:10.912252+00:00", "companies_polled": 170, "companies_failed": ["greenhouse:autotrader (The read operation timed out)"], "jobs_seen": 21732, "jobs_new": 24, "jobs_closed": 22, "classified_rules": 20, "classified_llm": 4, "classified_pending": 0}
+{"started_at": "2026-08-21T22:30:44.476639+00:00", "companies_polled": 170, "companies_failed": [], "jobs_seen": 21750, "jobs_new": 15, "jobs_closed": 13, "classified_rules": 14, "classified_llm": 1, "classified_pending": 0}
