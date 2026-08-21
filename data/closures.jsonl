@@ -13382,3 +13382,15 @@
 {"event": "reopened", "key": "greenhouse:xai:5090171007", "at": "2026-08-21T01:54:50.196405+00:00"}
 {"event": "reopened", "key": "ashby:elevenlabs:b70ef87c-ca51-44e0-8af2-9d874d6634cc", "at": "2026-08-21T01:54:50.196405+00:00"}
 {"event": "reopened", "key": "ashby:harvey:2ab9606f-4d25-4aef-b62f-43103de1d5a4", "at": "2026-08-21T01:54:50.196405+00:00"}
+{"event": "closed", "key": "greenhouse:databricks:8598012002", "at": "2026-08-21T03:28:19.469381+00:00"}
+{"event": "closed", "key": "greenhouse:newrelic:5291457008", "at": "2026-08-21T03:28:19.469381+00:00"}
+{"event": "closed", "key": "smartrecruiters:experian:744000141836269", "at": "2026-08-21T03:28:19.469381+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-255796", "at": "2026-08-21T03:28:19.469381+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-255837", "at": "2026-08-21T03:28:19.469381+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-255856", "at": "2026-08-21T03:28:19.469381+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-258131", "at": "2026-08-21T03:28:19.469381+00:00"}
+{"event": "closed", "key": "workday:gsknch:546990", "at": "2026-08-21T03:28:19.469381+00:00"}
+{"event": "closed", "key": "workday:gsknch:547298", "at": "2026-08-21T03:28:19.469381+00:00"}
+{"event": "closed", "key": "workday:gsknch:547299", "at": "2026-08-21T03:28:19.469381+00:00"}
+{"event": "closed", "key": "workday:unilever:R-1186522", "at": "2026-08-21T03:28:19.469381+00:00"}
+{"event": "reopened", "key": "workday:unilever:R-1186932", "at": "2026-08-21T03:28:19.469381+00:00"}
