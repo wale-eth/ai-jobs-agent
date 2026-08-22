@@ -14638,3 +14638,8 @@
 {"event": "closed", "key": "greenhouse:pinterest:7770895", "at": "2026-08-22T20:01:36.214055+00:00"}
 {"event": "closed", "key": "workday:pwc:665396WD", "at": "2026-08-22T20:01:36.214055+00:00"}
 {"event": "reopened", "key": "workday:pwc:713043WD", "at": "2026-08-22T20:01:36.214055+00:00"}
+{"event": "closed", "key": "ashby:openai:f128d1b7-d7cb-45d8-b27a-8883317a0754", "at": "2026-08-22T21:27:18.365421+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-257924", "at": "2026-08-22T21:27:18.365421+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-258006", "at": "2026-08-22T21:27:18.365421+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-255856", "at": "2026-08-22T21:27:18.365421+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-255864", "at": "2026-08-22T21:27:18.365421+00:00"}
