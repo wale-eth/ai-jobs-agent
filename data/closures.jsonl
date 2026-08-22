@@ -14546,3 +14546,13 @@
 {"event": "closed", "key": "workday:santander:Req1601535", "at": "2026-08-22T03:16:57.880508+00:00"}
 {"event": "reopened", "key": "greenhouse:planetlabs:8119750", "at": "2026-08-22T03:16:57.880508+00:00"}
 {"event": "reopened", "key": "workday:santander:Req1589735", "at": "2026-08-22T03:16:57.880508+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-257795", "at": "2026-08-22T04:23:09.727941+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-257940", "at": "2026-08-22T04:23:09.727941+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-257975", "at": "2026-08-22T04:23:09.727941+00:00"}
+{"event": "closed", "key": "workday:gsk:446193", "at": "2026-08-22T04:23:09.727941+00:00"}
+{"event": "closed", "key": "workday:santander:Req1589735", "at": "2026-08-22T04:23:09.727941+00:00"}
+{"event": "reopened", "key": "greenhouse:anthropic:5397708008", "at": "2026-08-22T04:23:09.727941+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-255702", "at": "2026-08-22T04:23:09.727941+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-255795", "at": "2026-08-22T04:23:09.727941+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-255817", "at": "2026-08-22T04:23:09.727941+00:00"}
+{"event": "reopened", "key": "workday:gsk:446406", "at": "2026-08-22T04:23:09.727941+00:00"}
