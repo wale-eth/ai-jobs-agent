@@ -14556,3 +14556,17 @@
 {"event": "reopened", "key": "workday:astrazeneca:R-255795", "at": "2026-08-22T04:23:09.727941+00:00"}
 {"event": "reopened", "key": "workday:astrazeneca:R-255817", "at": "2026-08-22T04:23:09.727941+00:00"}
 {"event": "reopened", "key": "workday:gsk:446406", "at": "2026-08-22T04:23:09.727941+00:00"}
+{"event": "closed", "key": "greenhouse:databricks:7619811002", "at": "2026-08-22T05:14:12.865877+00:00"}
+{"event": "closed", "key": "greenhouse:databricks:7647369002", "at": "2026-08-22T05:14:12.865877+00:00"}
+{"event": "closed", "key": "greenhouse:databricks:7897431002", "at": "2026-08-22T05:14:12.865877+00:00"}
+{"event": "closed", "key": "greenhouse:databricks:8294304002", "at": "2026-08-22T05:14:12.865877+00:00"}
+{"event": "closed", "key": "greenhouse:databricks:8357216002", "at": "2026-08-22T05:14:12.865877+00:00"}
+{"event": "closed", "key": "greenhouse:coinbase:8113286", "at": "2026-08-22T05:14:12.865877+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-255312", "at": "2026-08-22T05:14:12.865877+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-256386", "at": "2026-08-22T05:14:12.865877+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-257861", "at": "2026-08-22T05:14:12.865877+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-258240", "at": "2026-08-22T05:14:12.865877+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-242845", "at": "2026-08-22T05:14:12.865877+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-247996", "at": "2026-08-22T05:14:12.865877+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-255953", "at": "2026-08-22T05:14:12.865877+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-255955", "at": "2026-08-22T05:14:12.865877+00:00"}
