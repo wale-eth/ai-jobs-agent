@@ -14609,3 +14609,5 @@
 {"event": "closed", "key": "workday:barclays:JR-0000109232", "at": "2026-08-22T12:25:50.618437+00:00"}
 {"event": "reopened", "key": "workday:barclays:90390426", "at": "2026-08-22T12:25:50.618437+00:00"}
 {"event": "closed", "key": "workday:barclays:JR-0000127910", "at": "2026-08-22T13:07:24.788619+00:00"}
+{"event": "reopened", "key": "greenhouse:databricks:7006090002", "at": "2026-08-22T13:08:19.148126+00:00"}
+{"event": "reopened", "key": "greenhouse:databricks:8210383002", "at": "2026-08-22T13:08:19.148126+00:00"}
