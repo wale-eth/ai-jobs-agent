@@ -14538,3 +14538,8 @@
 {"event": "closed", "key": "workday:astrazeneca:R-255817", "at": "2026-08-22T00:20:45.745999+00:00"}
 {"event": "closed", "key": "workday:unilever:R-1183379", "at": "2026-08-22T00:20:45.745999+00:00"}
 {"event": "closed", "key": "greenhouse:figma:5551649004", "at": "2026-08-22T01:05:36.576930+00:00"}
+{"event": "closed", "key": "greenhouse:figma:6018708004", "at": "2026-08-22T01:55:32.564993+00:00"}
+{"event": "closed", "key": "greenhouse:asana:7555402", "at": "2026-08-22T01:55:32.564993+00:00"}
+{"event": "closed", "key": "greenhouse:instacart:8142341", "at": "2026-08-22T01:55:32.564993+00:00"}
+{"event": "closed", "key": "ashby:replit:73831fe4-c4d5-4e27-91b4-f7f83a99cb73", "at": "2026-08-22T01:55:32.564993+00:00"}
+{"event": "closed", "key": "ashby:replit:806139fd-e262-49af-89f5-83f1efc43050", "at": "2026-08-22T01:55:32.564993+00:00"}
