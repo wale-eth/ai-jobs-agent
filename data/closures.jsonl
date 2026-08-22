@@ -14667,3 +14667,12 @@
 {"event": "reopened", "key": "workday:astrazeneca:R-255837", "at": "2026-08-22T22:58:52.952512+00:00"}
 {"event": "reopened", "key": "workday:pwc:665359WD", "at": "2026-08-22T22:58:52.952512+00:00"}
 {"event": "reopened", "key": "workday:pwc:665396WD", "at": "2026-08-22T22:58:52.952512+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000094131", "at": "2026-08-22T23:39:00.815824+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000102963", "at": "2026-08-22T23:39:00.815824+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000105730", "at": "2026-08-22T23:39:00.815824+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000112436", "at": "2026-08-22T23:39:00.815824+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000117754", "at": "2026-08-22T23:39:00.815824+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000118700", "at": "2026-08-22T23:39:00.815824+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000121080", "at": "2026-08-22T23:39:00.815824+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000123327", "at": "2026-08-22T23:39:00.815824+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000123427", "at": "2026-08-22T23:39:00.815824+00:00"}
