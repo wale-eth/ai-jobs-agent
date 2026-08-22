@@ -14599,3 +14599,10 @@
 {"event": "reopened", "key": "workday:astrazeneca:R-255895", "at": "2026-08-22T09:04:58.829437+00:00"}
 {"event": "reopened", "key": "workday:astrazeneca:R-255939", "at": "2026-08-22T09:04:58.829437+00:00"}
 {"event": "reopened", "key": "workday:santander:Req1595657", "at": "2026-08-22T09:04:58.829437+00:00"}
+{"event": "closed", "key": "ashby:zego:211aec3a-78d0-4651-878f-20e07222b611", "at": "2026-08-22T10:28:48.444419+00:00"}
+{"event": "closed", "key": "ashby:zego:652ab4d6-216e-4ea4-80fa-4c9ccba0695f", "at": "2026-08-22T10:28:48.444419+00:00"}
+{"event": "closed", "key": "ashby:zego:81dc3035-4b7d-4946-a0e7-b192b794ad7a", "at": "2026-08-22T10:28:48.444419+00:00"}
+{"event": "closed", "key": "ashby:zego:cd852a4c-78a0-41ef-b560-e146db74f39e", "at": "2026-08-22T10:28:48.444419+00:00"}
+{"event": "closed", "key": "ashby:zego:f8f0d889-76b5-4585-9776-a191f5d9a2c4", "at": "2026-08-22T10:28:48.444419+00:00"}
+{"event": "closed", "key": "workday:santander:Req1595657", "at": "2026-08-22T10:28:48.444419+00:00"}
+{"event": "reopened", "key": "workday:santander:Req1599153", "at": "2026-08-22T10:28:48.444419+00:00"}
