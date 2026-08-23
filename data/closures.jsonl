@@ -14695,3 +14695,9 @@
 {"event": "reopened", "key": "workday:shell:R207346", "at": "2026-08-23T06:19:07.024494+00:00"}
 {"event": "reopened", "key": "workday:santander:Req1561176", "at": "2026-08-23T06:19:07.024494+00:00"}
 {"event": "reopened", "key": "workday:santander:Req1601948", "at": "2026-08-23T06:19:07.024494+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-256713", "at": "2026-08-23T07:02:12.107909+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-257547", "at": "2026-08-23T07:02:12.107909+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-258103", "at": "2026-08-23T07:02:12.107909+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-255642", "at": "2026-08-23T07:02:12.107909+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-255651", "at": "2026-08-23T07:02:12.107909+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-255657", "at": "2026-08-23T07:02:12.107909+00:00"}
