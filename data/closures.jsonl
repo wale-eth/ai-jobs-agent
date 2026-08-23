@@ -14679,3 +14679,11 @@
 {"event": "closed", "key": "ashby:openai:2b59ceca-992c-4b98-bc05-af5ba379bc8d", "at": "2026-08-23T03:23:15.597830+00:00"}
 {"event": "closed", "key": "workday:unilever:R-1185752", "at": "2026-08-23T03:23:15.597830+00:00"}
 {"event": "reopened", "key": "workday:unilever:R-1183379", "at": "2026-08-23T03:23:15.597830+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-257514", "at": "2026-08-23T04:27:18.684713+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-257945", "at": "2026-08-23T04:27:18.684713+00:00"}
+{"event": "closed", "key": "workday:santander:Req1601956", "at": "2026-08-23T04:27:18.684713+00:00"}
+{"event": "closed", "key": "workday:santander:Req1601957", "at": "2026-08-23T04:27:18.684713+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-252773", "at": "2026-08-23T04:27:18.684713+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-255615", "at": "2026-08-23T04:27:18.684713+00:00"}
+{"event": "reopened", "key": "workday:santander:Req1589735", "at": "2026-08-23T04:27:18.684713+00:00"}
+{"event": "reopened", "key": "workday:santander:Req1595657", "at": "2026-08-23T04:27:18.684713+00:00"}
