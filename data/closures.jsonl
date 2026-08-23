@@ -14735,3 +14735,5 @@
 {"event": "closed", "key": "greenhouse:databricks:8099751002", "at": "2026-08-23T17:33:50.456260+00:00"}
 {"event": "closed", "key": "workday:astrazeneca:R-257018", "at": "2026-08-23T17:33:50.456260+00:00"}
 {"event": "reopened", "key": "workday:astrazeneca:R-255548", "at": "2026-08-23T17:33:50.456260+00:00"}
+{"event": "closed", "key": "greenhouse:adyen:6919020", "at": "2026-08-23T18:19:04.650157+00:00"}
+{"event": "closed", "key": "greenhouse:adyen:7864993", "at": "2026-08-23T18:19:04.650157+00:00"}
