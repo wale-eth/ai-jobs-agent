@@ -14927,3 +14927,5 @@
 {"event": "closed", "key": "workday:pwc:750230WD", "at": "2026-08-23T21:07:58.115087+00:00"}
 {"event": "reopened", "key": "workday:santander:Req1595637", "at": "2026-08-23T21:07:58.115087+00:00"}
 {"event": "reopened", "key": "workday:pwc:747587WD", "at": "2026-08-23T21:07:58.115087+00:00"}
+{"event": "closed", "key": "smartrecruiters:experian:744000143333500", "at": "2026-08-23T21:54:05.175959+00:00"}
+{"event": "closed", "key": "workday:unilever:R-1187059", "at": "2026-08-23T21:54:05.175959+00:00"}
