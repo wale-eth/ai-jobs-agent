@@ -14701,3 +14701,7 @@
 {"event": "reopened", "key": "workday:astrazeneca:R-255642", "at": "2026-08-23T07:02:12.107909+00:00"}
 {"event": "reopened", "key": "workday:astrazeneca:R-255651", "at": "2026-08-23T07:02:12.107909+00:00"}
 {"event": "reopened", "key": "workday:astrazeneca:R-255657", "at": "2026-08-23T07:02:12.107909+00:00"}
+{"event": "closed", "key": "ashby:openai:537cb111-688b-4c6e-8f16-0720361255d6", "at": "2026-08-23T07:46:16.342939+00:00"}
+{"event": "closed", "key": "ashby:openai:8ee5d640-de2c-4004-8857-210ef8ec3177", "at": "2026-08-23T07:46:16.342939+00:00"}
+{"event": "closed", "key": "ashby:openai:c9135e66-e49e-4bdc-be89-5d45aad23865", "at": "2026-08-23T07:46:16.342939+00:00"}
+{"event": "closed", "key": "workday:pwc:665359WD", "at": "2026-08-23T07:46:16.342939+00:00"}
