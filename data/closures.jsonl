@@ -14715,3 +14715,5 @@
 {"event": "reopened", "key": "workday:pwc:753819WD", "at": "2026-08-23T14:15:50.614151+00:00"}
 {"event": "closed", "key": "greenhouse:twilio:7644471", "at": "2026-08-23T15:07:48.557477+00:00"}
 {"event": "reopened", "key": "workday:barclays:JR-0000123489", "at": "2026-08-23T15:07:48.557477+00:00"}
+{"event": "closed", "key": "greenhouse:waymo:7683884", "at": "2026-08-23T15:44:25.295995+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000052480", "at": "2026-08-23T15:44:25.295995+00:00"}
