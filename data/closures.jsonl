@@ -14953,3 +14953,6 @@
 {"event": "reopened", "key": "workday:astrazeneca:R-255562", "at": "2026-08-23T22:27:38.003031+00:00"}
 {"event": "reopened", "key": "workday:gsknch:544552", "at": "2026-08-23T22:27:38.003031+00:00"}
 {"event": "reopened", "key": "workday:pwc:750230WD", "at": "2026-08-23T22:27:38.003031+00:00"}
+{"event": "closed", "key": "smartrecruiters:experian:744000133342515", "at": "2026-08-23T23:12:43.892360+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000118718", "at": "2026-08-23T23:12:43.892360+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000123609", "at": "2026-08-23T23:12:43.892360+00:00"}
