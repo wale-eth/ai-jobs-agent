@@ -14676,3 +14676,6 @@
 {"event": "closed", "key": "workday:barclays:JR-0000121080", "at": "2026-08-22T23:39:00.815824+00:00"}
 {"event": "closed", "key": "workday:barclays:JR-0000123327", "at": "2026-08-22T23:39:00.815824+00:00"}
 {"event": "closed", "key": "workday:barclays:JR-0000123427", "at": "2026-08-22T23:39:00.815824+00:00"}
+{"event": "closed", "key": "ashby:openai:2b59ceca-992c-4b98-bc05-af5ba379bc8d", "at": "2026-08-23T03:23:15.597830+00:00"}
+{"event": "closed", "key": "workday:unilever:R-1185752", "at": "2026-08-23T03:23:15.597830+00:00"}
+{"event": "reopened", "key": "workday:unilever:R-1183379", "at": "2026-08-23T03:23:15.597830+00:00"}
