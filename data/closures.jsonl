@@ -14688,3 +14688,10 @@
 {"event": "reopened", "key": "workday:santander:Req1589735", "at": "2026-08-23T04:27:18.684713+00:00"}
 {"event": "reopened", "key": "workday:santander:Req1595657", "at": "2026-08-23T04:27:18.684713+00:00"}
 {"event": "closed", "key": "workday:barclays:JR-0000095342", "at": "2026-08-23T05:08:56.139993+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000122779", "at": "2026-08-23T06:19:07.024494+00:00"}
+{"event": "closed", "key": "workday:shell:R208333", "at": "2026-08-23T06:19:07.024494+00:00"}
+{"event": "closed", "key": "workday:santander:Req1589918", "at": "2026-08-23T06:19:07.024494+00:00"}
+{"event": "closed", "key": "workday:santander:Req1601961", "at": "2026-08-23T06:19:07.024494+00:00"}
+{"event": "reopened", "key": "workday:shell:R207346", "at": "2026-08-23T06:19:07.024494+00:00"}
+{"event": "reopened", "key": "workday:santander:Req1561176", "at": "2026-08-23T06:19:07.024494+00:00"}
+{"event": "reopened", "key": "workday:santander:Req1601948", "at": "2026-08-23T06:19:07.024494+00:00"}
