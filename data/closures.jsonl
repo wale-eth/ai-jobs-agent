@@ -14982,3 +14982,8 @@
 {"event": "reopened", "key": "workday:astrazeneca:R-244668", "at": "2026-08-24T00:14:59.931436+00:00"}
 {"event": "reopened", "key": "workday:astrazeneca:R-252781", "at": "2026-08-24T00:14:59.931436+00:00"}
 {"event": "reopened", "key": "workday:astrazeneca:R-255534", "at": "2026-08-24T00:14:59.931436+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-244668", "at": "2026-08-24T00:48:06.194471+00:00"}
+{"event": "closed", "key": "workday:relx:R110210", "at": "2026-08-24T00:48:06.194471+00:00"}
+{"event": "reopened", "key": "ashby:harvey:f3708fe6-d2f4-47db-bffd-9063d6bb06ec", "at": "2026-08-24T00:48:06.194471+00:00"}
+{"event": "reopened", "key": "workday:barclays:JR-0000117810", "at": "2026-08-24T00:48:06.194471+00:00"}
+{"event": "reopened", "key": "workday:relx:R116932", "at": "2026-08-24T00:48:06.194471+00:00"}
