@@ -14987,3 +14987,14 @@
 {"event": "reopened", "key": "ashby:harvey:f3708fe6-d2f4-47db-bffd-9063d6bb06ec", "at": "2026-08-24T00:48:06.194471+00:00"}
 {"event": "reopened", "key": "workday:barclays:JR-0000117810", "at": "2026-08-24T00:48:06.194471+00:00"}
 {"event": "reopened", "key": "workday:relx:R116932", "at": "2026-08-24T00:48:06.194471+00:00"}
+{"event": "closed", "key": "greenhouse:anthropic:5291731008", "at": "2026-08-24T01:52:49.040116+00:00"}
+{"event": "closed", "key": "greenhouse:gitlab:8591221002", "at": "2026-08-24T01:52:49.040116+00:00"}
+{"event": "closed", "key": "greenhouse:braze:7966816", "at": "2026-08-24T01:52:49.040116+00:00"}
+{"event": "closed", "key": "greenhouse:braze:8013208", "at": "2026-08-24T01:52:49.040116+00:00"}
+{"event": "closed", "key": "ashby:wayve:bb7041e3-723b-44a8-9a69-307473db8f76", "at": "2026-08-24T01:52:49.040116+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000105184", "at": "2026-08-24T01:52:49.040116+00:00"}
+{"event": "closed", "key": "workday:unilever:R-1185714", "at": "2026-08-24T01:52:49.040116+00:00"}
+{"event": "closed", "key": "workday:relx:R110048", "at": "2026-08-24T01:52:49.040116+00:00"}
+{"event": "closed", "key": "workday:relx:R116932", "at": "2026-08-24T01:52:49.040116+00:00"}
+{"event": "reopened", "key": "workday:relx:R110210", "at": "2026-08-24T01:52:49.040116+00:00"}
+{"event": "reopened", "key": "workday:relx:R116538", "at": "2026-08-24T01:52:49.040116+00:00"}
