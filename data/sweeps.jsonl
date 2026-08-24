@@ -457,3 +457,4 @@
 {"started_at": "2026-08-24T20:34:35.385317+00:00", "companies_polled": 170, "companies_failed": [], "jobs_seen": 21768, "jobs_new": 26, "jobs_closed": 21, "classified_rules": 22, "classified_llm": 4, "classified_pending": 0}
 {"started_at": "2026-08-24T21:21:15.466537+00:00", "companies_polled": 170, "companies_failed": [], "jobs_seen": 21778, "jobs_new": 31, "jobs_closed": 23, "classified_rules": 23, "classified_llm": 8, "classified_pending": 0}
 {"started_at": "2026-08-24T21:59:40.734382+00:00", "companies_polled": 170, "companies_failed": ["greenhouse:reddit (The read operation timed out)"], "jobs_seen": 21653, "jobs_new": 27, "jobs_closed": 29, "classified_rules": 24, "classified_llm": 3, "classified_pending": 0}
+{"started_at": "2026-08-24T22:45:09.025637+00:00", "companies_polled": 170, "companies_failed": [], "jobs_seen": 21829, "jobs_new": 31, "jobs_closed": 12, "classified_rules": 27, "classified_llm": 4, "classified_pending": 0}
