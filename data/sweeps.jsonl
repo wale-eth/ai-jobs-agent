@@ -449,3 +449,4 @@
 {"started_at": "2026-08-24T13:51:28.788588+00:00", "companies_polled": 170, "companies_failed": [], "jobs_seen": 21727, "jobs_new": 46, "jobs_closed": 63, "classified_rules": 35, "classified_llm": 11, "classified_pending": 0}
 {"started_at": "2026-08-24T14:41:23.203412+00:00", "companies_polled": 170, "companies_failed": ["workday:gsk (HTTP Error 502: Bad Gateway)"], "jobs_seen": 21697, "jobs_new": 46, "jobs_closed": 57, "classified_rules": 39, "classified_llm": 7, "classified_pending": 0}
 {"started_at": "2026-08-24T15:38:49.306725+00:00", "companies_polled": 170, "companies_failed": [], "jobs_seen": 21743, "jobs_new": 84, "jobs_closed": 88, "classified_rules": 46, "classified_llm": 38, "classified_pending": 0}
+{"started_at": "2026-08-24T16:37:20.838594+00:00", "companies_polled": 170, "companies_failed": [], "jobs_seen": 21742, "jobs_new": 66, "jobs_closed": 86, "classified_rules": 44, "classified_llm": 22, "classified_pending": 0}
