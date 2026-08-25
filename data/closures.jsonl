@@ -17746,3 +17746,13 @@
 {"event": "reopened", "key": "workday:santander:Req1589918", "at": "2026-08-25T22:28:47.213735+00:00"}
 {"event": "reopened", "key": "workday:santander:Req1593429", "at": "2026-08-25T22:28:47.213735+00:00"}
 {"event": "reopened", "key": "workday:santander:Req1594927", "at": "2026-08-25T22:28:47.213735+00:00"}
+{"event": "closed", "key": "greenhouse:waymo:8152556", "at": "2026-08-25T23:16:08.333503+00:00"}
+{"event": "closed", "key": "ashby:openai:d929aa17-a339-4b96-b0ee-b0fc0ed9218c", "at": "2026-08-25T23:16:08.333503+00:00"}
+{"event": "closed", "key": "ashby:vanta:e3df3332-378d-47ff-981c-0f4e307800fa", "at": "2026-08-25T23:16:08.333503+00:00"}
+{"event": "closed", "key": "smartrecruiters:experian:744000135787569", "at": "2026-08-25T23:16:08.333503+00:00"}
+{"event": "closed", "key": "workday:unilever:R-1186437", "at": "2026-08-25T23:16:08.333503+00:00"}
+{"event": "closed", "key": "workday:relx:R115690", "at": "2026-08-25T23:16:08.333503+00:00"}
+{"event": "closed", "key": "workday:santander:Req1601436", "at": "2026-08-25T23:16:08.333503+00:00"}
+{"event": "closed", "key": "workday:santander:Req1607135", "at": "2026-08-25T23:16:08.333503+00:00"}
+{"event": "reopened", "key": "greenhouse:anthropic:5368074008", "at": "2026-08-25T23:16:08.333503+00:00"}
+{"event": "reopened", "key": "greenhouse:braze:8027184", "at": "2026-08-25T23:16:08.333503+00:00"}
