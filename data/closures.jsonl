@@ -16406,3 +16406,13 @@
 {"event": "closed", "key": "workday:gsknch:546984", "at": "2026-08-25T00:38:11.581983+00:00"}
 {"event": "closed", "key": "workday:santander:Req1599054", "at": "2026-08-25T00:38:11.581983+00:00"}
 {"event": "closed", "key": "workday:santander:Req1600487", "at": "2026-08-25T00:38:11.581983+00:00"}
+{"event": "closed", "key": "greenhouse:databricks:8441857002", "at": "2026-08-25T01:55:06.000574+00:00"}
+{"event": "closed", "key": "greenhouse:waymo:8042585", "at": "2026-08-25T01:55:06.000574+00:00"}
+{"event": "closed", "key": "greenhouse:fivetran:7807405003", "at": "2026-08-25T01:55:06.000574+00:00"}
+{"event": "closed", "key": "greenhouse:fivetran:7808640003", "at": "2026-08-25T01:55:06.000574+00:00"}
+{"event": "closed", "key": "greenhouse:fivetran:7808643003", "at": "2026-08-25T01:55:06.000574+00:00"}
+{"event": "closed", "key": "greenhouse:fivetran:7808646003", "at": "2026-08-25T01:55:06.000574+00:00"}
+{"event": "closed", "key": "greenhouse:fivetran:7808648003", "at": "2026-08-25T01:55:06.000574+00:00"}
+{"event": "closed", "key": "ashby:openai:95151536-2118-431b-b0ee-d0727592e161", "at": "2026-08-25T01:55:06.000574+00:00"}
+{"event": "closed", "key": "workday:gsknch:547102", "at": "2026-08-25T01:55:06.000574+00:00"}
+{"event": "closed", "key": "workday:santander:Req1594224", "at": "2026-08-25T01:55:06.000574+00:00"}
