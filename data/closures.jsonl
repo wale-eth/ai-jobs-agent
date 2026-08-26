@@ -17821,3 +17821,10 @@
 {"event": "reopened", "key": "workday:shell:R209030", "at": "2026-08-26T00:01:44.117836+00:00"}
 {"event": "reopened", "key": "workday:shell:R209033", "at": "2026-08-26T00:01:44.117836+00:00"}
 {"event": "reopened", "key": "workday:pwc:750457WD", "at": "2026-08-26T00:01:44.117836+00:00"}
+{"event": "closed", "key": "greenhouse:flexport:7740282", "at": "2026-08-26T00:46:11.413927+00:00"}
+{"event": "closed", "key": "workday:gsk:446118", "at": "2026-08-26T00:46:11.413927+00:00"}
+{"event": "closed", "key": "workday:santander:Req1606974", "at": "2026-08-26T00:46:11.413927+00:00"}
+{"event": "closed", "key": "workday:santander:Req1607141", "at": "2026-08-26T00:46:11.413927+00:00"}
+{"event": "closed", "key": "workday:pwc:750457WD", "at": "2026-08-26T00:46:11.413927+00:00"}
+{"event": "reopened", "key": "ashby:notion:f663839e-46ac-44ad-9720-da2b6aa28093", "at": "2026-08-26T00:46:11.413927+00:00"}
+{"event": "reopened", "key": "workday:pwc:739634WD", "at": "2026-08-26T00:46:11.413927+00:00"}
