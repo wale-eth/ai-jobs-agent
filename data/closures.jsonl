@@ -21338,3 +21338,11 @@
 {"event": "reopened", "key": "workday:unilever:R-1186348", "at": "2026-08-30T10:19:38.306511+00:00"}
 {"event": "reopened", "key": "workday:santander:Req1601318", "at": "2026-08-30T10:19:38.306511+00:00"}
 {"event": "reopened", "key": "workday:pwc:750439WD", "at": "2026-08-30T10:19:38.306511+00:00"}
+{"event": "closed", "key": "greenhouse:ocadogroup:4908389101", "at": "2026-08-30T15:18:41.564038+00:00"}
+{"event": "closed", "key": "ashby:openai:9fb99d74-c678-4556-b962-8e8388925902", "at": "2026-08-30T15:18:41.564038+00:00"}
+{"event": "closed", "key": "workday:gsk:446774", "at": "2026-08-30T15:18:41.564038+00:00"}
+{"event": "closed", "key": "workday:pwc:709111WD", "at": "2026-08-30T15:18:41.564038+00:00"}
+{"event": "closed", "key": "workday:pwc:740023WD", "at": "2026-08-30T15:18:41.564038+00:00"}
+{"event": "closed", "key": "workday:pwc:742878WD", "at": "2026-08-30T15:18:41.564038+00:00"}
+{"event": "reopened", "key": "workday:gsk:446922", "at": "2026-08-30T15:18:41.564038+00:00"}
+{"event": "reopened", "key": "workday:pwc:748501WD", "at": "2026-08-30T15:18:41.564038+00:00"}
