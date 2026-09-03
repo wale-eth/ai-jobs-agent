@@ -540,3 +540,4 @@
 {"started_at": "2026-09-02T23:05:31.256876+00:00", "companies_polled": 170, "companies_failed": ["workday:pwc (The read operation timed out)"], "jobs_seen": 20987, "jobs_new": 52, "jobs_closed": 83, "classified_rules": 48, "classified_llm": 4, "classified_pending": 0}
 {"started_at": "2026-09-03T01:18:08.283436+00:00", "companies_polled": 170, "companies_failed": [], "jobs_seen": 21994, "jobs_new": 27, "jobs_closed": 30, "classified_rules": 19, "classified_llm": 8, "classified_pending": 0}
 {"started_at": "2026-09-03T06:12:08.742239+00:00", "companies_polled": 170, "companies_failed": [], "jobs_seen": 21987, "jobs_new": 79, "jobs_closed": 136, "classified_rules": 35, "classified_llm": 44, "classified_pending": 0}
+{"started_at": "2026-09-03T11:32:01.868896+00:00", "companies_polled": 170, "companies_failed": [], "jobs_seen": 21990, "jobs_new": 232, "jobs_closed": 283, "classified_rules": 137, "classified_llm": 95, "classified_pending": 0}
