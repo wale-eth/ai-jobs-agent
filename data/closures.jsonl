@@ -28142,3 +28142,6 @@
 {"event": "reopened", "key": "workday:pwc:753036WD", "at": "2026-09-05T19:48:59.561625+00:00"}
 {"event": "reopened", "key": "workday:pwc:755634WD", "at": "2026-09-05T19:48:59.561625+00:00"}
 {"event": "reopened", "key": "workday:pwc:755636WD", "at": "2026-09-05T19:48:59.561625+00:00"}
+{"event": "closed", "key": "greenhouse:databricks:8350956002", "at": "2026-09-05T22:15:30.848276+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-258102", "at": "2026-09-05T22:15:30.848276+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-245845", "at": "2026-09-05T22:15:30.848276+00:00"}
