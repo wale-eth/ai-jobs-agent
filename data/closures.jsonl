@@ -28058,3 +28058,9 @@
 {"event": "reopened", "key": "workday:santander:Req1593028", "at": "2026-09-05T03:42:48.380352+00:00"}
 {"event": "reopened", "key": "workday:santander:Req1610852", "at": "2026-09-05T03:42:48.380352+00:00"}
 {"event": "reopened", "key": "workday:santander:Req1610975", "at": "2026-09-05T03:42:48.380352+00:00"}
+{"event": "closed", "key": "greenhouse:stripe:8023529", "at": "2026-09-05T07:53:48.149286+00:00"}
+{"event": "closed", "key": "greenhouse:elastic:7995010", "at": "2026-09-05T07:53:48.149286+00:00"}
+{"event": "closed", "key": "greenhouse:planetlabs:7938235", "at": "2026-09-05T07:53:48.149286+00:00"}
+{"event": "closed", "key": "ashby:openai:faa6042d-ac67-4a76-a723-3ca7015adc34", "at": "2026-09-05T07:53:48.149286+00:00"}
+{"event": "closed", "key": "smartrecruiters:experian:744000145262851", "at": "2026-09-05T07:53:48.149286+00:00"}
+{"event": "reopened", "key": "greenhouse:gusto:8119978", "at": "2026-09-05T07:53:48.149286+00:00"}
