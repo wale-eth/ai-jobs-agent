@@ -28181,3 +28181,15 @@
 {"event": "reopened", "key": "workday:santander:Req1610992", "at": "2026-09-06T08:38:25.784979+00:00"}
 {"event": "reopened", "key": "workday:pwc:752239WD", "at": "2026-09-06T08:38:25.784979+00:00"}
 {"event": "reopened", "key": "workday:pwc:754542WD", "at": "2026-09-06T08:38:25.784979+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-245845", "at": "2026-09-06T12:57:13.934353+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-249519", "at": "2026-09-06T12:57:13.934353+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-254696", "at": "2026-09-06T12:57:13.934353+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-254755", "at": "2026-09-06T12:57:13.934353+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-254786", "at": "2026-09-06T12:57:13.934353+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-254855", "at": "2026-09-06T12:57:13.934353+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-254870", "at": "2026-09-06T12:57:13.934353+00:00"}
+{"event": "closed", "key": "workday:pwc:721704WD", "at": "2026-09-06T12:57:13.934353+00:00"}
+{"event": "closed", "key": "workday:pwc:755637WD", "at": "2026-09-06T12:57:13.934353+00:00"}
+{"event": "closed", "key": "workday:pwc:755638WD", "at": "2026-09-06T12:57:13.934353+00:00"}
+{"event": "reopened", "key": "workday:pwc:727146WD", "at": "2026-09-06T12:57:13.934353+00:00"}
+{"event": "reopened", "key": "workday:pwc:747712WD", "at": "2026-09-06T12:57:13.934353+00:00"}
