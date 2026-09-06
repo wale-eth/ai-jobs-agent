@@ -28193,3 +28193,14 @@
 {"event": "closed", "key": "workday:pwc:755638WD", "at": "2026-09-06T12:57:13.934353+00:00"}
 {"event": "reopened", "key": "workday:pwc:727146WD", "at": "2026-09-06T12:57:13.934353+00:00"}
 {"event": "reopened", "key": "workday:pwc:747712WD", "at": "2026-09-06T12:57:13.934353+00:00"}
+{"event": "closed", "key": "greenhouse:anthropic:5358112008", "at": "2026-09-06T16:24:14.653383+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-236494", "at": "2026-09-06T16:24:14.653383+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-251560", "at": "2026-09-06T16:24:14.653383+00:00"}
+{"event": "closed", "key": "workday:gsknch:547761", "at": "2026-09-06T16:24:14.653383+00:00"}
+{"event": "closed", "key": "workday:unilever:R-1187750", "at": "2026-09-06T16:24:14.653383+00:00"}
+{"event": "closed", "key": "workday:santander:Req1610992", "at": "2026-09-06T16:24:14.653383+00:00"}
+{"event": "closed", "key": "workday:pwc:755640WD", "at": "2026-09-06T16:24:14.653383+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-249526", "at": "2026-09-06T16:24:14.653383+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-254786", "at": "2026-09-06T16:24:14.653383+00:00"}
+{"event": "reopened", "key": "workday:gsknch:543721", "at": "2026-09-06T16:24:14.653383+00:00"}
+{"event": "reopened", "key": "workday:unilever:R-1182205", "at": "2026-09-06T16:24:14.653383+00:00"}
