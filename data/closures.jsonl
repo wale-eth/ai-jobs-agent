@@ -28145,3 +28145,15 @@
 {"event": "closed", "key": "greenhouse:databricks:8350956002", "at": "2026-09-05T22:15:30.848276+00:00"}
 {"event": "closed", "key": "workday:astrazeneca:R-258102", "at": "2026-09-05T22:15:30.848276+00:00"}
 {"event": "reopened", "key": "workday:astrazeneca:R-245845", "at": "2026-09-05T22:15:30.848276+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000113076", "at": "2026-09-06T00:05:55.861938+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000115003", "at": "2026-09-06T00:05:55.861938+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000115799", "at": "2026-09-06T00:05:55.861938+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000118994", "at": "2026-09-06T00:05:55.861938+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000126450", "at": "2026-09-06T00:05:55.861938+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-258351", "at": "2026-09-06T00:05:55.861938+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-258417", "at": "2026-09-06T00:05:55.861938+00:00"}
+{"event": "closed", "key": "workday:gsknch:544469", "at": "2026-09-06T00:05:55.861938+00:00"}
+{"event": "closed", "key": "workday:unilever:R-1186364", "at": "2026-09-06T00:05:55.861938+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-254689", "at": "2026-09-06T00:05:55.861938+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-254696", "at": "2026-09-06T00:05:55.861938+00:00"}
+{"event": "reopened", "key": "workday:gsknch:547516", "at": "2026-09-06T00:05:55.861938+00:00"}
