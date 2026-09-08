@@ -29075,3 +29075,16 @@
 {"event": "reopened", "key": "workday:unilever:R-1186013", "at": "2026-09-08T00:00:47.380458+00:00"}
 {"event": "reopened", "key": "workday:unilever:R-1187916", "at": "2026-09-08T00:00:47.380458+00:00"}
 {"event": "reopened", "key": "workday:pwc:757819WD", "at": "2026-09-08T00:00:47.380458+00:00"}
+{"event": "closed", "key": "greenhouse:databricks:8761732002", "at": "2026-09-08T01:51:04.057980+00:00"}
+{"event": "closed", "key": "greenhouse:cloudflare:8012884", "at": "2026-09-08T01:51:04.057980+00:00"}
+{"event": "closed", "key": "greenhouse:mongodb:7912343", "at": "2026-09-08T01:51:04.057980+00:00"}
+{"event": "closed", "key": "greenhouse:flatironhealth:8027593", "at": "2026-09-08T01:51:04.057980+00:00"}
+{"event": "closed", "key": "greenhouse:imc:4865413101", "at": "2026-09-08T01:51:04.057980+00:00"}
+{"event": "closed", "key": "ashby:ramp:504e34ff-dbd9-49a7-8f68-327092672164", "at": "2026-09-08T01:51:04.057980+00:00"}
+{"event": "closed", "key": "workday:gsk:446971", "at": "2026-09-08T01:51:04.057980+00:00"}
+{"event": "closed", "key": "workday:gsknch:543501", "at": "2026-09-08T01:51:04.057980+00:00"}
+{"event": "closed", "key": "workday:rollsroyce:JR6144282", "at": "2026-09-08T01:51:04.057980+00:00"}
+{"event": "closed", "key": "workday:relx:R115937", "at": "2026-09-08T01:51:04.057980+00:00"}
+{"event": "closed", "key": "workday:santander:Req1610345", "at": "2026-09-08T01:51:04.057980+00:00"}
+{"event": "closed", "key": "workday:santander:Req1611091", "at": "2026-09-08T01:51:04.057980+00:00"}
+{"event": "reopened", "key": "workday:relx:R115777", "at": "2026-09-08T01:51:04.057980+00:00"}
