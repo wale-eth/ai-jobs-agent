@@ -34495,3 +34495,14 @@
 {"event": "reopened", "key": "workday:barclays:JR-0000038125", "at": "2026-09-13T01:10:01.364822+00:00"}
 {"event": "reopened", "key": "workday:barclays:JR-0000040121", "at": "2026-09-13T01:10:01.364822+00:00"}
 {"event": "reopened", "key": "workday:santander:Req1611127", "at": "2026-09-13T01:10:01.364822+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-250809", "at": "2026-09-13T06:15:30.165927+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-255203", "at": "2026-09-13T06:15:30.165927+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-258842", "at": "2026-09-13T06:15:30.165927+00:00"}
+{"event": "closed", "key": "workday:santander:Req1599108", "at": "2026-09-13T06:15:30.165927+00:00"}
+{"event": "closed", "key": "workday:santander:Req1608849", "at": "2026-09-13T06:15:30.165927+00:00"}
+{"event": "closed", "key": "workday:pwc:758532WD", "at": "2026-09-13T06:15:30.165927+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-256407", "at": "2026-09-13T06:15:30.165927+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-256423", "at": "2026-09-13T06:15:30.165927+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-256718", "at": "2026-09-13T06:15:30.165927+00:00"}
+{"event": "reopened", "key": "workday:santander:Req1612208", "at": "2026-09-13T06:15:30.165927+00:00"}
+{"event": "reopened", "key": "workday:santander:Req1612210", "at": "2026-09-13T06:15:30.165927+00:00"}
