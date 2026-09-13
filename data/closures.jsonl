@@ -34506,3 +34506,8 @@
 {"event": "reopened", "key": "workday:astrazeneca:R-256718", "at": "2026-09-13T06:15:30.165927+00:00"}
 {"event": "reopened", "key": "workday:santander:Req1612208", "at": "2026-09-13T06:15:30.165927+00:00"}
 {"event": "reopened", "key": "workday:santander:Req1612210", "at": "2026-09-13T06:15:30.165927+00:00"}
+{"event": "closed", "key": "ashby:langchain:c75915ba-a32b-4e17-873d-19b47564170d", "at": "2026-09-13T11:43:17.248634+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-256407", "at": "2026-09-13T11:43:17.248634+00:00"}
+{"event": "closed", "key": "workday:rollsroyce:JR6159880", "at": "2026-09-13T11:43:17.248634+00:00"}
+{"event": "closed", "key": "workday:pwc:758209WD", "at": "2026-09-13T11:43:17.248634+00:00"}
+{"event": "reopened", "key": "workday:pwc:758532WD", "at": "2026-09-13T11:43:17.248634+00:00"}
