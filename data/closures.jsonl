@@ -34511,3 +34511,8 @@
 {"event": "closed", "key": "workday:rollsroyce:JR6159880", "at": "2026-09-13T11:43:17.248634+00:00"}
 {"event": "closed", "key": "workday:pwc:758209WD", "at": "2026-09-13T11:43:17.248634+00:00"}
 {"event": "reopened", "key": "workday:pwc:758532WD", "at": "2026-09-13T11:43:17.248634+00:00"}
+{"event": "closed", "key": "greenhouse:xai:5231516007", "at": "2026-09-13T15:44:20.672670+00:00"}
+{"event": "closed", "key": "ashby:openai:a38926a6-a514-4ee0-bfe1-408922a2790c", "at": "2026-09-13T15:44:20.672670+00:00"}
+{"event": "closed", "key": "workday:relx:R110947", "at": "2026-09-13T15:44:20.672670+00:00"}
+{"event": "closed", "key": "workday:pwc:758532WD", "at": "2026-09-13T15:44:20.672670+00:00"}
+{"event": "reopened", "key": "workday:relx:R117401", "at": "2026-09-13T15:44:20.672670+00:00"}
