@@ -34619,3 +34619,17 @@
 {"event": "reopened", "key": "workday:astrazeneca:R-256318", "at": "2026-09-13T23:51:25.396129+00:00"}
 {"event": "reopened", "key": "workday:gsknch:547955", "at": "2026-09-13T23:51:25.396129+00:00"}
 {"event": "reopened", "key": "workday:unilever:R-1187105", "at": "2026-09-13T23:51:25.396129+00:00"}
+{"event": "closed", "key": "greenhouse:databricks:8569564002", "at": "2026-09-14T01:55:01.483340+00:00"}
+{"event": "closed", "key": "greenhouse:cloudflare:8052785", "at": "2026-09-14T01:55:01.483340+00:00"}
+{"event": "closed", "key": "greenhouse:cloudflare:8118845", "at": "2026-09-14T01:55:01.483340+00:00"}
+{"event": "closed", "key": "greenhouse:cloudflare:8118855", "at": "2026-09-14T01:55:01.483340+00:00"}
+{"event": "closed", "key": "greenhouse:gitlab:8627761002", "at": "2026-09-14T01:55:01.483340+00:00"}
+{"event": "closed", "key": "greenhouse:flexport:7985221", "at": "2026-09-14T01:55:01.483340+00:00"}
+{"event": "closed", "key": "ashby:notion:fef0c5d0-6744-40e6-aeae-0c5644f6af5e", "at": "2026-09-14T01:55:01.483340+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-255861", "at": "2026-09-14T01:55:01.483340+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-256195", "at": "2026-09-14T01:55:01.483340+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-256251", "at": "2026-09-14T01:55:01.483340+00:00"}
+{"event": "closed", "key": "workday:gsk:447629", "at": "2026-09-14T01:55:01.483340+00:00"}
+{"event": "closed", "key": "workday:unilever:R-1187105", "at": "2026-09-14T01:55:01.483340+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-248722", "at": "2026-09-14T01:55:01.483340+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-258247", "at": "2026-09-14T01:55:01.483340+00:00"}
