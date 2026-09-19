@@ -40825,3 +40825,11 @@
 {"event": "reopened", "key": "workday:unilever:R-1186548", "at": "2026-09-19T12:21:54.449321+00:00"}
 {"event": "reopened", "key": "workday:unilever:R-1188197", "at": "2026-09-19T12:21:54.449321+00:00"}
 {"event": "reopened", "key": "workday:pwc:755545WD", "at": "2026-09-19T12:21:54.449321+00:00"}
+{"event": "closed", "key": "greenhouse:cloudflare:8147213", "at": "2026-09-19T16:03:16.131830+00:00"}
+{"event": "closed", "key": "greenhouse:twilio:8121976", "at": "2026-09-19T16:03:16.131830+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-257169", "at": "2026-09-19T16:03:16.131830+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-257180", "at": "2026-09-19T16:03:16.131830+00:00"}
+{"event": "closed", "key": "workday:pwc:758259WD", "at": "2026-09-19T16:03:16.131830+00:00"}
+{"event": "reopened", "key": "greenhouse:samsara:8076592", "at": "2026-09-19T16:03:16.131830+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-254867", "at": "2026-09-19T16:03:16.131830+00:00"}
+{"event": "reopened", "key": "workday:pwc:740176WD", "at": "2026-09-19T16:03:16.131830+00:00"}
