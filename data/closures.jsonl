@@ -41029,3 +41029,8 @@
 {"event": "reopened", "key": "workday:gsknch:546150", "at": "2026-09-20T11:26:56.263184+00:00"}
 {"event": "reopened", "key": "workday:gsknch:547463", "at": "2026-09-20T11:26:56.263184+00:00"}
 {"event": "reopened", "key": "workday:relx:R116538", "at": "2026-09-20T11:26:56.263184+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-255442", "at": "2026-09-20T15:09:15.560732+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-257125", "at": "2026-09-20T15:09:15.560732+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-258381", "at": "2026-09-20T15:09:15.560732+00:00"}
+{"event": "closed", "key": "workday:pwc:759482WD", "at": "2026-09-20T15:09:15.560732+00:00"}
+{"event": "reopened", "key": "greenhouse:capitalontap:8816700002", "at": "2026-09-20T15:09:15.560732+00:00"}
