@@ -41285,3 +41285,13 @@
 {"event": "reopened", "key": "workday:pwc:750897WD", "at": "2026-09-20T23:34:31.951943+00:00"}
 {"event": "reopened", "key": "workday:pwc:758818WD", "at": "2026-09-20T23:34:31.951943+00:00"}
 {"event": "reopened", "key": "workday:pwc:758826WD", "at": "2026-09-20T23:34:31.951943+00:00"}
+{"event": "closed", "key": "greenhouse:imc:4935856101", "at": "2026-09-21T01:59:48.848169+00:00"}
+{"event": "closed", "key": "ashby:elevenlabs:ca83a725-1db7-45d4-92af-424dd2b04d1f", "at": "2026-09-21T01:59:48.848169+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-237445", "at": "2026-09-21T01:59:48.848169+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-256564", "at": "2026-09-21T01:59:48.848169+00:00"}
+{"event": "closed", "key": "workday:rollsroyce:JR6155281", "at": "2026-09-21T01:59:48.848169+00:00"}
+{"event": "closed", "key": "workday:relx:R117449", "at": "2026-09-21T01:59:48.848169+00:00"}
+{"event": "closed", "key": "workday:pwc:748231WD", "at": "2026-09-21T01:59:48.848169+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-242030", "at": "2026-09-21T01:59:48.848169+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-258915", "at": "2026-09-21T01:59:48.848169+00:00"}
+{"event": "reopened", "key": "workday:pwc:758593WD", "at": "2026-09-21T01:59:48.848169+00:00"}
