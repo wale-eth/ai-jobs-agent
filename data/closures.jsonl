@@ -47853,3 +47853,16 @@
 {"event": "reopened", "key": "workday:astrazeneca:R-257312", "at": "2026-09-27T06:47:37.484315+00:00"}
 {"event": "reopened", "key": "workday:unilever:R-1185658", "at": "2026-09-27T06:47:37.484315+00:00"}
 {"event": "reopened", "key": "workday:santander:Req1614303", "at": "2026-09-27T06:47:37.484315+00:00"}
+{"event": "closed", "key": "greenhouse:stripe:8203653", "at": "2026-09-27T12:50:18.884502+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-257028", "at": "2026-09-27T12:50:18.884502+00:00"}
+{"event": "closed", "key": "workday:gsknch:547713", "at": "2026-09-27T12:50:18.884502+00:00"}
+{"event": "closed", "key": "workday:shell:R206023", "at": "2026-09-27T12:50:18.884502+00:00"}
+{"event": "closed", "key": "workday:shell:R208602", "at": "2026-09-27T12:50:18.884502+00:00"}
+{"event": "closed", "key": "workday:relx:R116307", "at": "2026-09-27T12:50:18.884502+00:00"}
+{"event": "closed", "key": "workday:pwc:760535WD", "at": "2026-09-27T12:50:18.884502+00:00"}
+{"event": "reopened", "key": "ashby:fundingcircle:704ed535-7192-495f-8512-84186994f6e0", "at": "2026-09-27T12:50:18.884502+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-237334", "at": "2026-09-27T12:50:18.884502+00:00"}
+{"event": "reopened", "key": "workday:gsknch:548053", "at": "2026-09-27T12:50:18.884502+00:00"}
+{"event": "reopened", "key": "workday:shell:R201638", "at": "2026-09-27T12:50:18.884502+00:00"}
+{"event": "reopened", "key": "workday:shell:R201639", "at": "2026-09-27T12:50:18.884502+00:00"}
+{"event": "reopened", "key": "workday:relx:R118142", "at": "2026-09-27T12:50:18.884502+00:00"}
