@@ -47976,3 +47976,12 @@
 {"event": "reopened", "key": "workday:astrazeneca:R-256848", "at": "2026-09-27T23:57:46.625592+00:00"}
 {"event": "reopened", "key": "workday:pwc:741512WD", "at": "2026-09-27T23:57:46.625592+00:00"}
 {"event": "reopened", "key": "workday:pwc:754986WD", "at": "2026-09-27T23:57:46.625592+00:00"}
+{"event": "closed", "key": "greenhouse:databricks:8622164002", "at": "2026-09-28T02:23:29.061988+00:00"}
+{"event": "closed", "key": "greenhouse:datadog:7650688", "at": "2026-09-28T02:23:29.061988+00:00"}
+{"event": "closed", "key": "greenhouse:imc:4698599101", "at": "2026-09-28T02:23:29.061988+00:00"}
+{"event": "closed", "key": "workday:aviva:R-173172", "at": "2026-09-28T02:23:29.061988+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-256734", "at": "2026-09-28T02:23:29.061988+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-257610", "at": "2026-09-28T02:23:29.061988+00:00"}
+{"event": "closed", "key": "workday:unilever:R-1187611", "at": "2026-09-28T02:23:29.061988+00:00"}
+{"event": "reopened", "key": "greenhouse:ocadogroup:4953553101", "at": "2026-09-28T02:23:29.061988+00:00"}
+{"event": "reopened", "key": "workday:aviva:R-172445", "at": "2026-09-28T02:23:29.061988+00:00"}
