@@ -54878,3 +54878,13 @@
 {"event": "closed", "key": "workday:astrazeneca:R-258292", "at": "2026-10-04T01:08:26.690207+00:00"}
 {"event": "closed", "key": "workday:astrazeneca:R-259951", "at": "2026-10-04T01:08:26.690207+00:00"}
 {"event": "reopened", "key": "workday:lbg:163854", "at": "2026-10-04T01:08:26.690207+00:00"}
+{"event": "closed", "key": "smartrecruiters:wise:744000153192361", "at": "2026-10-04T06:55:12.409851+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-260276", "at": "2026-10-04T06:55:12.409851+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-260727", "at": "2026-10-04T06:55:12.409851+00:00"}
+{"event": "closed", "key": "workday:unilever:R-1187157", "at": "2026-10-04T06:55:12.409851+00:00"}
+{"event": "closed", "key": "workday:unilever:R-1189056", "at": "2026-10-04T06:55:12.409851+00:00"}
+{"event": "closed", "key": "workday:pwc:746872WD", "at": "2026-10-04T06:55:12.409851+00:00"}
+{"event": "reopened", "key": "greenhouse:samsara:8162344", "at": "2026-10-04T06:55:12.409851+00:00"}
+{"event": "reopened", "key": "workday:unilever:R-1187773", "at": "2026-10-04T06:55:12.409851+00:00"}
+{"event": "reopened", "key": "workday:unilever:R-1187935", "at": "2026-10-04T06:55:12.409851+00:00"}
+{"event": "reopened", "key": "workday:pwc:762060WD", "at": "2026-10-04T06:55:12.409851+00:00"}
