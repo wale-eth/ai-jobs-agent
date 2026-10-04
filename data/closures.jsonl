@@ -54866,3 +54866,15 @@
 {"event": "reopened", "key": "workday:pwc:758609WD", "at": "2026-10-03T22:41:55.581370+00:00"}
 {"event": "reopened", "key": "workday:pwc:762012WD", "at": "2026-10-03T22:41:55.581370+00:00"}
 {"event": "reopened", "key": "workday:pwc:762020WD", "at": "2026-10-03T22:41:55.581370+00:00"}
+{"event": "closed", "key": "greenhouse:datadog:8134425", "at": "2026-10-04T01:08:26.690207+00:00"}
+{"event": "closed", "key": "greenhouse:elastic:8114249", "at": "2026-10-04T01:08:26.690207+00:00"}
+{"event": "closed", "key": "greenhouse:elastic:8223674", "at": "2026-10-04T01:08:26.690207+00:00"}
+{"event": "closed", "key": "greenhouse:checkr:8180899", "at": "2026-10-04T01:08:26.690207+00:00"}
+{"event": "closed", "key": "ashby:elevenlabs:89da00ec-11b0-4359-913b-c3a89c1013bc", "at": "2026-10-04T01:08:26.690207+00:00"}
+{"event": "closed", "key": "smartrecruiters:asos:744000152901440", "at": "2026-10-04T01:08:26.690207+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000093099", "at": "2026-10-04T01:08:26.690207+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000130741", "at": "2026-10-04T01:08:26.690207+00:00"}
+{"event": "closed", "key": "workday:lbg:163728", "at": "2026-10-04T01:08:26.690207+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-258292", "at": "2026-10-04T01:08:26.690207+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-259951", "at": "2026-10-04T01:08:26.690207+00:00"}
+{"event": "reopened", "key": "workday:lbg:163854", "at": "2026-10-04T01:08:26.690207+00:00"}
