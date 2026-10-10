@@ -61070,3 +61070,15 @@
 {"event": "reopened", "key": "workday:santander:Req1626336", "at": "2026-10-10T08:14:26.151261+00:00"}
 {"event": "reopened", "key": "workday:pwc:762985WD", "at": "2026-10-10T08:14:26.151261+00:00"}
 {"event": "reopened", "key": "workday:pwc:763039WD", "at": "2026-10-10T08:14:26.151261+00:00"}
+{"event": "closed", "key": "greenhouse:stripe:8094669", "at": "2026-10-10T14:56:12.126207+00:00"}
+{"event": "closed", "key": "greenhouse:lyft:8716220002", "at": "2026-10-10T14:56:12.126207+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000070522", "at": "2026-10-10T14:56:12.126207+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-260290", "at": "2026-10-10T14:56:12.126207+00:00"}
+{"event": "closed", "key": "workday:gsknch:548640", "at": "2026-10-10T14:56:12.126207+00:00"}
+{"event": "closed", "key": "workday:relx:R117407", "at": "2026-10-10T14:56:12.126207+00:00"}
+{"event": "closed", "key": "workday:pwc:749562WD", "at": "2026-10-10T14:56:12.126207+00:00"}
+{"event": "reopened", "key": "greenhouse:samsara:8042387", "at": "2026-10-10T14:56:12.126207+00:00"}
+{"event": "reopened", "key": "greenhouse:samsara:8103806", "at": "2026-10-10T14:56:12.126207+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-260610", "at": "2026-10-10T14:56:12.126207+00:00"}
+{"event": "reopened", "key": "workday:relx:R118789", "at": "2026-10-10T14:56:12.126207+00:00"}
+{"event": "reopened", "key": "workday:pwc:763045WD", "at": "2026-10-10T14:56:12.126207+00:00"}
