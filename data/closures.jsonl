@@ -61107,3 +61107,9 @@
 {"event": "reopened", "key": "workday:gsk:448721", "at": "2026-10-10T19:20:19.836042+00:00"}
 {"event": "reopened", "key": "workday:unilever:R-1186312", "at": "2026-10-10T19:20:19.836042+00:00"}
 {"event": "reopened", "key": "workday:shell:R210650", "at": "2026-10-10T19:20:19.836042+00:00"}
+{"event": "closed", "key": "ashby:langchain:49e5ee0c-7293-4ce6-80fc-70199e4172f8", "at": "2026-10-10T22:47:31.246883+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-260483", "at": "2026-10-10T22:47:31.246883+00:00"}
+{"event": "closed", "key": "workday:unilever:R-1187455", "at": "2026-10-10T22:47:31.246883+00:00"}
+{"event": "reopened", "key": "greenhouse:samsara:8169431", "at": "2026-10-10T22:47:31.246883+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-257354", "at": "2026-10-10T22:47:31.246883+00:00"}
+{"event": "reopened", "key": "workday:unilever:R-1188623", "at": "2026-10-10T22:47:31.246883+00:00"}
