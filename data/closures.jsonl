@@ -61141,3 +61141,15 @@
 {"event": "reopened", "key": "workday:rollsroyce:JR6158048", "at": "2026-10-11T08:07:01.780422+00:00"}
 {"event": "reopened", "key": "workday:pwc:506646WD", "at": "2026-10-11T08:07:01.780422+00:00"}
 {"event": "reopened", "key": "workday:pwc:762305WD", "at": "2026-10-11T08:07:01.780422+00:00"}
+{"event": "closed", "key": "greenhouse:stripe:7835108", "at": "2026-10-11T15:18:29.516259+00:00"}
+{"event": "closed", "key": "greenhouse:mongodb:8003065", "at": "2026-10-11T15:18:29.516259+00:00"}
+{"event": "closed", "key": "greenhouse:adyen:7342887", "at": "2026-10-11T15:18:29.516259+00:00"}
+{"event": "closed", "key": "greenhouse:adyen:8090506", "at": "2026-10-11T15:18:29.516259+00:00"}
+{"event": "closed", "key": "greenhouse:adyen:8124255", "at": "2026-10-11T15:18:29.516259+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-252405", "at": "2026-10-11T15:18:29.516259+00:00"}
+{"event": "closed", "key": "workday:gsk:447737", "at": "2026-10-11T15:18:29.516259+00:00"}
+{"event": "closed", "key": "workday:gsk:448369", "at": "2026-10-11T15:18:29.516259+00:00"}
+{"event": "closed", "key": "workday:gsk:448531", "at": "2026-10-11T15:18:29.516259+00:00"}
+{"event": "closed", "key": "workday:gsk:449222", "at": "2026-10-11T15:18:29.516259+00:00"}
+{"event": "reopened", "key": "greenhouse:sumup:8097283002", "at": "2026-10-11T15:18:29.516259+00:00"}
+{"event": "reopened", "key": "workday:gsk:447774", "at": "2026-10-11T15:18:29.516259+00:00"}
