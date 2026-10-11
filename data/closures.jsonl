@@ -61113,3 +61113,6 @@
 {"event": "reopened", "key": "greenhouse:samsara:8169431", "at": "2026-10-10T22:47:31.246883+00:00"}
 {"event": "reopened", "key": "workday:astrazeneca:R-257354", "at": "2026-10-10T22:47:31.246883+00:00"}
 {"event": "reopened", "key": "workday:unilever:R-1188623", "at": "2026-10-10T22:47:31.246883+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000123223", "at": "2026-10-11T01:41:17.914718+00:00"}
+{"event": "closed", "key": "workday:lbg:161720", "at": "2026-10-11T01:41:17.914718+00:00"}
+{"event": "reopened", "key": "workday:lbg:161122", "at": "2026-10-11T01:41:17.914718+00:00"}
