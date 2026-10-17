@@ -67283,3 +67283,10 @@
 {"event": "reopened", "key": "workday:shell:R201638", "at": "2026-10-17T10:47:33.284565+00:00"}
 {"event": "reopened", "key": "workday:shell:R201639", "at": "2026-10-17T10:47:33.284565+00:00"}
 {"event": "reopened", "key": "workday:santander:Req1614662", "at": "2026-10-17T10:47:33.284565+00:00"}
+{"event": "closed", "key": "greenhouse:graphcore:8533895002", "at": "2026-10-17T14:23:22.028704+00:00"}
+{"event": "closed", "key": "greenhouse:anthropic:5435282008", "at": "2026-10-17T14:23:22.028704+00:00"}
+{"event": "closed", "key": "greenhouse:samsara:8187198", "at": "2026-10-17T14:23:22.028704+00:00"}
+{"event": "closed", "key": "ashby:openai:fa42ad51-0ffa-4ec4-a004-3f24d790a3d4", "at": "2026-10-17T14:23:22.028704+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-258321", "at": "2026-10-17T14:23:22.028704+00:00"}
+{"event": "reopened", "key": "workday:barclays:JR-0000133195", "at": "2026-10-17T14:23:22.028704+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-261310", "at": "2026-10-17T14:23:22.028704+00:00"}
