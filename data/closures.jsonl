@@ -67220,3 +67220,17 @@
 {"event": "reopened", "key": "workday:pwc:743820WD", "at": "2026-10-16T23:51:06.934689+00:00"}
 {"event": "reopened", "key": "workday:pwc:747298WD", "at": "2026-10-16T23:51:06.934689+00:00"}
 {"event": "reopened", "key": "workday:pwc:763893WD", "at": "2026-10-16T23:51:06.934689+00:00"}
+{"event": "closed", "key": "greenhouse:cloudflare:8080187", "at": "2026-10-17T02:00:32.259050+00:00"}
+{"event": "closed", "key": "greenhouse:anthropic:5424388008", "at": "2026-10-17T02:00:32.259050+00:00"}
+{"event": "closed", "key": "greenhouse:reddit:8202510", "at": "2026-10-17T02:00:32.259050+00:00"}
+{"event": "closed", "key": "greenhouse:lyft:8771516002", "at": "2026-10-17T02:00:32.259050+00:00"}
+{"event": "closed", "key": "greenhouse:waymo:7446279", "at": "2026-10-17T02:00:32.259050+00:00"}
+{"event": "closed", "key": "workday:aviva:R-173202", "at": "2026-10-17T02:00:32.259050+00:00"}
+{"event": "closed", "key": "workday:gsk:449533", "at": "2026-10-17T02:00:32.259050+00:00"}
+{"event": "closed", "key": "workday:unilever:R-1189105", "at": "2026-10-17T02:00:32.259050+00:00"}
+{"event": "closed", "key": "workday:diageo:JR1130760", "at": "2026-10-17T02:00:32.259050+00:00"}
+{"event": "reopened", "key": "ashby:openai:230d7d77-133e-4b87-a7a4-3e8d4e9fdab3", "at": "2026-10-17T02:00:32.259050+00:00"}
+{"event": "reopened", "key": "workday:aviva:R-171469", "at": "2026-10-17T02:00:32.259050+00:00"}
+{"event": "reopened", "key": "workday:gsk:449651", "at": "2026-10-17T02:00:32.259050+00:00"}
+{"event": "reopened", "key": "workday:unilever:R-1186929", "at": "2026-10-17T02:00:32.259050+00:00"}
+{"event": "reopened", "key": "workday:diageo:JR1130565", "at": "2026-10-17T02:00:32.259050+00:00"}
