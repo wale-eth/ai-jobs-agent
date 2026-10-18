@@ -67343,3 +67343,12 @@
 {"event": "reopened", "key": "workday:astrazeneca:R-258271", "at": "2026-10-18T00:25:18.413737+00:00"}
 {"event": "reopened", "key": "workday:pwc:748114WD", "at": "2026-10-18T00:25:18.413737+00:00"}
 {"event": "reopened", "key": "workday:pwc:764109WD", "at": "2026-10-18T00:25:18.413737+00:00"}
+{"event": "closed", "key": "greenhouse:anthropic:5199633008", "at": "2026-10-18T03:47:29.604251+00:00"}
+{"event": "closed", "key": "greenhouse:samsara:8162344", "at": "2026-10-18T03:47:29.604251+00:00"}
+{"event": "closed", "key": "ashby:openai:2b5c3a30-8e8b-4845-be40-0617b0c9fd43", "at": "2026-10-18T03:47:29.604251+00:00"}
+{"event": "reopened", "key": "greenhouse:grafanalabs:6200723004", "at": "2026-10-18T03:47:29.604251+00:00"}
+{"event": "reopened", "key": "greenhouse:grafanalabs:6200725004", "at": "2026-10-18T03:47:29.604251+00:00"}
+{"event": "reopened", "key": "greenhouse:grafanalabs:6200726004", "at": "2026-10-18T03:47:29.604251+00:00"}
+{"event": "reopened", "key": "greenhouse:grafanalabs:6200731004", "at": "2026-10-18T03:47:29.604251+00:00"}
+{"event": "reopened", "key": "greenhouse:grafanalabs:6200793004", "at": "2026-10-18T03:47:29.604251+00:00"}
+{"event": "reopened", "key": "greenhouse:grafanalabs:6200798004", "at": "2026-10-18T03:47:29.604251+00:00"}
