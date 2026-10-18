@@ -67352,3 +67352,8 @@
 {"event": "reopened", "key": "greenhouse:grafanalabs:6200731004", "at": "2026-10-18T03:47:29.604251+00:00"}
 {"event": "reopened", "key": "greenhouse:grafanalabs:6200793004", "at": "2026-10-18T03:47:29.604251+00:00"}
 {"event": "reopened", "key": "greenhouse:grafanalabs:6200798004", "at": "2026-10-18T03:47:29.604251+00:00"}
+{"event": "closed", "key": "greenhouse:adyen:8164042", "at": "2026-10-18T08:45:22.236900+00:00"}
+{"event": "closed", "key": "workday:unilever:R-1188646", "at": "2026-10-18T08:45:22.236900+00:00"}
+{"event": "closed", "key": "workday:pwc:759260WD", "at": "2026-10-18T08:45:22.236900+00:00"}
+{"event": "closed", "key": "workday:pwc:764109WD", "at": "2026-10-18T08:45:22.236900+00:00"}
+{"event": "reopened", "key": "workday:unilever:R-1189008", "at": "2026-10-18T08:45:22.236900+00:00"}
