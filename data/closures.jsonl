@@ -67357,3 +67357,10 @@
 {"event": "closed", "key": "workday:pwc:759260WD", "at": "2026-10-18T08:45:22.236900+00:00"}
 {"event": "closed", "key": "workday:pwc:764109WD", "at": "2026-10-18T08:45:22.236900+00:00"}
 {"event": "reopened", "key": "workday:unilever:R-1189008", "at": "2026-10-18T08:45:22.236900+00:00"}
+{"event": "closed", "key": "greenhouse:stripe:8264423", "at": "2026-10-18T13:23:50.800906+00:00"}
+{"event": "closed", "key": "greenhouse:samsara:7909004", "at": "2026-10-18T13:23:50.800906+00:00"}
+{"event": "closed", "key": "greenhouse:adyen:7985544", "at": "2026-10-18T13:23:50.800906+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-258271", "at": "2026-10-18T13:23:50.800906+00:00"}
+{"event": "reopened", "key": "greenhouse:samsara:8187198", "at": "2026-10-18T13:23:50.800906+00:00"}
+{"event": "reopened", "key": "workday:barclays:JR-0000115408", "at": "2026-10-18T13:23:50.800906+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-260485", "at": "2026-10-18T13:23:50.800906+00:00"}
