@@ -74006,3 +74006,8 @@
 {"event": "reopened", "key": "workday:santander:Req1627959", "at": "2026-10-24T02:03:07.787395+00:00"}
 {"event": "reopened", "key": "workday:santander:Req1627987", "at": "2026-10-24T02:03:07.787395+00:00"}
 {"event": "reopened", "key": "workday:santander:Req1628067", "at": "2026-10-24T02:03:07.787395+00:00"}
+{"event": "closed", "key": "greenhouse:reddit:8275745", "at": "2026-10-24T06:20:23.232330+00:00"}
+{"event": "closed", "key": "greenhouse:planetlabs:7644560", "at": "2026-10-24T06:20:23.232330+00:00"}
+{"event": "closed", "key": "ashby:perplexity:c23c4d82-3c53-432b-8a00-2e400ccdf3ea", "at": "2026-10-24T06:20:23.232330+00:00"}
+{"event": "reopened", "key": "greenhouse:databricks:8829029002", "at": "2026-10-24T06:20:23.232330+00:00"}
+{"event": "reopened", "key": "greenhouse:sumup:8686836002", "at": "2026-10-24T06:20:23.232330+00:00"}
