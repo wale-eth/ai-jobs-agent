@@ -74153,3 +74153,10 @@
 {"event": "reopened", "key": "workday:pwc:744378WD", "at": "2026-10-24T23:16:32.002643+00:00"}
 {"event": "reopened", "key": "workday:pwc:748165WD", "at": "2026-10-24T23:16:32.002643+00:00"}
 {"event": "reopened", "key": "workday:pwc:748652WD", "at": "2026-10-24T23:16:32.002643+00:00"}
+{"event": "closed", "key": "ashby:openai:987c4eb8-819e-4258-a91c-f34ecfbcd5f1", "at": "2026-10-25T01:26:29.668407+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000131960", "at": "2026-10-25T01:26:29.668407+00:00"}
+{"event": "closed", "key": "workday:lbg:164779", "at": "2026-10-25T01:26:29.668407+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-261828", "at": "2026-10-25T01:26:29.668407+00:00"}
+{"event": "reopened", "key": "greenhouse:samsara:8068523", "at": "2026-10-25T01:26:29.668407+00:00"}
+{"event": "reopened", "key": "workday:lbg:164616", "at": "2026-10-25T01:26:29.668407+00:00"}
+{"event": "reopened", "key": "workday:astrazeneca:R-259787", "at": "2026-10-25T01:26:29.668407+00:00"}
