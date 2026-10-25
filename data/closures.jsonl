@@ -74241,3 +74241,16 @@
 {"event": "reopened", "key": "workday:pwc:764910WD", "at": "2026-10-25T18:52:05.685536+00:00"}
 {"event": "reopened", "key": "workday:pwc:764930WD", "at": "2026-10-25T18:52:05.685536+00:00"}
 {"event": "reopened", "key": "workday:pwc:764936WD", "at": "2026-10-25T18:52:05.685536+00:00"}
+{"event": "closed", "key": "greenhouse:databricks:8813464002", "at": "2026-10-25T21:44:53.272061+00:00"}
+{"event": "closed", "key": "greenhouse:databricks:8813515002", "at": "2026-10-25T21:44:53.272061+00:00"}
+{"event": "closed", "key": "greenhouse:instacart:8154300", "at": "2026-10-25T21:44:53.272061+00:00"}
+{"event": "closed", "key": "greenhouse:instacart:8154308", "at": "2026-10-25T21:44:53.272061+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000096958", "at": "2026-10-25T21:44:53.272061+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000107490", "at": "2026-10-25T21:44:53.272061+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000126616", "at": "2026-10-25T21:44:53.272061+00:00"}
+{"event": "closed", "key": "workday:barclays:JR-0000136329", "at": "2026-10-25T21:44:53.272061+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-259787", "at": "2026-10-25T21:44:53.272061+00:00"}
+{"event": "closed", "key": "workday:astrazeneca:R-262114", "at": "2026-10-25T21:44:53.272061+00:00"}
+{"event": "closed", "key": "workday:diageo:JR1127357", "at": "2026-10-25T21:44:53.272061+00:00"}
+{"event": "closed", "key": "workday:pwc:681957WD", "at": "2026-10-25T21:44:53.272061+00:00"}
+{"event": "closed", "key": "workday:pwc:718298WD", "at": "2026-10-25T21:44:53.272061+00:00"}
