@@ -80950,3 +80950,13 @@
 {"event": "reopened", "key": "workday:pwc:731149WD", "at": "2026-10-31T20:12:42.653043+00:00"}
 {"event": "reopened", "key": "workday:pwc:752429WD", "at": "2026-10-31T20:12:42.653043+00:00"}
 {"event": "reopened", "key": "workday:pwc:766066WD", "at": "2026-10-31T20:12:42.653043+00:00"}
+{"event": "closed", "key": "greenhouse:samsara:8207928", "at": "2026-10-31T23:28:03.897296+00:00"}
+{"event": "closed", "key": "ashby:openai:70042d81-4db6-4c5c-bdb2-76c133ee2917", "at": "2026-10-31T23:28:03.897296+00:00"}
+{"event": "closed", "key": "ashby:openai:9711a982-851c-4f55-a5ae-080ea4bad520", "at": "2026-10-31T23:28:03.897296+00:00"}
+{"event": "closed", "key": "workday:santander:Req1629100", "at": "2026-10-31T23:28:03.897296+00:00"}
+{"event": "closed", "key": "workday:pwc:745630WD", "at": "2026-10-31T23:28:03.897296+00:00"}
+{"event": "closed", "key": "workday:pwc:764153WD", "at": "2026-10-31T23:28:03.897296+00:00"}
+{"event": "closed", "key": "workday:pwc:764250WD", "at": "2026-10-31T23:28:03.897296+00:00"}
+{"event": "reopened", "key": "workday:pwc:506676WD", "at": "2026-10-31T23:28:03.897296+00:00"}
+{"event": "reopened", "key": "workday:pwc:752423WD", "at": "2026-10-31T23:28:03.897296+00:00"}
+{"event": "reopened", "key": "workday:pwc:754361WD", "at": "2026-10-31T23:28:03.897296+00:00"}
