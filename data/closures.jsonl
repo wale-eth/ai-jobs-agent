@@ -87422,3 +87422,12 @@
 {"event": "reopened", "key": "workday:pwc:767224WD", "at": "2026-11-07T11:17:45.749639+00:00"}
 {"event": "reopened", "key": "workday:pwc:767226WD", "at": "2026-11-07T11:17:45.749639+00:00"}
 {"event": "reopened", "key": "workday:pwc:767231WD", "at": "2026-11-07T11:17:45.749639+00:00"}
+{"event": "closed", "key": "greenhouse:affirm:7985907003", "at": "2026-11-07T17:19:13.241094+00:00"}
+{"event": "closed", "key": "greenhouse:sumup:8888598002", "at": "2026-11-07T17:19:13.241094+00:00"}
+{"event": "closed", "key": "ashby:openai:d6476403-46f5-4748-aa19-25c52d241cdc", "at": "2026-11-07T17:19:13.241094+00:00"}
+{"event": "closed", "key": "ashby:langchain:b47dbcea-222c-427d-bf4d-9e30a6b60d4a", "at": "2026-11-07T17:19:13.241094+00:00"}
+{"event": "closed", "key": "workday:gsknch:549343", "at": "2026-11-07T17:19:13.241094+00:00"}
+{"event": "closed", "key": "workday:gsknch:549657", "at": "2026-11-07T17:19:13.241094+00:00"}
+{"event": "reopened", "key": "greenhouse:roblox:8213690", "at": "2026-11-07T17:19:13.241094+00:00"}
+{"event": "reopened", "key": "workday:gsknch:548492", "at": "2026-11-07T17:19:13.241094+00:00"}
+{"event": "reopened", "key": "workday:gsknch:549169", "at": "2026-11-07T17:19:13.241094+00:00"}
