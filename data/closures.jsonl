@@ -87555,3 +87555,17 @@
 {"event": "reopened", "key": "workday:pwc:764233WD", "at": "2026-11-08T19:32:09.761110+00:00"}
 {"event": "reopened", "key": "workday:pwc:766488WD", "at": "2026-11-08T19:32:09.761110+00:00"}
 {"event": "reopened", "key": "workday:pwc:767224WD", "at": "2026-11-08T19:32:09.761110+00:00"}
+{"event": "closed", "key": "greenhouse:graphcore:8331061002", "at": "2026-11-08T23:21:46.712705+00:00"}
+{"event": "closed", "key": "greenhouse:anthropic:5025624008", "at": "2026-11-08T23:21:46.712705+00:00"}
+{"event": "closed", "key": "greenhouse:newrelic:5444701008", "at": "2026-11-08T23:21:46.712705+00:00"}
+{"event": "closed", "key": "workable:fuseenergy:09D019F32F", "at": "2026-11-08T23:21:46.712705+00:00"}
+{"event": "closed", "key": "workable:fuseenergy:4F588A83A3", "at": "2026-11-08T23:21:46.712705+00:00"}
+{"event": "closed", "key": "workable:fuseenergy:71B93D3F25", "at": "2026-11-08T23:21:46.712705+00:00"}
+{"event": "closed", "key": "workable:fuseenergy:E58FB761CF", "at": "2026-11-08T23:21:46.712705+00:00"}
+{"event": "closed", "key": "workday:diageo:JR1131387", "at": "2026-11-08T23:21:46.712705+00:00"}
+{"event": "closed", "key": "workday:santander:Req1575680", "at": "2026-11-08T23:21:46.712705+00:00"}
+{"event": "closed", "key": "workday:santander:Req1632588", "at": "2026-11-08T23:21:46.712705+00:00"}
+{"event": "closed", "key": "workday:santander:Req1632780", "at": "2026-11-08T23:21:46.712705+00:00"}
+{"event": "closed", "key": "workday:santander:Req1632812", "at": "2026-11-08T23:21:46.712705+00:00"}
+{"event": "closed", "key": "workday:pwc:764233WD", "at": "2026-11-08T23:21:46.712705+00:00"}
+{"event": "reopened", "key": "workday:pwc:754093WD", "at": "2026-11-08T23:21:46.712705+00:00"}
