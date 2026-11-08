@@ -87511,3 +87511,7 @@
 {"event": "reopened", "key": "workday:diageo:JR1130879", "at": "2026-11-08T07:09:10.591128+00:00"}
 {"event": "reopened", "key": "workday:santander:Req1575680", "at": "2026-11-08T07:09:10.591128+00:00"}
 {"event": "reopened", "key": "workday:santander:Req1632780", "at": "2026-11-08T07:09:10.591128+00:00"}
+{"event": "closed", "key": "greenhouse:waymo:6688617", "at": "2026-11-08T14:51:27.241611+00:00"}
+{"event": "closed", "key": "workday:gsk:451257", "at": "2026-11-08T14:51:27.241611+00:00"}
+{"event": "reopened", "key": "greenhouse:databricks:7006090002", "at": "2026-11-08T14:51:27.241611+00:00"}
+{"event": "reopened", "key": "greenhouse:databricks:8357216002", "at": "2026-11-08T14:51:27.241611+00:00"}
